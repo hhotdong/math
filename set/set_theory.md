@@ -11,7 +11,7 @@
 
 &emsp; 에서 전개되는 방식은 논리합, 논리곱의 분배법칙에 따른 것인지? 아니면 직관적인 이해가 가능할지?
 
-## Excercise
+## Exercise
 
 <details open>
 <summary>Show that $\sqrt{2}(x^2 = 2, x > 0)$ is not the rational number.</summary>
