@@ -5,15 +5,29 @@
 
 - $A \cup (B \cap C)$ 
 
-&nbsp;&nbsp; $\Leftrightarrow$    $\\{\\,  x | x \in A \lor (x \in B \land x \in C)  \\,\\}$
+&emsp; $\Leftrightarrow$ $\\{\\,  x | x \in A \lor (x \in B \land x \in C)  \\,\\}$
 
-&nbsp;&nbsp; $\Leftrightarrow$    $\\{\\,  x | (x \in A \lor x \in B) \land (x \in A \lor x \in C)  \\,\\}$
+&emsp; $\Leftrightarrow$ $\\{\\,  x | (x \in A \lor x \in B) \land (x \in A \lor x \in C)  \\,\\}$
 
-&nbsp;&nbsp; 에서 전개되는 방식은 논리합, 논리곱의 분배법칙에 따른 것인지? 아니면 직관적인 이해가 가능할지?
+&emsp; 에서 전개되는 방식은 논리합, 논리곱의 분배법칙에 따른 것인지? 아니면 직관적인 이해가 가능할지?
 
 ## Excercise
 
-- Show that $\sqrt{2}(x^2 = 2, x > 0)$ is not the rational number.
+<details open>
+<summary>Show that $\sqrt{2}(x^2 = 2, x > 0)$ is not the rational number.</summary>
+<br>
+
+&emsp; If, $\sqrt{2} \in \mathbb{Q}$
+
+&emsp; $\Leftrightarrow$ $$\sqrt{2} = \frac{q}{p}(p,q \in \mathbb{Z}, p \neq 0)$$
+
+&emsp; $\Leftrightarrow$ $2 = (\frac{q}{p})^2$
+
+&emsp; $\Leftrightarrow$ $2p^2 = q^2$(p가 짝수이고, q가 홀수인 경우 모순)
+
+&emsp; $\therefore$ $\sqrt{2} \notin \mathbb{Q}$
+
+</details>
 
 ### References
 
