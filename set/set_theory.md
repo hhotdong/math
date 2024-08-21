@@ -9,4 +9,12 @@
 
 &nbsp;&nbsp; $\Leftrightarrow$    $\\{\\,  x | (x \in A \lor x \in B) \land (x \in A \lor x \in C)  \\,\\}$
 
-&nbsp;&nbsp; 에서 전개되는 방식은 논리합, 논리곱의 분배법칙에 따른 것인지? 아니면 직관적인 이해가 가능할지? 
+&nbsp;&nbsp; 에서 전개되는 방식은 논리합, 논리곱의 분배법칙에 따른 것인지? 아니면 직관적인 이해가 가능할지?
+
+## Excercise
+
+- Show that $\sqrt{2}(x^2 = 2, x > 0)$ is not the rational number.
+
+### References
+
+- [<수학의 즐거움>](https://www.youtube.com/@enjoyingmath9346)
