@@ -1,4 +1,4 @@
-## Terms
+## Definitions
 
 <details><summary>Proposition</summary>
   
@@ -20,9 +20,9 @@
 
   - Given two propositions P and Q, conjunction is a operation which creates new proposition whose truth value is true only when both P, Q are true.
   
-  - ' $\wedge$ ', 'and', '곱연산'
+  - $\land$, 'and', '곱연산'
 
-| P   | Q   | P $\wedge$ Q |
+| P   | Q   | P $\land$ Q |
 | :-: | :-: | :-:          |
 | T   | T   | T            |
 | T   | F   | F            |
@@ -35,9 +35,9 @@
 
   - Given two propositions P and Q, disjunction is a operation which creates new proposition whose truth value is false only when both P, Q are false.
 
-  - '$vee$', 'or', '합연산'
+  - $\lor$, 'or', '합연산'
 
-| P   | Q   | P $\vee$ Q |
+| P   | Q   | P $\lor$ Q |
 | :-: | :-: | :-:        |
 | T   | T   | T          |
 | T   | F   | T          |
@@ -62,7 +62,11 @@
 
 </details>
 
-Tautology
+<details><summary>Tautology</summary>
+
+- 
+
+</details>
 
 ### Reference
 
