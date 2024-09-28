@@ -29,7 +29,7 @@
 
 <details><summary>Conjunction</summary>
   
-  - Suppose that P and Q are formulas. Then “P and Q” is a formula written symbolically as $`P\landQ`$, called the conjunction of P and Q.
+  - Suppose that P and Q are formulas. Then “P and Q” is a formula written symbolically as P $\land$ Q, called the conjunction of P and Q.
     </br>For P $\land$ Q to be true both P and Q must be true, otherwise it is false.
   
   - $\land$, 'and', '곱연산'
