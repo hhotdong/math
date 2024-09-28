@@ -2,7 +2,7 @@
 
 <details><summary>Proposition</summary>
   
-  - A sentence or statement which has a definite truth value[^truth_value_def].
+  - A sentence or statement which has a definite truth value.[^truth_value_def]
   
   - ex. 1 = 2 (false), 1 = 1(true)
     
@@ -10,15 +10,27 @@
 
 <details><summary>Formula</summary>
 
-  - A proposition which has variables upon whose it's truth value depends.
+  - A statement which possibliy involves some variables, which is either true or false whenever we assign particular values to each of the variables.
     
   - ex. Given a formula $`x^2 + y = 5`$, which is true when (x, y) = (1, 4), (2, 1)⋯, but false when (2, 2), (4, 1)⋯.
 
 </details>
 
-<details><summary>Conjunction</summary>
+<details><summary>Negation</summary>
 
-  - Given two propositions P and Q, conjunction is a operation which creates new proposition whose truth value is true only when both P, Q are true.
+  - If P is a formula, then “not P” is another formula, which we write symbolically as ¬P.
+
+| P   | $\neg$ P |
+| :-: | :-:      |
+| T   | F        |
+| F   | T        |
+
+</details>
+
+<details><summary>Conjunction</summary>
+  
+  - Suppose that P and Q are formulas. Then “P and Q” is a formula written symbolically as $`P\landQ`$, called the conjunction of P and Q.
+    </br>For P $\land$ Q to be true both P and Q must be true, otherwise it is false.
   
   - $\land$, 'and', '곱연산'
 
@@ -73,4 +85,4 @@
 - [수학의 즐거움](https://www.youtube.com/@enjoyingmath9346/featured)
 - Patrick Keef, David Guichard, "An Introduction to Higher Mathematics"
 
-[^truth_value_def]: Truth value can be either true or false.
+[^truth_value_def]: In logic and mathematics, a truth value, sometimes called a logical value, is a value indicating the relation of a proposition to truth, which in classical logic has only two possible values (true or false). - [Wikipedia](https://en.wikipedia.org/wiki/Truth_value)
