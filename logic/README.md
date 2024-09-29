@@ -18,7 +18,7 @@
 
 <details><summary>Negation</summary>
 
-  - If P is a formula, then “not P” is another formula, which we write symbolically as ¬P.
+  - If P is a formula, then “not P” is another formula, which we write symbolically as $\neg$ P.
 
 | P   | $\neg$ P |
 | :-: | :-:      |
@@ -45,7 +45,7 @@
 
 <details><summary>Disjunction</summary>
 
-  - Given two formulas P and Q, disjunction is a operation which makes new formula whose truth value is false only when both P, Q are false.
+  - Given two formulas P and Q, disjunction is an operation which constructs new formula whose truth value is false only when both P and Q are false.
 
   - $\lor$, 'or', '합연산'
 
@@ -60,7 +60,7 @@
 
 <details><summary>Conditional</summary>
 
-  - If P and Q are formulas, then “if P then Q” or “P implies Q” is written P $\Rightarrow$ Q, using the conditional symbol, $\Rightarrow$.
+  - If P and Q are formulas, then “if P, then Q” or “P implies Q” is written P $\Rightarrow$ Q, using the conditional symbol, $\Rightarrow$.
 
 | P   | Q   | P $\Rightarrow$ Q |
 | :-: | :-: | :-:               |
@@ -97,7 +97,7 @@
 | F   | T   | F           | F                      | T                                          |
 | F   | F   | F           | F                      | T                                          |
 
-  - ex. A few important tautologies.
+  - A few important tautologies.
 
     - P ⇔ ¬¬P
     - P ∨ Q ⇔ Q ∨ P
