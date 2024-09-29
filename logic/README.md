@@ -86,9 +86,9 @@
 
 <details><summary>Tautology</summary>
 
-- A logical expression that always evaluates to T, that is, the last column of its truth table consists of nothing but T’s. A tautology is sometimes said to be valid; although “valid” is used in other contexts as well, this should cause no confusion.
+  - A logical expression that always evaluates to T, that is, the last column of its truth table consists of nothing but T’s. A tautology is sometimes said to be valid; although “valid” is used in other contexts as well, this should cause no confusion.
 
-- ex. (P $\land$ Q) $\lor$ P $\Leftrightarrow$ P is tautology.
+  - ex. (P $\land$ Q) $\lor$ P $\Leftrightarrow$ P is tautology.
 
 | P   | Q   | P $\land$ Q | (P $\land$ Q) $\lor$ P | (P $\land$ Q) $\lor$ P $\Leftrightarrow$ P |
 | :-: | :-: | :-:         | :-:                    | :-:                                        |
@@ -96,6 +96,21 @@
 | T   | F   | F           | T                      | T                                          |
 | F   | T   | F           | F                      | T                                          |
 | F   | F   | F           | F                      | T                                          |
+
+  - ex. A few important tautologies.
+
+    - P ⇔ ¬¬P
+    - P ∨ Q ⇔ Q ∨ P
+    - P ∧ Q ⇔ Q ∧ P
+    - (P ∧ Q) ∧ R ⇔ P ∧ (Q ∧ R)
+    - (P ∨ Q) ∨ R ⇔ P ∨ (Q ∨ R)
+    - P ∧ (Q ∨ R) ⇔ (P ∧ Q) ∨ (P ∧ R)
+    - P ∨ (Q ∧ R) ⇔ (P ∨ Q) ∧ (P ∨ R)
+    - (P ⇒ Q) ⇔ (¬P ∨ Q)
+    - P ⇒ (P ∨ Q)
+    - P ∧ Q ⇒ Q
+    - (P ⇔ Q) ⇔ ((P ⇒ Q) ∧ (Q ⇒ P))
+    - (P ⇒ Q) ⇔ (¬Q ⇒ ¬P)
 
 </details>
 
