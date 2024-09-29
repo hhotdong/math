@@ -58,7 +58,7 @@
 
 </details>
 
-<details><summary>Condition</summary>
+<details><summary>Conditional</summary>
 
   - If P and Q are formulas, then “if P then Q” or “P implies Q” is written P $\Rightarrow$ Q, using the conditional symbol, $\Rightarrow$.
 
@@ -71,9 +71,9 @@
 
 </details>
 
-<details><summary>Bicondition</summary>
+<details><summary>Biconditional</summary>
 
-  - Given two propositions P and Q. If P implies Q and Q implies P, written $\Leftrightarrow$, corresponds to the phrase “if and only if” or “iff” for short. So P $\Leftrightarrow$ Q is true when both P and Q have the same truth value, otherwise it is false.
+  - It is written $\Leftrightarrow$, corresponds to the phrase “if and only if” or “iff” for short. So P $\Leftrightarrow$ Q is true when both P and Q have the same truth value, otherwise it is false.
 
 | P   | Q   | P $\Leftrightarrow$ Q |
 | :-: | :-: | :-:                   |
@@ -96,6 +96,12 @@
 | T   | F   | F           | T                      | T                                          |
 | F   | T   | F           | F                      | T                                          |
 | F   | F   | F           | F                      | T                                          |
+
+</details>
+
+<details><summary>Equivalent</summary>
+
+- If two formulas always take on the same truth value no matter what elements from the universe of discourse we substitute for the various variables, then we say they are equivalent. The value of equivalent formulas is that they say the same thing. It is always a valid step in a proof to replace some formula by an equivalent one. In addition, many tautologies contain important ideas for constructing proofs.
 
 </details>
 
