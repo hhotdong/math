@@ -86,7 +86,7 @@
 
 <details><summary>Tautology</summary>
 
-- A logical expression that always evaluates to T, that is, the last column of its truth table consists of nothing but T’s.
+- A logical expression that always evaluates to T, that is, the last column of its truth table consists of nothing but T’s. A tautology is sometimes said to be valid; although “valid” is used in other contexts as well, this should cause no confusion.
 
 - ex. (P $\land$ Q) $\lor$ P $\Leftrightarrow$ P is tautology.
 
