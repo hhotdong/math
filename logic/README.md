@@ -150,6 +150,9 @@ Walla Walla lives in Washington.”
     - ex. “Some x satisfying P(x) satisfies Q(x)” should not be translated as $`\exists x (P(x) \Rightarrow Q(x))`$.[^quantifier_note_3]
     - ex. $`\exists x < 0(x^2 = 1)`$ stands for $`\exists x ((x < 0) ∧ (x^2 = 1))`$
     - ex. $`\exists x \in [0,1](2x^2 + x = 1)`$, i.e., $`$\exists x((x \in [0,1]) ∧ (2x^2 + x = 1))`$
+    - ex. “No democrats are republicans,”, i.e., $`\forall x(x is a democrat \Rightarrow x is not a republican)`$[^quantifier_note_4].
+    - ex. “No triangles are rectangles,”, i.e., $`\forall x(x is a triangle \Rightarrow x is not a rectangle)`$.
+
 </details>
 
 ### Reference
@@ -163,3 +166,4 @@ Walla Walla lives in Washington.”
 [^quantifier_note_2]: (∀xP(x)) ⇒ Q(x) might also be written as ∀x P(x) ⇒ Q(x), which is to say that the universal quantifier has higher precedence than the conditional.
 [^quantifier_note_3]: Suppose P(x) = “x is an apple” and Q(x) = “x is an orange.” The sentence “some apples are oranges” is certainly false, but
 ∃x(P(x) ⇒ Q(x)) is true. To see this suppose x0 is some particular orange. Then P(x0) ⇒ Q(x0) evaluates to F ⇒ T, which is T, and the existential quantifier is satisfied.
+[^quantifier_note_4]: In general, the statement “no x satisfying P(x) satisfies Q(x)” can be written ∀x (P(x) ⇒ ¬Q(x)). It is also equivalent to ¬∃x(P(x) ∧ Q(x)).
