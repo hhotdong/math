@@ -12,7 +12,9 @@
 
   - A statement which possibliy involves some variables, which is either true or false whenever we assign particular values to each of the variables.
     
-  - ex. Given a formula $`x^2 + y = 5`$, which is true when (x, y) = (1, 4), (2, 1)⋯, but false when (2, 2), (4, 1)⋯.
+    - ex. Given a formula $`x^2 + y = 5`$, which is true when (x, y) = (1, 4), (2, 1)⋯, but false when (2, 2), (4, 1)⋯.
+   
+  - A formula that contains variables is not simply true or false unless each of these variables is bound by a quantifier. If a variable is not bound the truth of the formula is contingent on the value assigned to the variable from the universe of discourse.
 
 </details>
 
@@ -116,13 +118,23 @@
 
 <details><summary>Equivalent</summary>
 
-- If two formulas always take on the same truth value no matter what elements from the universe of discourse we substitute for the various variables, then we say they are equivalent. The value of equivalent formulas is that they say the same thing. It is always a valid step in a proof to replace some formula by an equivalent one. In addition, many tautologies contain important ideas for constructing proofs.
+  - If two formulas always take on the same truth value no matter what elements from the universe of discourse we substitute for the various variables, then we say they are equivalent. The value of equivalent formulas is that they say the same thing. It is always a valid step in a proof to replace some formula by an equivalent one. In addition, many tautologies contain important ideas for constructing proofs.
+
+</details>
+
+<details><summary>Quantifier</summary>
+
+  - Universal quantifier: A sentence $`\forall xP(x)`$ is true if and only if $`P(x)`$ is true no matter what value (from the universe of discourse) is substituted for x.
+  - ex. $`\forall x (P(x) \Rightarrow Q(x))`$ may be read, "All x satisfying P(x) also satisfy Q(x)."
+  - ex. $`\forall x P(x) \Rightarrow Q(x)`$ may be read, "If P(x) is true for all x, Q(x) is true."[^quantifier_note_0]
+  - ex. $`\forall x (P(x) \Rightarrow Q(x)) \neq \forall x P(x) \Rightarrow \forall xQ(x)`$
 
 </details>
 
 ### Reference
 
-- [수학의 즐거움](https://www.youtube.com/@enjoyingmath9346/featured)
 - Patrick Keef, David Guichard, \<An Introduction to Higher Mathematics\>
+- [수학의 즐거움](https://www.youtube.com/@enjoyingmath9346/featured)
 
 [^truth_value_def]: In logic and mathematics, a truth value, sometimes called a logical value, is a value indicating the relation of a proposition to truth, which in classical logic has only two possible values (true or false). - [Wikipedia](https://en.wikipedia.org/wiki/Truth_value)
+[^quantifier_note_0]: The x in P(x) is bound by the universal quantifier, but the x in Q(x) is not. The formula (∀xP(x)) ⇒ Q(x) has the same meaning as (∀xP(x)) ⇒ Q(y), and its truth depends on the value assigned to the variable in Q(·). Q(·) is not proposition until the variable is bound or assigned.
