@@ -150,7 +150,7 @@ Walla Walla lives in Washington.”
     - ex. “Some x satisfying P(x) satisfies Q(x)” should not be translated as $`\exists x (P(x) \Rightarrow Q(x))`$.[^quantifier_note_3]
     - ex. “No democrats are republicans,”, i.e., $`\forall x`$(x is a democrat $\Rightarrow$ x is not a republican)[^quantifier_note_4].
     - ex. “No triangles are rectangles,”, i.e., $`\forall x`$(x is a triangle $\Rightarrow$ x is not a rectangle).
-    - ex. $`\exists x < 0(x^2 = 1)`$ stands for $`\exists x ((x < 0) ∧ (x^2 = 1))`$
+    - ex. $`\exists x < 0(x^2 = 1)`$, i.e., $`\exists x ((x < 0) ∧ (x^2 = 1))`$
     - ex. $`\exists x \in [0,1](2x^2 + x = 1)`$, i.e., $`$\exists x((x \in [0,1]) ∧ (2x^2 + x = 1))`$
 
 </details>
