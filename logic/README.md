@@ -129,10 +129,16 @@
     - ex. $`\forall x (x2 ≥ 0)`$, i.e., “The square of any number is not negative.”
     - ex. $`\forall x \forall y (x + y = y + x)`$, i.e., the commutative law of addition.
     - ex. $`\forall x \forall y \forall z((x + y) + z = x + (y + z))`$, i.e., the associative law of addition.
+    - ex. $`\forall x`$ (x is a square $\Rightarrow$ x is a rectangle), i.e., “All squares are rectangles.”
+    - ex. $`\forall x`$ (x lives in Walla Walla $\Rightarrow$ x lives in Washington), i.e., “Every person who lives in
+Walla Walla lives in Washington.”
+    - ex. “If x is negative, so is its cube", i.e., “Every negative x has a negative cube.”, i.e., $`\forall x ((x < 0) \Rightarrow (x^3 < 0))`$
+    - ex. “If two numbers have the same square, then they have the same absolute value”, i.e., $`\forall x \forall y ((x^2 = y^2) \Rightarrow (|x| = |y|))`$.
+    - ex. “If x = y, then x + z = y + z”, i.e., $`\forall x \forall y \forall z ((x = y) \Rightarrow (x + z = y + z))`$.
+    - ex. If S is a set, the sentence “Every x in S satisfies P(x)” is written formally as $`\forall x ((x \in S) \Rightarrow P(x))`$.[^quantifier_note_0]
     - ex. $`\forall x (P(x) \Rightarrow Q(x))`$, i.e., "All x satisfying P(x) also satisfy Q(x)."
-    - ex. $`\forall x P(x) \Rightarrow Q(x)`$, i.e., "If P(x) is true for all x, Q(x) is true."[^quantifier_note_0]
-    - ex. $`\forall x (P(x) \Rightarrow Q(x)) \neq \forall x P(x) \Rightarrow \forall x Q(x)`$[^quantifier_note_1]
-    - ex. If S is a set, the sentence “Every x in S satisfies P(x)” is written formally as $`\forall x ((x \in S) \Rightarrow P(x))`$[^quantifier_note_2]
+    - ex. $`\forall x P(x) \Rightarrow Q(x)`$, i.e., "If P(x) is true for all x, Q(x) is true."[^quantifier_note_1]
+    - ex. $`\forall x (P(x) \Rightarrow Q(x)) \neq \forall x P(x) \Rightarrow \forall x Q(x)`$.[^quantifier_note_2]
   
   - **Existential quantifier**
     - A sentence $`\exists x P(x)`$ is true if and only if there is at least one value of x (from the universe of discourse) that makes P(x) true.
@@ -147,6 +153,6 @@
 - [수학의 즐거움](https://www.youtube.com/@enjoyingmath9346/featured)
 
 [^truth_value_def]: In logic and mathematics, a truth value, sometimes called a logical value, is a value indicating the relation of a proposition to truth, which in classical logic has only two possible values (true or false). - [Wikipedia](https://en.wikipedia.org/wiki/Truth_value)
-[^quantifier_note_0]: The x in P(x) is bound by the universal quantifier, but the x in Q(x) is not. The formula (∀xP(x)) ⇒ Q(x) has the same meaning as (∀xP(x)) ⇒ Q(y), and its truth depends on the value assigned to the variable in Q(·). Q(·) is not proposition until the variable is bound or assigned.
-[^quantifier_note_1]: (∀xP(x)) ⇒ Q(x) might also be written as ∀x P(x) ⇒ Q(x), which is to say that the universal quantifier has higher precedence than the conditional.
-[^quantifier_note_2]: For clarity and brevity, this is usually written ∀x ∈ S (P (x)). To understand and manipulate the formula ∀x∈S(P(x)) properly, you will sometimes need to “unabbreviate” it, rewriting it as ∀x ((x ∈ S) ⇒ P(x)).
+[^quantifier_note_0]: For clarity and brevity, this is usually written ∀x ∈ S (P (x)). To understand and manipulate the formula ∀x∈S(P(x)) properly, you will sometimes need to “unabbreviate” it, rewriting it as ∀x ((x ∈ S) ⇒ P(x)).
+[^quantifier_note_1]: The x in P(x) is bound by the universal quantifier, but the x in Q(x) is not. The formula (∀xP(x)) ⇒ Q(x) has the same meaning as (∀xP(x)) ⇒ Q(y), and its truth depends on the value assigned to the variable in Q(·). Q(·) is not proposition until the variable is bound or assigned.
+[^quantifier_note_2]: (∀xP(x)) ⇒ Q(x) might also be written as ∀x P(x) ⇒ Q(x), which is to say that the universal quantifier has higher precedence than the conditional.
