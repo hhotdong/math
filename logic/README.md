@@ -126,8 +126,11 @@
   
   - **Universal quantifier**
     - A sentence $`\forall x P(x)`$ is true if and only if P(x) is true no matter what value (from the universe of discourse) is substituted for x.
-    - ex. $`\forall x (P(x) \Rightarrow Q(x))`$ may be read, "All x satisfying P(x) also satisfy Q(x)."
-    - ex. $`\forall x P(x) \Rightarrow Q(x)`$ may be read, "If P(x) is true for all x, Q(x) is true."[^quantifier_note_0]
+    - ex. $`\forall x (x2 ≥ 0)`$, i.e., “The square of any number is not negative.”
+    - ex. $`\forall x \forall y (x + y = y + x)`$, i.e., the commutative law of addition.
+    - ex. $`\forall x \forall y \forall z((x + y) + z = x + (y + z))`$, i.e., the associative law of addition.
+    - ex. $`\forall x (P(x) \Rightarrow Q(x))`$, i.e., "All x satisfying P(x) also satisfy Q(x)."
+    - ex. $`\forall x P(x) \Rightarrow Q(x)`$, i.e., "If P(x) is true for all x, Q(x) is true."[^quantifier_note_0]
     - ex. $`\forall x (P(x) \Rightarrow Q(x)) \neq \forall x P(x) \Rightarrow \forall x Q(x)`$[^quantifier_note_1]
     - ex. If S is a set, the sentence “Every x in S satisfies P(x)” is written formally as $`\forall x ((x \in S) \Rightarrow P(x))`$[^quantifier_note_2]
   
@@ -135,7 +138,7 @@
     - A sentence $`\exists x P(x)`$ is true if and only if there is at least one value of x (from the universe of discourse) that makes P(x) true.
     - ex. $`\exists x (x \geq x2)`$ is true since x = 0 is one of many solutions.
     - ex. $`\exists x \exists y (x^2+y^2 =2xy)`$ is true since x = y = 1 is one of many solutions.
-    - ex. $`\exists x (P(x) \land Q(x))`$ may be read, “Some x satisfying P(x) also satisfies Q(x).”
+    - ex. $`\exists x (P(x) \land Q(x))`$, i.e., “Some x satisfying P(x) also satisfies Q(x).”
 </details>
 
 ### Reference
