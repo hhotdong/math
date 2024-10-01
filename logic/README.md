@@ -136,6 +136,8 @@ Walla Walla lives in Washington.”
     - ex. “If two numbers have the same square, then they have the same absolute value”, i.e., $`\forall x \forall y ((x^2 = y^2) \Rightarrow (|x| = |y|))`$.
     - ex. “If x = y, then x + z = y + z”, i.e., $`\forall x \forall y \forall z ((x = y) \Rightarrow (x + z = y + z))`$.
     - ex. If S is a set, the sentence “Every x in S satisfies P(x)” is written formally as $`\forall x ((x \in S) \Rightarrow P(x))`$.[^quantifier_note_0]
+    - ex. $`\forall x \in [0,1](\sqrt{x} \geq x)`$, i.e., $`\forall x(x \in [0,1] \Rightarrow \sqrt{x} \geq x)`$.
+    - ex. $`\forall x < 0(|x| = −x)`$, i.e., $`\forall x(x < 0 \Rightarrow |x| = −x)`$.
     - ex. $`\forall x (P(x) \Rightarrow Q(x))`$, i.e., "All x satisfying P(x) also satisfy Q(x)."
     - ex. $`\forall x P(x) \Rightarrow Q(x)`$, i.e., "If P(x) is true for all x, Q(x) is true."[^quantifier_note_1]
     - ex. $`\forall x (P(x) \Rightarrow Q(x)) \neq \forall x P(x) \Rightarrow \forall x Q(x)`$.[^quantifier_note_2]
@@ -146,6 +148,8 @@ Walla Walla lives in Washington.”
     - ex. $`\exists x \exists y (x^2+y^2 =2xy)`$ is true since x = y = 1 is one of many solutions.
     - ex. $`\exists x (P(x) \land Q(x))`$, i.e., “Some x satisfying P(x) also satisfies Q(x).”
     - ex. “Some x satisfying P(x) satisfies Q(x)” should not be translated as $`\exists x (P(x) \Rightarrow Q(x))`$.[^quantifier_note_3]
+    - ex. $`\exists x < 0(x^2 = 1)`$ stands for $`\exists x ((x < 0) ∧ (x^2 = 1))`$
+    - ex. $`\exists x \in [0,1](2x^2 + x = 1)`$, i.e., $`$\exists x((x \in [0,1]) ∧ (2x^2 + x = 1))`$
 </details>
 
 ### Reference
@@ -154,7 +158,7 @@ Walla Walla lives in Washington.”
 - [수학의 즐거움](https://www.youtube.com/@enjoyingmath9346/featured)
 
 [^truth_value_def]: In logic and mathematics, a truth value, sometimes called a logical value, is a value indicating the relation of a proposition to truth, which in classical logic has only two possible values (true or false). - [Wikipedia](https://en.wikipedia.org/wiki/Truth_value)
-[^quantifier_note_0]: For clarity and brevity, this is usually written ∀x ∈ S (P (x)). To understand and manipulate the formula ∀x ∈ S(P(x)) properly, you will sometimes need to “unabbreviate” it, rewriting it as ∀x ((x ∈ S) ⇒ P(x)). ex. ∀x ∈ [0,1](√x ≥ x) stands for ∀x(x ∈ [0,1] ⇒ √x ≥ x).
+[^quantifier_note_0]: For clarity and brevity, this is usually written ∀x ∈ S (P (x)). To understand and manipulate the formula ∀x ∈ S(P(x)) properly, you will sometimes need to “unabbreviate” it, rewriting it as ∀x ((x ∈ S) ⇒ P(x)).
 [^quantifier_note_1]: The x in P(x) is bound by the universal quantifier, but the x in Q(x) is not. The formula (∀xP(x)) ⇒ Q(x) has the same meaning as (∀xP(x)) ⇒ Q(y), and its truth depends on the value assigned to the variable in Q(·). Q(·) is not proposition until the variable is bound or assigned.
 [^quantifier_note_2]: (∀xP(x)) ⇒ Q(x) might also be written as ∀x P(x) ⇒ Q(x), which is to say that the universal quantifier has higher precedence than the conditional.
 [^quantifier_note_3]: Suppose P(x) = “x is an apple” and Q(x) = “x is an orange.” The sentence “some apples are oranges” is certainly false, but
