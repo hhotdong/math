@@ -141,6 +141,8 @@ Walla Walla lives in Washington.”
     - ex. $`\forall x (P(x) \Rightarrow Q(x))`$, i.e., "All x satisfying P(x) also satisfy Q(x)."
     - ex. $`\forall x P(x) \Rightarrow Q(x)`$, i.e., "If P(x) is true for all x, Q(x) is true."[^quantifier_note_1]
     - ex. $`\forall x (P(x) \Rightarrow Q(x)) \neq \forall x P(x) \Rightarrow \forall x Q(x)`$.[^quantifier_note_2]
+    - ex. $`\forall x \forall y(P(x) \Rightarrow Q(y)) \neq \forall x(P(x)) \Rightarrow \forall y(Q(y))`$
+    - ex. $`\exists x \exists y (P(x) \land Q(y)) \Leftrightarrow to \exists x(P(x)) \land \exists y(Q(y))`$
   
   - **Existential quantifier**
     - A sentence $`\exists x P(x)`$ is true if and only if there is at least one value of x (from the universe of discourse) that makes P(x) true.
