@@ -127,7 +127,7 @@
   - Universal quantifier: A sentence $`\forall xP(x)`$ is true if and only if $`P(x)`$ is true no matter what value (from the universe of discourse) is substituted for x.
   - ex. $`\forall x (P(x) \Rightarrow Q(x))`$ may be read, "All x satisfying P(x) also satisfy Q(x)."
   - ex. $`\forall x P(x) \Rightarrow Q(x)`$ may be read, "If P(x) is true for all x, Q(x) is true."[^quantifier_note_0]
-  - ex. $`\forall x (P(x) \Rightarrow Q(x)) \neq \forall x P(x) \Rightarrow \forall xQ(x)`$
+  - ex. $`\forall x (P(x) \Rightarrow Q(x)) \neq \forall x P(x) \Rightarrow \forall xQ(x)`$[^quantifier_note_1]
 
 </details>
 
@@ -138,3 +138,4 @@
 
 [^truth_value_def]: In logic and mathematics, a truth value, sometimes called a logical value, is a value indicating the relation of a proposition to truth, which in classical logic has only two possible values (true or false). - [Wikipedia](https://en.wikipedia.org/wiki/Truth_value)
 [^quantifier_note_0]: The x in P(x) is bound by the universal quantifier, but the x in Q(x) is not. The formula (∀xP(x)) ⇒ Q(x) has the same meaning as (∀xP(x)) ⇒ Q(y), and its truth depends on the value assigned to the variable in Q(·). Q(·) is not proposition until the variable is bound or assigned.
+[^quantifier_note_1]: (∀xP(x)) ⇒ Q(x) might also be written as ∀x P(x) ⇒ Q(x), which is to say that the universal quantifier has higher precedence than the conditional.
