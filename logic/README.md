@@ -4,7 +4,7 @@
   
   - A sentence or statement which has a definite truth value.[^truth_value_def]
   
-  - ex. 1 = 2 (false), 1 = 1(true)
+    - ex. 1 = 2 (false), 1 = 1(true)
     
 </details>
 
@@ -88,9 +88,9 @@
 
 <details><summary>Tautology</summary>
 
-  - A logical expression that always evaluates to T, that is, the last column of its truth table consists of nothing but T’s. A tautology is sometimes said to be valid; although “valid” is used in other contexts as well, this should cause no confusion.
+  - A logical expression that always evaluates to T, that is, the last column of its truth table consists of nothing but T’s. A tautology is sometimes said to be valid; although “valid” is used in other contexts as well, this should cause no confusion. Many tautologies contain important ideas for constructing proofs.
 
-  - ex. (P $\land$ Q) $\lor$ P $\Leftrightarrow$ P is tautology.
+    - ex. (P $\land$ Q) $\lor$ P $\Leftrightarrow$ P is tautology.
 
 | P   | Q   | P $\land$ Q | (P $\land$ Q) $\lor$ P | (P $\land$ Q) $\lor$ P $\Leftrightarrow$ P |
 | :-: | :-: | :-:         | :-:                    | :-:                                        |
@@ -118,7 +118,7 @@
 
 <details><summary>Equivalent</summary>
 
-  - If two formulas always take on the same truth value no matter what elements from the universe of discourse we substitute for the various variables, then we say they are equivalent. The value of equivalent formulas is that they say the same thing. It is always a valid step in a proof to replace some formula by an equivalent one. In addition, many tautologies contain important ideas for constructing proofs.
+  - If two formulas always take on the same truth value no matter what elements from the universe of discourse we substitute for the various variables, then we say they are equivalent. The value of equivalent formulas is that they say the same thing. It is always a valid step in a proof to replace some formula by an equivalent one.
 
 </details>
 
