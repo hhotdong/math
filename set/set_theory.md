@@ -14,6 +14,8 @@
 
   - Given two sets A and B, if all elements of A are also in B, we can say "A is a subset of B", which is written symbolically as "$`A \subseteq B`$".
 
+  - $`A \subseteq A \Leftrightarrow \text{Given a set A, A is a subset of itself.}`$
+
   - $`A \subseteq B := \forall x(x \in A \Rightarrow x \in B)`$
     - ex. A = { a, b }, B = { a, b, c }. $`A \subset B`$
 
