@@ -12,7 +12,7 @@
 
 <details><summary>Subset</summary>
 
-  - Given two sets A, B, if all elements of A are also in B, we can say "A is a subset of B", which is written symbolically as "$`A \subseteq B`$".
+  - Given two sets A and B, if all elements of A are also in B, we can say "A is a subset of B", which is written symbolically as "$`A \subseteq B`$".
     - ex. A = { a, b }, B = { a, b, c }. $`A \subset B`$
 
 </details>
@@ -30,6 +30,17 @@
 
   - Given a set A, power set of A is a set which has all subsets of A as element.
     - ex. C = { 1, 2 }. P(C) = { $\emptyset$, { 1 }, { 2 }, { 1, 2 } }
+
+  - $`P(A) := \{ B | B \subset A \}`$ 
+
+</details>
+
+<details><summary>Product set</summary>
+
+  - Given two sets A and B, product set of A and B is a set which has all possible pairs of (a, b) as an element, where a is one of A's elements and b is one of B's elements.
+
+  - $`A X B := \{ (a, b) | a \in A and b \in B \}`$
+  - 
 
 </details>
 
@@ -120,9 +131,11 @@ $`\begin{flalign}
   \quad (A \cup B)^{\complement} \subset A^{\complement} \cap B^{\complement} \:and\: A^{\complement} \cap B^{\complement} \subset (A \cup B)^{\complement} &&\\
   \text{Proof.} &&\\
   \quad (A \cup B)^{\complement} &&\\
+  \Leftrightarrow \{ x | x \notin (A \cup B) \} &&\\
   \Leftrightarrow \{ x | \neg(x \in A \:or\: x \in B) \} &&\\
   \Leftrightarrow \{ x | \neg(x \in A) \:and\: \neg(x \in B) \} &&\\
   \Leftrightarrow \{ x | x \notin A \:and\: x \notin B) \} &&\\
+  \Leftrightarrow \{ x | x \in A^{\complement} \:and\: x \in B^{\complement}) \} &&\\
   \Leftrightarrow A^{\complement} \cap B^{\complement}
   \end{flalign}`$
   
@@ -135,9 +148,11 @@ $`\begin{flalign}
   \quad (A \cap B)^{\complement} \subset A^{\complement} \cup B^{\complement} \:and\: A^{\complement} \cup B^{\complement} \subset (A \cap B)^{\complement} &&\\
   \text{Proof.} &&\\
   \quad (A \cap B)^{\complement} &&\\
+  \Leftrightarrow \{ x | x \notin (A \cap B) \} &&\\
   \Leftrightarrow \{ x | \neg(x \in A \:and\: x \in B) \} &&\\
   \Leftrightarrow \{ x | \neg(x \in A) \:or\: \neg(x \in B) \} &&\\
   \Leftrightarrow \{ x | x \notin A \:or\: x \notin B) \} &&\\
+  \Leftrightarrow \{ x | x \in A^{\complement} \:or\: x \in B^{\complement}) \} &&\\
   \Leftrightarrow A^{\complement} \cup B^{\complement}
   \end{flalign}`$
   
