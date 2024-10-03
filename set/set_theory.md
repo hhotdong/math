@@ -69,7 +69,26 @@ A = B &&\\
 </br>
   
 $`\begin{flalign}
-\text{Suppose }\sqrt{2} \in \mathbb{Q}. &&\\
+\text{Proof.} &&\\
+\text{Suppose } \sqrt{2} \in \mathbb{Q}. &&\\
+\Leftrightarrow \sqrt{2} = \frac{q}{p}(p \neq 0 \in \mathbb{N},q \in \mathbb{N}, p \perp q) &&\\
+\Leftrightarrow 2 = (\frac{q}{p})^2 &&\\
+\Leftrightarrow 2p^2 = q^2 &&\\
+\Leftrightarrow q = 2k(k \in \mathbb{N}) &&\\
+\Leftrightarrow p^2 = 2k^2 &&\\
+\Leftrightarrow q = 2k^{\prime}(k^{\prime} \in \mathbb{N}) \text{ Contradiction! a and b are coprime by the assumption.} &&\\
+\therefore \sqrt{2} \notin \mathbb{Q} &&\\
+\end{flalign}`$
+
+</details>
+
+<details><summary>Let A, B, C $\subset$ U. A $\cap$ (B $\cup$ C) = (A $\cap$ B) $\cup$ (A $\cap$ C) </summary>
+</br>
+
+$`\begin{flalign}
+\text{Need to show. } 
+\text{Proof.} &&\\
+\text{Suppose } \sqrt{2} \in \mathbb{Q}. &&\\
 \Leftrightarrow \sqrt{2} = \frac{q}{p}(p \neq 0 \in \mathbb{N},q \in \mathbb{N}, p \perp q) &&\\
 \Leftrightarrow 2 = (\frac{q}{p})^2 &&\\
 \Leftrightarrow 2p^2 = q^2 &&\\
