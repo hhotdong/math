@@ -29,9 +29,9 @@
 <details><summary>Power set</summary>
 
   - Given a set A, power set of A is a set which has all subsets of A as element.
-    - ex. C = { 1, 2 }. P(C) = { $\emptyset$, { 1 }, { 2 }, { 1, 2 } }
 
-  - $`P(A) := \{ B | B \subset A \}`$ 
+  - $`P(A) := \{ B | B \subset A \}`$
+    - ex. A = { 1, 2 }. P(A) = { $\emptyset$, { 1 }, { 2 }, { 1, 2 } }
 
 </details>
 
@@ -39,8 +39,8 @@
 
   - Given two sets A and B, product set of A and B is a set which has all possible pairs of (a, b) as an element, where a is one of A's elements and b is one of B's elements.
 
-  - $`A X B := \{ (a, b) | a \in A and b \in B \}`$
-  - 
+  - $`A X B := \{ (a, b) | a \in A \:and\: b \in B \}`$
+    - ex. A = { a, b }, B = { c, d }. A X B = { (a, c), (a, d), (b, c), (b, d) }
 
 </details>
 
@@ -132,6 +132,7 @@ $`\begin{flalign}
   \text{Proof.} &&\\
   \quad (A \cup B)^{\complement} &&\\
   \Leftrightarrow \{ x | x \notin (A \cup B) \} &&\\
+  \Leftrightarrow \{ x | \neg(x \in (A \cup B)) \} &&\\
   \Leftrightarrow \{ x | \neg(x \in A \:or\: x \in B) \} &&\\
   \Leftrightarrow \{ x | \neg(x \in A) \:and\: \neg(x \in B) \} &&\\
   \Leftrightarrow \{ x | x \notin A \:and\: x \notin B) \} &&\\
@@ -149,6 +150,7 @@ $`\begin{flalign}
   \text{Proof.} &&\\
   \quad (A \cap B)^{\complement} &&\\
   \Leftrightarrow \{ x | x \notin (A \cap B) \} &&\\
+  \Leftrightarrow \{ x | \neg(x \in (A \cap B)) \} &&\\
   \Leftrightarrow \{ x | \neg(x \in A \:and\: x \in B) \} &&\\
   \Leftrightarrow \{ x | \neg(x \in A) \:or\: \neg(x \in B) \} &&\\
   \Leftrightarrow \{ x | x \notin A \:or\: x \notin B) \} &&\\
