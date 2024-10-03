@@ -3,31 +3,33 @@
 <details><summary>Set</summary>
 
   - A collection of definable objects, i.e., it should be possible to tell clearly whether a certain object is in the set or not.
+  
   - Element is an object which is in the set.
     - ex. A = { 1, 2 }. 1 $\in$ A, 3 $\notin$ A.
     - ex. B = { x | P(x) }
 
 </details>
 
-<details><summary>Empty set</summary>
+<details><summary>Subset</summary>
 
-  - A set which has no elements, which is written symbolically as "$`\emptyset`$".
+  - Given two sets A, B, if all elements of A are also in B, we can say "A is a subset of B", which is written symbolically as "$`A \subseteq B`$".
+    - ex. A = { a, b }, B = { a, b, c }. $`A \subset B`$
 
 </details>
 
-<details><summary>Subset</summary>
+<details><summary>Empty set</summary>
 
-  - Given two sets A, B, if all elements of A are also in B, we can say "A is subset of B", which is written symbolically as "$`A \subseteq B`$".
-    - ex. A = { a, b }, B = { a, b, c }. $`A \subset B`$
-  - 
+  - A set which has no elements, which is written symbolically as "$`\emptyset`$".
+  
+  - $`\emptyset \subset A`$ $\Leftrightarrow$ For any set A, the empty set is a subset of A.
+    - The only subset of the empty set is the empty set itself.
 
 </details>
 
 <details><summary>Power set</summary>
 
-  - 
-
-  - ex. Given a set C = { 1, 2 }. Power set of C is P(C) = { $\emptyset$, { 1 }, { 2 }, { 1, 2 } }
+  - Given a set A, power set of A is a set which has all subsets of A as element.
+    - ex. C = { 1, 2 }. P(C) = { $\emptyset$, { 1 }, { 2 }, { 1, 2 } }
 
 </details>
 
@@ -87,3 +89,4 @@ $`\begin{flalign}
 
 - [수학의 즐거움, 기초부터 대학원 수학까지, 1. 집합론 기초 (a)](https://youtu.be/9HUk8zays2E?feature=shared)
 - [수학의 즐거움, \[기초부터 대학원 수학까지 시리즈 스터디 3기\] 첫시간, 집합론 기초 1강](https://youtu.be/PZXafFesmHI?feature=shared)
+- [Wikipedia](https://en.wikipedia.org/wiki/Empty_set)
