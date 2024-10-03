@@ -81,33 +81,67 @@ $`\begin{flalign}
 
 </details>
 
-<details><summary>Let A, B, C $\subset$ U. A $\cap$ (B $\cup$ C) = (A $\cap$ B) $\cup$ (A $\cap$ C) </summary>
+<details><summary>Let A, B, C $\subset$ U.</summary>
+  
+- <details><summary>A $\cap$ (B $\cup$ C) = (A $\cap$ B) $\cup$ (A $\cap$ C)</summary>
 
-$`\begin{flalign}
-\text{Need to show. } &&\\
-\quad A \cap (B \cup C) \subset (A \cap B) \cup (A \cap C) \:and\: (A \cap B) \cup (A \cap C) \subset A \cap (B \cup C) &&\\
-\text{Proof.} &&\\
-\quad A \cap (B \cup C) &&\\
-\Leftrightarrow \{ x | x \in A \:and\: (x \in B \:or\: x \in C) \} &&\\
-\Leftrightarrow \{ x | (x \in A \:and\: x \in B) \:or\: (x \in A \:and\: x \in C) \} &&\\
-\Leftrightarrow \{ x | x \in A \cap B \:or\: x \in A \cap C \} &&\\
-\Leftrightarrow (A \cap B) \cup (A \cap C) &&\\
-\end{flalign}`$
+  $`\begin{flalign}
+  \text{Need to show. } &&\\
+  \quad A \cap (B \cup C) \subset (A \cap B) \cup (A \cap C) \:and\: (A \cap B) \cup (A \cap C) \subset A \cap (B \cup C) &&\\
+  \text{Proof.} &&\\
+  \quad A \cap (B \cup C) &&\\
+  \Leftrightarrow \{ x | x \in A \:and\: (x \in B \:or\: x \in C) \} &&\\
+  \Leftrightarrow \{ x | (x \in A \:and\: x \in B) \:or\: (x \in A \:and\: x \in C) \} &&\\
+  \Leftrightarrow \{ x | x \in A \cap B \:or\: x \in A \cap C \} &&\\
+  \Leftrightarrow (A \cap B) \cup (A \cap C) &&\\
+  \end{flalign}`$
 
-</details>
+  </details>
 
-<details><summary>Let A, B, C $\subset$ U. A $\cup$ (B $\cap$ C) = (A $\cup$ B) $\cap$ (A $\cup$ C) </summary>
+- <details><summary>A $\cup$ (B $\cap$ C) = (A $\cup$ B) $\cap$ (A $\cup$ C)</summary>
 
-$`\begin{flalign}
-\text{Need to show. } &&\\
-\quad A \cup (B \cap C) \subset (A \cup B) \cap (A \cup C) \:and\: (A \cup B) \cap (A \cup C) \subset A \cup (B \cap C) &&\\
-\text{Proof.} &&\\
-\quad A \cup (B \cap C) &&\\
-\Leftrightarrow \{ x | x \in A \:or\: (x \in B \:and\: x \in C) \} &&\\
-\Leftrightarrow \{ x | (x \in A \:or\: x \in B) \:and\: (x \in A \:or\: x \in C) \} &&\\
-\Leftrightarrow \{ x | x \in A \cup B \:and\: x \in A \cup C \} &&\\
-\Leftrightarrow (A \cup B) \cap (A \cup C) &&\\
-\end{flalign}`$
+  $`\begin{flalign}
+  \text{Need to show. } &&\\
+  \quad A \cup (B \cap C) \subset (A \cup B) \cap (A \cup C) \:and\: (A \cup B) \cap (A \cup C) \subset A \cup (B \cap C) &&\\
+  \text{Proof.} &&\\
+  \quad A \cup (B \cap C) &&\\
+  \Leftrightarrow \{ x | x \in A \:or\: (x \in B \:and\: x \in C) \} &&\\
+  \Leftrightarrow \{ x | (x \in A \:or\: x \in B) \:and\: (x \in A \:or\: x \in C) \} &&\\
+  \Leftrightarrow \{ x | x \in A \cup B \:and\: x \in A \cup C \} &&\\
+  \Leftrightarrow (A \cup B) \cap (A \cup C) &&\\
+  \end{flalign}`$
+
+  </details>
+
+- <details><summary>$(A \cup B)^{\complement} = A^{\complement} \cap B^{\complement}$</summary>
+
+  $`\begin{flalign}
+  \text{Need to show. } &&\\
+  \quad (A \cup B)^{\complement} \subset A^{\complement} \cap B^{\complement} \:and\: A^{\complement} \cap B^{\complement} \subset (A \cup B)^{\complement} &&\\
+  \text{Proof.} &&\\
+  \quad (A \cup B)^{\complement} &&\\
+  \Leftrightarrow \{ x | \neg(x \in A \:or\: x \in B) \} &&\\
+  \Leftrightarrow \{ x | \neg(x \in A) \:and\: \neg(x \in B) \} &&\\
+  \Leftrightarrow \{ x | x \notin A \:and\: x \notin B) \} &&\\
+  \Leftrightarrow A^{\complement} \cap B^{\complement}
+  \end{flalign}`$
+  
+  </details>
+
+- <details><summary>$(A \cap B)^{\complement} = A^{\complement} \cup B^{\complement}$</summary>
+
+  $`\begin{flalign}
+  \text{Need to show. } &&\\
+  \quad (A \cap B)^{\complement} \subset A^{\complement} \cup B^{\complement} \:and\: A^{\complement} \cup B^{\complement} \subset (A \cap B)^{\complement} &&\\
+  \text{Proof.} &&\\
+  \quad (A \cap B)^{\complement} &&\\
+  \Leftrightarrow \{ x | \neg(x \in A \:and\: x \in B) \} &&\\
+  \Leftrightarrow \{ x | \neg(x \in A) \:or\: \neg(x \in B) \} &&\\
+  \Leftrightarrow \{ x | x \notin A \:or\: x \notin B) \} &&\\
+  \Leftrightarrow A^{\complement} \cup B^{\complement}
+  \end{flalign}`$
+  
+  </details>
 
 </details>
 
