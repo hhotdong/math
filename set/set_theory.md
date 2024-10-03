@@ -167,6 +167,15 @@ $`\begin{flalign}
 
 </details>
 
+<details><summary>If A has n elements, then show that P(A) has $2^{n}$ elements.</summary>
+  
+$`\begin{flalign}
+\text{Proof.} &&\\
+\quad\text{Suppose } \sqrt{2} \in \mathbb{Q}. &&\\
+\end{flalign}`$
+
+</details>
+
 ## TODO
 
 - 공집합의 필요성. 모든 집합의 부분집합으로서 공집합이 포함되는 이유.
