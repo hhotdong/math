@@ -124,14 +124,14 @@
 
 <details><summary>Quantifier</summary>
   
-  - **Universal quantifier**
-    - A sentence $`\forall x P(x)`$ is true if and only if P(x) is true no matter what value (from the universe of discourse) is substituted for x.
-    - ex. $`\forall x (x2 ≥ 0)`$, i.e., “The square of any number is not negative.”
+ #### Universal quantifier
+  - A sentence $`\forall x P(x)`$ is true if and only if P(x) is true no matter what value (from the universe of discourse) is substituted for x.
+    - ex. $`\forall x (x^2 ≥ 0)`$, i.e., “The square of any number is not negative.”
     - ex. $`\forall x \forall y (x + y = y + x)`$, i.e., the commutative law of addition.
     - ex. $`\forall x \forall y \forall z((x + y) + z = x + (y + z))`$, i.e., the associative law of addition.
     - ex. $`\forall x`$ (x is a square $\Rightarrow$ x is a rectangle), i.e., “All squares are rectangles.”
     - ex. $`\forall x`$ (x lives in Walla Walla $\Rightarrow$ x lives in Washington), i.e., “Every person who lives in
-Walla Walla lives in Washington.”
+  Walla Walla lives in Washington.”
     - ex. “If x is negative, so is its cube", i.e., “Every negative x has a negative cube.”, i.e., $`\forall x ((x < 0) \Rightarrow (x^3 < 0))`$
     - ex. “If two numbers have the same square, then they have the same absolute value”, i.e., $`\forall x \forall y ((x^2 = y^2) \Rightarrow (|x| = |y|))`$.
     - ex. “If x = y, then x + z = y + z”, i.e., $`\forall x \forall y \forall z ((x = y) \Rightarrow (x + z = y + z))`$.
@@ -144,9 +144,9 @@ Walla Walla lives in Washington.”
     - ex. $`\forall x \forall y(P(x) \Rightarrow Q(y)) \neq \forall x(P(x)) \Rightarrow \forall y(Q(y))`$
     - ex. $`\exists x \exists y (P(x) \land Q(y)) \Leftrightarrow to \exists x(P(x)) \land \exists y(Q(y))`$
   
-  - **Existential quantifier**
-    - A sentence $`\exists x P(x)`$ is true if and only if there is at least one value of x (from the universe of discourse) that makes P(x) true.
-    - ex. $`\exists x (x \geq x2)`$ is true since x = 0 is one of many solutions.
+#### Existential quantifier
+  - A sentence $`\exists x P(x)`$ is true if and only if there is at least one value of x (from the universe of discourse) that makes P(x) true.
+    - ex. $`\exists x (x \geq x^2)`$ is true since x = 0 is one of many solutions.
     - ex. $`\exists x \exists y (x^2+y^2 =2xy)`$ is true since x = y = 1 is one of many solutions.
     - ex. $`\exists x (P(x) \land Q(x))`$, i.e., “Some x satisfying P(x) also satisfies Q(x).”
     - ex. “Some x satisfying P(x) satisfies Q(x)” should not be translated as $`\exists x (P(x) \Rightarrow Q(x))`$.[^quantifier_note_3]
@@ -165,6 +165,7 @@ Walla Walla lives in Washington.”
 - Patrick Keef, David Guichard, \<An Introduction to Higher Mathematics\>
 - [수학의 즐거움, \[증명기초 스터디\] 1. 진리표와 명제의 참거짓](https://youtu.be/zbWQTYOHft0?feature=shared)
 - [수학의 즐거움, \[증명기초 스터디\] 2. 어떤 경우가 하나 존재하는 것과 모든 경우에 대한 논리를 구분하는 양화사](https://youtu.be/1MjvdWbkkow?feature=shared)
+- [수학의 즐거움, \[역시 함께읽어야죠 수학책은\] 한정사, 합집합과 교집합, 공허참, 귀납법의 이해](https://youtu.be/EHUspq2TT_A?feature=shared)
 
 [^truth_value_def]: In logic and mathematics, a truth value, sometimes called a logical value, is a value indicating the relation of a proposition to truth, which in classical logic has only two possible values (true or false). - [Wikipedia](https://en.wikipedia.org/wiki/Truth_value)
 [^quantifier_note_0]: For clarity and brevity, this is usually written ∀x ∈ S (P (x)). To understand and manipulate the formula ∀x ∈ S(P(x)) properly, you will sometimes need to “unabbreviate” it, rewriting it as ∀x ((x ∈ S) ⇒ P(x)).
