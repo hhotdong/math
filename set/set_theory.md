@@ -96,6 +96,21 @@ $`\begin{flalign}
 
 </details>
 
+<details><summary>Let A, B, C $\subset$ U. A $\cup$ (B $\cap$ C) = (A $\cup$ B) $\cap$ (A $\cup$ C) </summary>
+
+$`\begin{flalign}
+\text{Need to show. } &&\\
+\quad A \cup (B \cap C) \subset (A \cup B) \cap (A \cup C) \:and\: (A \cup B) \cap (A \cup C) \subset A \cup (B \cap C) &&\\
+\text{Proof.} &&\\
+\quad A \cup (B \cap C) &&\\
+\Leftrightarrow \{ x | x \in A \:or\: (x \in B \:and\: x \in C) \} &&\\
+\Leftrightarrow \{ x | (x \in A \:or\: x \in B) \:and\: (x \in A \:or\: x \in C) \} &&\\
+\Leftrightarrow \{ x | x \in A \cup B \:and\: x \in A \cup C \} &&\\
+\Leftrightarrow (A \cup B) \cap (A \cup C) &&\\
+\end{flalign}`$
+
+</details>
+
 ## TODO
 
 - 공집합의 필요성. 모든 집합의 부분집합으로서 공집합이 포함되는 이유.
@@ -104,4 +119,4 @@ $`\begin{flalign}
 
 - [수학의 즐거움, 기초부터 대학원 수학까지, 1. 집합론 기초 (a)](https://youtu.be/9HUk8zays2E?feature=shared)
 - [수학의 즐거움, \[기초부터 대학원 수학까지 시리즈 스터디 3기\] 첫시간, 집합론 기초 1강](https://youtu.be/PZXafFesmHI?feature=shared)
-- [Wikipedia](https://en.wikipedia.org/wiki/Empty_set)
+- [Wikipedia, "Empty set"](https://en.wikipedia.org/wiki/Empty_set)
