@@ -23,6 +23,7 @@
   
   - $`\emptyset \subseteq A`$ $\Leftrightarrow$ For any set A, the empty set is a subset of A.
     - The only subset of the empty set is the empty set itself.
+    - The power set of the empty set is the set containing only the empty set.
 
 </details>
 
