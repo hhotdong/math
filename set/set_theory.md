@@ -21,7 +21,7 @@
 
   - A set which has no elements, which is written symbolically as "$`\emptyset`$".
   
-  - $`\emptyset \subset A`$ $\Leftrightarrow$ For any set A, the empty set is a subset of A.
+  - $`\emptyset \subseteq A`$ $\Leftrightarrow$ For any set A, the empty set is a subset of A.
     - The only subset of the empty set is the empty set itself.
 
 </details>
@@ -30,7 +30,7 @@
 
   - Given a set A, power set of A is a set which has all subsets of A as element.
 
-  - $`P(A) := \{ B | B \subset A \}`$
+  - $`P(A) := \{ B | B \subseteq A \}`$
     - ex. A = { 1, 2 }. P(A) = { $\emptyset$, { 1 }, { 2 }, { 1, 2 } }
 
 </details>
@@ -92,13 +92,13 @@ $`\begin{flalign}
 
 </details>
 
-<details><summary>Let A, B, C $\subset$ U.</summary>
+<details><summary>Let A, B, C $\subseteq$ U.</summary>
   
 - <details><summary>A $\cap$ (B $\cup$ C) = (A $\cap$ B) $\cup$ (A $\cap$ C)</summary>
 
   $`\begin{flalign}
   \text{Need to show. } &&\\
-  \quad A \cap (B \cup C) \subset (A \cap B) \cup (A \cap C) \:and\: (A \cap B) \cup (A \cap C) \subset A \cap (B \cup C) &&\\
+  \quad A \cap (B \cup C) \subseteq (A \cap B) \cup (A \cap C) \:and\: (A \cap B) \cup (A \cap C) \subseteq A \cap (B \cup C) &&\\
   \text{Proof.} &&\\
   \quad A \cap (B \cup C) &&\\
   \Leftrightarrow \{ x | x \in A \:and\: (x \in B \:or\: x \in C) \} &&\\
@@ -113,7 +113,7 @@ $`\begin{flalign}
 
   $`\begin{flalign}
   \text{Need to show. } &&\\
-  \quad A \cup (B \cap C) \subset (A \cup B) \cap (A \cup C) \:and\: (A \cup B) \cap (A \cup C) \subset A \cup (B \cap C) &&\\
+  \quad A \cup (B \cap C) \subseteq (A \cup B) \cap (A \cup C) \:and\: (A \cup B) \cap (A \cup C) \subseteq A \cup (B \cap C) &&\\
   \text{Proof.} &&\\
   \quad A \cup (B \cap C) &&\\
   \Leftrightarrow \{ x | x \in A \:or\: (x \in B \:and\: x \in C) \} &&\\
@@ -128,7 +128,7 @@ $`\begin{flalign}
 
   $`\begin{flalign}
   \text{Need to show. } &&\\
-  \quad (A \cup B)^{\complement} \subset A^{\complement} \cap B^{\complement} \:and\: A^{\complement} \cap B^{\complement} \subset (A \cup B)^{\complement} &&\\
+  \quad (A \cup B)^{\complement} \subseteq A^{\complement} \cap B^{\complement} \:and\: A^{\complement} \cap B^{\complement} \subseteq (A \cup B)^{\complement} &&\\
   \text{Proof.} &&\\
   \quad (A \cup B)^{\complement} &&\\
   \Leftrightarrow \{ x | x \notin (A \cup B) \} &&\\
@@ -146,7 +146,7 @@ $`\begin{flalign}
 
   $`\begin{flalign}
   \text{Need to show. } &&\\
-  \quad (A \cap B)^{\complement} \subset A^{\complement} \cup B^{\complement} \:and\: A^{\complement} \cup B^{\complement} \subset (A \cap B)^{\complement} &&\\
+  \quad (A \cap B)^{\complement} \subseteq A^{\complement} \cup B^{\complement} \:and\: A^{\complement} \cup B^{\complement} \subseteq (A \cap B)^{\complement} &&\\
   \text{Proof.} &&\\
   \quad (A \cap B)^{\complement} &&\\
   \Leftrightarrow \{ x | x \notin (A \cap B) \} &&\\
