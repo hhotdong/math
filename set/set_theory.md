@@ -1,4 +1,4 @@
-## Definition
+## Definitions
 
 <details><summary>Set</summary>
 
@@ -79,7 +79,7 @@ A = B &&\\
 
 </details>
 
-## Exercise
+## Exercises
 
 <details><summary>Show that $\sqrt{2}(x^2 = 2, x > 0)$ is not the rational number.</summary>
   
@@ -188,7 +188,7 @@ $`\begin{flalign}
 
 - 공집합의 필요성. 모든 집합의 부분집합으로서 공집합이 포함되는 이유.
 
-### Reference
+### References
 
 - [수학의 즐거움, 기초부터 대학원 수학까지, 1. 집합론 기초 (a)](https://youtu.be/9HUk8zays2E?feature=shared)
 - [수학의 즐거움, \[기초부터 대학원 수학까지 시리즈 스터디 3기\] 첫시간, 집합론 기초 1강](https://youtu.be/PZXafFesmHI?feature=shared)
