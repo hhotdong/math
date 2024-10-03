@@ -66,11 +66,10 @@ A = B &&\\
 ## Exercise
 
 <details><summary>Show that $\sqrt{2}(x^2 = 2, x > 0)$ is not the rational number.</summary>
-</br>
   
 $`\begin{flalign}
 \text{Proof.} &&\\
-\text{Suppose } \sqrt{2} \in \mathbb{Q}. &&\\
+\quad\text{Suppose } \sqrt{2} \in \mathbb{Q}. &&\\
 \Leftrightarrow \sqrt{2} = \frac{q}{p}(p \neq 0 \in \mathbb{N},q \in \mathbb{N}, p \perp q) &&\\
 \Leftrightarrow 2 = (\frac{q}{p})^2 &&\\
 \Leftrightarrow 2p^2 = q^2 &&\\
@@ -83,19 +82,16 @@ $`\begin{flalign}
 </details>
 
 <details><summary>Let A, B, C $\subset$ U. A $\cap$ (B $\cup$ C) = (A $\cap$ B) $\cup$ (A $\cap$ C) </summary>
-</br>
 
 $`\begin{flalign}
-\text{Need to show. } 
+\text{Need to show. } &&\\
+\quad A \cap (B \cup C) \subset (A \cap B) \cup (A \cap C) \:and\: (A \cap B) \cup (A \cap C) \subset A \cap (B \cup C) &&\\
 \text{Proof.} &&\\
-\text{Suppose } \sqrt{2} \in \mathbb{Q}. &&\\
-\Leftrightarrow \sqrt{2} = \frac{q}{p}(p \neq 0 \in \mathbb{N},q \in \mathbb{N}, p \perp q) &&\\
-\Leftrightarrow 2 = (\frac{q}{p})^2 &&\\
-\Leftrightarrow 2p^2 = q^2 &&\\
-\Leftrightarrow q = 2k(k \in \mathbb{N}) &&\\
-\Leftrightarrow p^2 = 2k^2 &&\\
-\Leftrightarrow q = 2k^{\prime}(k^{\prime} \in \mathbb{N}) \text{ Contradiction! a and b are coprime by the assumption.} &&\\
-\therefore \sqrt{2} \notin \mathbb{Q} &&\\
+\quad A \cap (B \cup C) &&\\
+\Leftrightarrow \{ x | x \in A \:and\: (x \in B \:or\: x \in C) \} &&\\
+\Leftrightarrow \{ x | (x \in A \:and\: x \in B) \:or\: (x \in A \:and\: x \in C) \} &&\\
+\Leftrightarrow \{ x | x \in A \cap B \:or\: x \in A \cap C \} &&\\
+\Leftrightarrow (A \cap B) \cup (A \cap C) &&\\
 \end{flalign}`$
 
 </details>
