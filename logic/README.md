@@ -160,10 +160,11 @@ Walla Walla lives in Washington.”
 
 </details>
 
-### Reference
+### References
 
 - Patrick Keef, David Guichard, \<An Introduction to Higher Mathematics\>
-- [수학의 즐거움](https://www.youtube.com/@enjoyingmath9346/featured)
+- [수학의 즐거움, \[증명기초 스터디\] 1. 진리표와 명제의 참거짓](https://youtu.be/zbWQTYOHft0?feature=shared)
+- [수학의 즐거움, \[증명기초 스터디\] 2. 어떤 경우가 하나 존재하는 것과 모든 경우에 대한 논리를 구분하는 양화사](https://youtu.be/1MjvdWbkkow?feature=shared)
 
 [^truth_value_def]: In logic and mathematics, a truth value, sometimes called a logical value, is a value indicating the relation of a proposition to truth, which in classical logic has only two possible values (true or false). - [Wikipedia](https://en.wikipedia.org/wiki/Truth_value)
 [^quantifier_note_0]: For clarity and brevity, this is usually written ∀x ∈ S (P (x)). To understand and manipulate the formula ∀x ∈ S(P(x)) properly, you will sometimes need to “unabbreviate” it, rewriting it as ∀x ((x ∈ S) ⇒ P(x)).
