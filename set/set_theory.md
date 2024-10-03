@@ -171,7 +171,15 @@ $`\begin{flalign}
   
 $`\begin{flalign}
 \text{Proof.} &&\\
-\quad\text{Suppose } \sqrt{2} \in \mathbb{Q}. &&\\
+\quad Let\: Q_{x} \:be\: \forall x \in Z, x \geq 0(n(A) = x \Rightarrow n(P(A)) = 2^{x}). &&\\
+\quad Let A_{k+1} = \{ a_{1}, a_{2}, \dots , a_{k+1} \} \: (k \in \mathbb{Z}, \: k + 1 \geq 0), A_{0} = \emptyset. &&\\
+\quad \text{Let } \otimes \text{ an operation which is defined as } \{ A^{\prime} \cup B^{\prime} | A^{\prime} \subset A \;and\; B^{\prime} \subset B \} \text{, so that } n(A \otimes B) = n(A \times B) = n(A) \times n(B). &&\\
+\quad A_{0} \text{has 0 element so that } P(A) = \{ \emptyset \}. \; \therefore \, Q_{0} \text{ is true} &&\\
+\quad \text{If we assume that } Q_{k} \text{ is true, } P(A_{k+1}) = P(A_{k}) \otimes P(\{ a_{k+1} \}). &&\\
+\quad n(P(A_{k+1})) &&\\
+= n(P(A_{k}) \otimes P(\{ a_{k+1} \})) &&\\
+= n(P(A_{k})) \times n(P(\{ a_{k+1} \})) &&\\
+= 2^{k} \times 2 = 2^{k+1} \; \therefore \, Q_{k+1} \text{ is true.} &&\\
 \end{flalign}`$
 
 </details>
