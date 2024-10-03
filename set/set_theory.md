@@ -1,11 +1,63 @@
-## Definitions
+## Definition
 
 <details><summary>Set</summary>
 
-  - A collection of definable objects, i.e., it should be possible to tell clearly whether a certain object is contained in the set or not.
-    - ex. Given a set A = { 1, 2 }. 1 $\in$ A, 3 $\notin$ A.
+  - A collection of definable objects, i.e., it should be possible to tell clearly whether a certain object is in the set or not.
+  - Element is an object which is in the set.
+    - ex. A = { 1, 2 }. 1 $\in$ A, 3 $\notin$ A.
     - ex. B = { x | P(x) }
-    - ex. Given a set C = { 1, 2 }. Power set of C is P(C) = { $\emptyset$, { 1 }, { 2 }, { 1, 2 } }
+
+</details>
+
+<details><summary>Empty set</summary>
+
+  - A set which has no elements, which is written symbolically as "$`\emptyset`$".
+
+</details>
+
+<details><summary>Subset</summary>
+
+  - Given two sets A, B, if all elements of A are also in B, we can say "A is subset of B", which is written symbolically as "$`A \subseteq B`$".
+    - ex. A = { a, b }, B = { a, b, c }. $`A \subset B`$
+  - 
+
+</details>
+
+<details><summary>Power set</summary>
+
+  - 
+
+  - ex. Given a set C = { 1, 2 }. Power set of C is P(C) = { $\emptyset$, { 1 }, { 2 }, { 1, 2 } }
+
+</details>
+
+<details><summary>Union</summary>
+
+  - $`\text{Let A, B $\subseteq$ U.} A \cup B := \{ x | x \in A \,or\, x \in B \}`$
+
+</details>
+
+<details><summary>Intersection</summary>
+
+  - $`\text{Let A, B $\subseteq$ U.} A \cap B := \{ x | x \in A \,and\, x \in B \}`$
+
+</details>
+
+<details><summary>Complement</summary>
+
+  - $`A^{\complement} := \{ x | x \notin A \}`$
+
+</details>
+
+<details><summary>Equality</summary>
+</br>
+  
+$`\begin{flalign}
+\text{Let A, B $\subseteq$ U.} &&\\
+A = B &&\\
+\Leftrightarrow A \subseteq B \,and\, B \subseteq A &&\\
+\Leftrightarrow \text{If} x \in A, \,\text{then}\, x \in B \,and\, \text{if} y \in B, \,\text{then}\, y \in A.
+\end{flalign}`$
 
 </details>
 
@@ -31,6 +83,7 @@ $`\begin{flalign}
 
 - 공집합의 필요성. 모든 집합의 부분집합으로서 공집합이 포함되는 이유.
 
-### References
+### Reference
 
-- [수학의 즐거움, <기초부터 대학원 수학까지, 1. 집합론 기초 (a)>](https://youtu.be/9HUk8zays2E?feature=shared)
+- [수학의 즐거움, 기초부터 대학원 수학까지, 1. 집합론 기초 (a)](https://youtu.be/9HUk8zays2E?feature=shared)
+- [수학의 즐거움, \[기초부터 대학원 수학까지 시리즈 스터디 3기\] 첫시간, 집합론 기초 1강](https://youtu.be/PZXafFesmHI?feature=shared)
