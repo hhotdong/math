@@ -140,7 +140,7 @@
     - ex. $`\forall x < 0(|x| = −x)`$, i.e., $`\forall x(x < 0 \Rightarrow |x| = −x)`$.
     - ex. $`\forall x (P(x) \Rightarrow Q(x))`$, i.e., "All x satisfying P(x) also satisfy Q(x)."
     - ex. $`\forall x P(x) \Rightarrow Q(x)`$, i.e., "If P(x) is true for all x, Q(x) is true."[^quantifier_note_1]
-    - ex. $`\forall x (P(x) \Rightarrow Q(x)) \neq \forall x P(x) \Rightarrow \forall x Q(x)`$.[^quantifier_note_2]
+    - ex. $`\forall x (P(x) \Rightarrow Q(x)) \neq \forall x P(x) \Rightarrow \forall x Q(x)`$.
     - ex. $`\forall x \forall y(P(x) \Rightarrow Q(y)) \neq \forall x(P(x)) \Rightarrow \forall y(Q(y))`$
   
 #### Existential quantifier
@@ -148,15 +148,15 @@
     - ex. $`\exists x (x \geq x^2)`$ is true since x = 0 is one of many solutions.
     - ex. $`\exists x \exists y (x^2+y^2 =2xy)`$ is true since x = y = 1 is one of many solutions.
     - ex. $`\exists x (P(x) \land Q(x))`$, i.e., “Some x satisfying P(x) also satisfies Q(x).”
-    - ex. “Some x satisfying P(x) satisfies Q(x)” should not be translated as $`\exists x (P(x) \Rightarrow Q(x))`$.[^quantifier_note_3]
-    - ex. “No democrats are republicans,”, i.e., $`\forall x`$(x is a democrat $\Rightarrow$ x is not a republican).[^quantifier_note_4]
+    - ex. “Some x satisfying P(x) satisfies Q(x)” should not be translated as $`\exists x (P(x) \Rightarrow Q(x))`$.[^quantifier_note_2]
+    - ex. “No democrats are republicans,”, i.e., $`\forall x`$(x is a democrat $\Rightarrow$ x is not a republican).[^quantifier_note_3]
     - ex. “No triangles are rectangles,”, i.e., $`\forall x`$(x is a triangle $\Rightarrow$ x is not a rectangle).
     - ex. $`\exists x < 0(x^2 = 1)`$, i.e., $`\exists x ((x < 0) ∧ (x^2 = 1))`$
     - ex. $`\exists x \in [0,1](2x^2 + x = 1)`$, i.e., $`$\exists x((x \in [0,1]) ∧ (2x^2 + x = 1))`$
     - ex. $`\exists x \exists y (P(x) \land Q(y)) \Leftrightarrow \exists x(P(x)) \land \exists y(Q(y))`$
    
   - The order by which the quantifiers are arranged is important.
-    - For x, y $\in\mathbb{R}$, $`\forall x, \exists y, x + y = 0 \neq \exists y, \forall x, x + y = 0`$.[^quantifier_note_5]
+    - For x, y $\in\mathbb{R}$, $`\forall x, \exists y, x + y = 0 \neq \exists y, \forall x, x + y = 0`$.[^quantifier_note_4]
 
 </details>
 
@@ -169,9 +169,8 @@
 
 [^truth_value_def]: In logic and mathematics, a truth value, sometimes called a logical value, is a value indicating the relation of a proposition to truth, which in classical logic has only two possible values (true or false). - [Wikipedia](https://en.wikipedia.org/wiki/Truth_value)
 [^quantifier_note_0]: For clarity and brevity, this is usually written ∀x ∈ S (P (x)). To understand and manipulate the formula ∀x ∈ S(P(x)) properly, you will sometimes need to “unabbreviate” it, rewriting it as ∀x ((x ∈ S) ⇒ P(x)).
-[^quantifier_note_1]: The x in P(x) is bound by the universal quantifier, but the x in Q(x) is not. The formula (∀xP(x)) ⇒ Q(x) has the same meaning as (∀xP(x)) ⇒ Q(y), and its truth depends on the value assigned to the variable in Q(·). Q(·) is not proposition until the variable is bound or assigned.
-[^quantifier_note_2]: (∀xP(x)) ⇒ Q(x) might also be written as ∀x P(x) ⇒ Q(x), which is to say that the universal quantifier has higher precedence than the conditional.
-[^quantifier_note_3]: Suppose P(x) = “x is an apple” and Q(x) = “x is an orange.” The sentence “some apples are oranges” is certainly false, but
+[^quantifier_note_1]: (∀xP(x)) ⇒ Q(x) might also be written as ∀x P(x) ⇒ Q(x), which is to say that the universal quantifier has higher precedence than the conditional. The x in P(x) is bound by the universal quantifier, but the x in Q(x) is not. The formula (∀xP(x)) ⇒ Q(x) has the same meaning as (∀xP(x)) ⇒ Q(y), and its truth depends on the value assigned to the variable in Q(·). Q(·) is not proposition until the variable is bound or assigned.
+[^quantifier_note_2]: Suppose P(x) = “x is an apple” and Q(x) = “x is an orange.” The sentence “some apples are oranges” is certainly false, but
 ∃x(P(x) ⇒ Q(x)) is true. To see this suppose x0 is some particular orange. Then P(x0) ⇒ Q(x0) evaluates to F ⇒ T, which is T, and the existential quantifier is satisfied.
-[^quantifier_note_4]: In general, the statement “no x satisfying P(x) satisfies Q(x)” can be written ∀x (P(x) ⇒ ¬Q(x)). It is also equivalent to ¬∃x(P(x) ∧ Q(x)).
-[^quantifier_note_5]: ∀x,∃y(x + y = 0) ⟺ ∀x(∃y(x + y = 0)) ⟺ "For all x, there exists y which satisfies x + y = 0". ∃y∀x(x + y = 0) ⟺ ∃y(∀x(x + y = 0)) ⟺ "There exists y which satisfies that for all x, x + y = 0".
+[^quantifier_note_3]: In general, the statement “no x satisfying P(x) satisfies Q(x)” can be written ∀x (P(x) ⇒ ¬Q(x)). It is also equivalent to ¬∃x(P(x) ∧ Q(x)).
+[^quantifier_note_4]: ∀x,∃y(x + y = 0) ⟺ ∀x(∃y(x + y = 0)) ⟺ "For all x, there exists y which satisfies x + y = 0". ∃y∀x(x + y = 0) ⟺ ∃y(∀x(x + y = 0)) ⟺ "There exists y which satisfies that for all x, x + y = 0".
