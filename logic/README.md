@@ -142,7 +142,6 @@
     - ex. $`\forall x P(x) \Rightarrow Q(x)`$, i.e., "If P(x) is true for all x, Q(x) is true."[^quantifier_note_1]
     - ex. $`\forall x (P(x) \Rightarrow Q(x)) \neq \forall x P(x) \Rightarrow \forall x Q(x)`$.[^quantifier_note_2]
     - ex. $`\forall x \forall y(P(x) \Rightarrow Q(y)) \neq \forall x(P(x)) \Rightarrow \forall y(Q(y))`$
-    - ex. $`\exists x \exists y (P(x) \land Q(y)) \Leftrightarrow to \exists x(P(x)) \land \exists y(Q(y))`$
   
 #### Existential quantifier
   - A sentence $`\exists x P(x)`$ is true if and only if there is at least one value of x (from the universe of discourse) that makes P(x) true.
@@ -154,6 +153,7 @@
     - ex. “No triangles are rectangles,”, i.e., $`\forall x`$(x is a triangle $\Rightarrow$ x is not a rectangle).
     - ex. $`\exists x < 0(x^2 = 1)`$, i.e., $`\exists x ((x < 0) ∧ (x^2 = 1))`$
     - ex. $`\exists x \in [0,1](2x^2 + x = 1)`$, i.e., $`$\exists x((x \in [0,1]) ∧ (2x^2 + x = 1))`$
+    - ex. $`\exists x \exists y (P(x) \land Q(y)) \Leftrightarrow \exists x(P(x)) \land \exists y(Q(y))`$
    
   - The order by which the quantifiers are arranged is important.
     - For x, y $\in\mathbb{R}$, $`\forall x, \exists y, x + y = 0 \neq \exists y, \forall x, x + y = 0`$.[^quantifier_note_5]
