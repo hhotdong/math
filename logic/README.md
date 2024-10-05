@@ -177,7 +177,7 @@
 
 - $`\forall x P(x) \Leftrightarrow \displaystyle\bigwedge_{x\in U} P(x)`$[^de_morgan_note_1]
 
-- $`\exists x P(x) \Leftrightarrow \displaystyle\bigvee_{x\in U} P(x)`$
+- $`\exists x P(x) \Leftrightarrow \displaystyle\bigvee_{x\in U} P(x)`$[^de_morgan_note_1]
 
 - $`\neg \displaystyle\bigwedge_{x\in U} P(x) \,\Leftrightarrow\, \displaystyle\bigvee_{x\in U} \neg P(x)`$
 
