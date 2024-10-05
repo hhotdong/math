@@ -20,7 +20,7 @@
 
 <details><summary>Negation</summary>
 
-  - If P is a formula, then “not P” is another formula, which we write symbolically as $\neg$ P.
+  - If P is a formula, then “not P” i.e., "denial of P" is another formula, which we write symbolically as $\neg$ P.
 
 | P   | $\neg$ P |
 | :-: | :-:      |
@@ -160,6 +160,29 @@
 
 </details>
 
+<details><summary>De Morgan's Laws</summary>
+
+- $`\neg(P \lor Q) \Leftrightarrow (\neg P \land \neg Q)`$
+
+- $`\neg(P \land Q) \Leftrightarrow (\neg P \lor \neg Q)`$
+
+- We can also use De Morgan’s laws to simplify the denial of P $\Rightarrow$ Q:
+
+  - $\neg(P \Rightarrow Q)$ </br>
+    $\Leftrightarrow \neg(\neg P \lor Q)$ </br>
+    $\Leftrightarrow (\neg \neg P ) \land (\neg Q)$ </br>
+    $\Leftrightarrow P \land \neg Q$
+
+- $\neg \forall xP(x) \Leftrightarrow \exists x\neg P(x)$
+
+- $\neg\exists xP(x) \Leftrightarrow \forall x\neg P(x)$
+
+- $\forall x P(x) \Leftrightarrow \displaystyle\bigwedge_{x\in U} P(x)[^de_morgan_note_0]
+
+- \exists x P(x) \Leftrightarrow \displaystyle\bigvee_{x\in U} P(x)$
+
+</details>
+
 ### References
 
 - Patrick Keef, David Guichard, \<An Introduction to Higher Mathematics\>
@@ -174,3 +197,4 @@
 ∃x(P(x) ⇒ Q(x)) is true. To see this suppose x0 is some particular orange. Then P(x0) ⇒ Q(x0) evaluates to F ⇒ T, which is T, and the existential quantifier is satisfied.
 [^quantifier_note_3]: In general, the statement “no x satisfying P(x) satisfies Q(x)” can be written ∀x (P(x) ⇒ ¬Q(x)). It is also equivalent to ¬∃x(P(x) ∧ Q(x)).
 [^quantifier_note_4]: ∀x,∃y(x + y = 0) ⟺ ∀x(∃y(x + y = 0)) ⟺ "For all x, there exists y which satisfies x + y = 0". ∃y∀x(x + y = 0) ⟺ ∃y(∀x(x + y = 0)) ⟺ "There exists y which satisfies that for all x, x + y = 0".
+[^de_morgan_note_0]: This is not really a “statement” in our official mathematical logic, because we don’t allow infinitely long formulas.
