@@ -159,7 +159,9 @@
   #### Mixed quantifiers
   - The order of the quantifiers is extremely important.
     - ex. For x, y $\in\mathbb{R}$, $`\forall x, \exists y, x + y = 0 \neq \exists y, \forall x, x + y = 0`$.[^quantifier_note_4]
-    - $`\exists x \forall y(x + y = y), \quad\forall y \exists x(x + y = 0).`$[^quantifier_note_5]
+    - ex. $`\exists x \forall y(x + y = y), \quad\forall y \exists x(x + y = 0).`$[^quantifier_note_5]
+    - ex. $`\forall x \exists y(y^3 = x), \quad\exists y \forall x (xy^3 = −x).`$[^quantifier_note_6]
+    - ex. $`\forall x \exists y(x < y), \exists y \forall x(x < y).`$[^quantifier_note_7]
 
 </details>
 
@@ -234,6 +236,8 @@
 [^quantifier_note_3]: In general, the statement “no x satisfying P(x) satisfies Q(x)” can be written ∀x (P(x) ⇒ ¬Q(x)). It is also equivalent to ¬∃x(P(x) ∧ Q(x)).
 [^quantifier_note_4]: ∀x,∃y(x + y = 0) ⟺ ∀x(∃y(x + y = 0)) ⟺ "For all x, there exists y which satisfies x + y = 0". ∃y∀x(x + y = 0) ⟺ ∃y(∀x(x + y = 0)) ⟺ "There exists y which satisfies that for all x, x + y = 0".
 [^quantifier_note_5]: In the first we require that x be a fixed value that satisfies the equation regardless of the value of y; clearly x = 0 will do. In the second formula, however, x depends on y; if y = 3, x = −3, if y = 0, x = 0.
+[^quantifier_note_6]: The first is valid because given any x we can set y equal to the cube root of x. So as x varies, y also varies, that is, y depends upon x. The second is valid because there is a single fixed value y = −1 which makes the equation xy^3 = −x valid, regardless of the value of x.
+[^quantifier_note_7]: The first sentence is true and states that given any number there is a strictly larger number, that is, there is no largest number. The second sentence is false; it says that there is a single number that is strictly larger than all real numbers.
 [^de_morgan_note_0]: This might be called the opposite of the original sentence—it says more than simply “ ‘All people are tall’ is untrue.” The correct denial of this sentence is “there is someone who is not tall,” which is a considerably weaker statement.
 [^de_morgan_note_1]: We can use De Morgan’s laws to simplify the denial of a formula. Denials can also be a helpful study device. When you read a theorem or a definition in mathematics it is frequently helpful to form the denial of that sentence to see what it means for the condition to fail. The more ways you think about a concept in mathematics, the clearer it should become.
 [^de_morgan_note_2]: This is not really a “statement” in our official mathematical logic, because we don’t allow infinitely long formulas.
