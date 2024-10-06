@@ -159,9 +159,10 @@
   #### Mixed quantifiers
   - The order of the quantifiers is extremely important.
     - ex. For x, y $\in\mathbb{R}$, $`\forall x, \exists y, x + y = 0 \neq \exists y, \forall x, x + y = 0`$.[^quantifier_note_4]
-    - ex. $`\exists x \forall y(x + y = y), \quad\forall y \exists x(x + y = 0).`$[^quantifier_note_5]
-    - ex. $`\forall x \exists y(y^3 = x), \quad\exists y \forall x (xy^3 = −x).`$[^quantifier_note_6]
-    - ex. $`\forall x \exists y(x < y), \quad\exists y \forall x(x < y).`$[^quantifier_note_7]
+    - ex. $`\exists x \forall y(x + y = y), \quad\forall y \exists x(x + y = 0)`$[^quantifier_note_5]
+    - ex. $`\forall x \exists y(y^3 = x), \quad\exists y \forall x (xy^3 = −x)`$[^quantifier_note_6]
+    - ex. $`\forall x \exists y(x < y), \quad\exists y \forall x(x < y)`$[^quantifier_note_7]
+    - ex. $`\forall x \forall y \exists z ((x < y) \Rightarrow (x < z < y))`$[^quantifier_note_8]
 
 </details>
 
@@ -238,6 +239,7 @@
 [^quantifier_note_5]: In the first we require that x be a fixed value that satisfies the equation regardless of the value of y; clearly x = 0 will do. In the second formula, however, x depends on y; if y = 3, x = −3, if y = 0, x = 0.
 [^quantifier_note_6]: The first is valid because given any x we can set y equal to the cube root of x. So as x varies, y also varies, that is, y depends upon x. The second is valid because there is a single fixed value y = −1 which makes the equation xy^3 = −x valid, regardless of the value of x.
 [^quantifier_note_7]: The first sentence is true and states that given any number there is a strictly larger number, that is, there is no largest number. The second sentence is false; it says that there is a single number that is strictly larger than all real numbers. In general, if you compare ∃y∀xP(x,y) with ∀x∃yP(x,y) it is clear that the first statement implies the second. If there is a fixed value y0 which makes P(x,y) true for all x, then no matter what x we are given, we can find a y (the fixed value y0) which makes P(x,y) true. So the first is a stronger statement. As in this example, it is usually the case that this implication cannot be reversed.
+[^quantifier_note_8]: Observe that z depends in an essential way on both variables “to its left,” namely, x and y. The sentence is true if U = ℝ, but neither of these is true for ℝ: ∀x∃z∀y((x < y) ⇒ (x < z < y)), ∃z ∀x ∀y ((x < y) ⇒ (x < z < y)).
 [^de_morgan_note_0]: This might be called the opposite of the original sentence—it says more than simply “ ‘All people are tall’ is untrue.” The correct denial of this sentence is “there is someone who is not tall,” which is a considerably weaker statement.
 [^de_morgan_note_1]: We can use De Morgan’s laws to simplify the denial of a formula. Denials can also be a helpful study device. When you read a theorem or a definition in mathematics it is frequently helpful to form the denial of that sentence to see what it means for the condition to fail. The more ways you think about a concept in mathematics, the clearer it should become.
 [^de_morgan_note_2]: This is not really a “statement” in our official mathematical logic, because we don’t allow infinitely long formulas.
