@@ -154,10 +154,11 @@
     - ex. “No triangles are rectangles,”, i.e., $`\forall x`$(x is a triangle $\Rightarrow$ x is not a rectangle).
     - ex. $`\exists x < 0(x^2 = 1)`$, i.e., $`\exists x ((x < 0) ∧ (x^2 = 1))`$
     - ex. $`\exists x \in [0,1](2x^2 + x = 1)`$, i.e., $`$\exists x((x \in [0,1]) ∧ (2x^2 + x = 1))`$
-    - ex. $`\exists x \exists y (P(x) \land Q(y)) \Leftrightarrow \exists x(P(x)) \land \exists y(Q(y))`$
-   
-  - The order by which the quantifiers are arranged is important.
-    - For x, y $\in\mathbb{R}$, $`\forall x, \exists y, x + y = 0 \neq \exists y, \forall x, x + y = 0`$.[^quantifier_note_4]
+    - ex. $`\exists x \exists y (P(x) \land Q(y)) \Leftrightarrow \exists x(P(x)) \land \exists y(Q(y))`$ 
+
+#### Mixed quantifiers
+  - The order of the quantifiers is extremely important.
+    - ex. For x, y $\in\mathbb{R}$, $`\forall x, \exists y, x + y = 0 \neq \exists y, \forall x, x + y = 0`$.[^quantifier_note_4]
 
 </details>
 
@@ -175,20 +176,20 @@
 
   - ex. A denial of “For every x, $x^2$ is positive” is “There is an x such that $x^2$ fails to be positive.”
   - ex. A denial of “There is an x such that $x^2$ = −1” is “For every x, $x^2 \neq −1$.”
-  - ex. A denial of “All people are tall” is **not** "No people are tall."[^de_morgan_note_2]
+  - ex. A denial of “All people are tall” is **not** "No people are tall."[^de_morgan_note_0]
   - ex. $`\neg\forall x (P(x) \Rightarrow Q(x)) \Leftrightarrow \exists x (P(x) \land \neg Q(x))`$
   - ex. $`\neg\exists x (P(x) \land Q(x)) \Leftrightarrow \forall x (P(x) \Rightarrow \neg Q(x))`$
   - ex. $`\neg(P \Rightarrow Q)`$ </br>
         $`\quad\Leftrightarrow \neg(\neg P \lor Q)`$ </br>
         $`\quad\Leftrightarrow (\neg \neg P ) \land (\neg Q)`$ </br>
-        $`\quad\Leftrightarrow P \land \neg Q`$[^de_morgan_note_0]
+        $`\quad\Leftrightarrow P \land \neg Q`$[^de_morgan_note_1]
   - ex. $`\neg\forall x (P(x) \lor \neg Q(x))`$ </br>
         $`\quad\Leftrightarrow \exists x \neg(P(x) \lor \neg Q(x))`$ </br>
         $`\quad\Leftrightarrow \exists x (\neg P(x) \land \neg\neg Q(x))`$ </br>
-        $`\quad\Leftrightarrow \exists x (\neg P(x) \land Q(x))`$[^de_morgan_note_0]
-  - ex. $`\forall x P(x) \Leftrightarrow \displaystyle\bigwedge_{x\in U} P(x)`$[^de_morgan_note_1]
+        $`\quad\Leftrightarrow \exists x (\neg P(x) \land Q(x))`$[^de_morgan_note_1]
+  - ex. $`\forall x P(x) \Leftrightarrow \displaystyle\bigwedge_{x\in U} P(x)`$[^de_morgan_note_2]
 
-  - ex. $`\exists x P(x) \Leftrightarrow \displaystyle\bigvee_{x\in U} P(x)`$[^de_morgan_note_1]
+  - ex. $`\exists x P(x) \Leftrightarrow \displaystyle\bigvee_{x\in U} P(x)`$[^de_morgan_note_2]
 
   - ex. $`\neg \displaystyle\bigwedge_{x\in U} P(x) \,\Leftrightarrow\, \displaystyle\bigvee_{x\in U} \neg P(x)`$
 
@@ -231,6 +232,6 @@
 ∃x(P(x) ⇒ Q(x)) is true. To see this suppose x0 is some particular orange. Then P(x0) ⇒ Q(x0) evaluates to F ⇒ T, which is T, and the existential quantifier is satisfied.
 [^quantifier_note_3]: In general, the statement “no x satisfying P(x) satisfies Q(x)” can be written ∀x (P(x) ⇒ ¬Q(x)). It is also equivalent to ¬∃x(P(x) ∧ Q(x)).
 [^quantifier_note_4]: ∀x,∃y(x + y = 0) ⟺ ∀x(∃y(x + y = 0)) ⟺ "For all x, there exists y which satisfies x + y = 0". ∃y∀x(x + y = 0) ⟺ ∃y(∀x(x + y = 0)) ⟺ "There exists y which satisfies that for all x, x + y = 0".
-[^de_morgan_note_0]: We can use De Morgan’s laws to simplify the denial of a formula. Denials can also be a helpful study device. When you read a theorem or a definition in mathematics it is frequently helpful to form the denial of that sentence to see what it means for the condition to fail. The more ways you think about a concept in mathematics, the clearer it should become.
-[^de_morgan_note_1]: This is not really a “statement” in our official mathematical logic, because we don’t allow infinitely long formulas.
-[^de_morgan_note_2]: This might be called the opposite of the original sentence—it says more than simply “ ‘All people are tall’ is untrue.” The correct denial of this sentence is “there is someone who is not tall,” which is a considerably weaker statement.
+[^de_morgan_note_0]: This might be called the opposite of the original sentence—it says more than simply “ ‘All people are tall’ is untrue.” The correct denial of this sentence is “there is someone who is not tall,” which is a considerably weaker statement.
+[^de_morgan_note_1]: We can use De Morgan’s laws to simplify the denial of a formula. Denials can also be a helpful study device. When you read a theorem or a definition in mathematics it is frequently helpful to form the denial of that sentence to see what it means for the condition to fail. The more ways you think about a concept in mathematics, the clearer it should become.
+[^de_morgan_note_2]: This is not really a “statement” in our official mathematical logic, because we don’t allow infinitely long formulas.
