@@ -196,15 +196,23 @@
 
 ## Exercises
 
-- <details><summary>Observe that $P \lor Q \Leftrightarrow \neg\neg(P \lor Q) \Leftrightarrow \neg(\neg P \land \neg Q)$.</summary>
+- <details><summary>Observe that $P \lor Q \Leftrightarrow \neg\neg(P \lor Q) \Leftrightarrow \neg(\neg P \land \neg Q)$, so $\lor$ can be expressed in terms of $\land$ and $\neg$.</summary>
 
-  So $\lor$ can be expressed in terms of $\land$ and $\neg$.
-
-  - a) Show how to express $\Rightarrow$ in terms of $\land$ and $\neg$.
+  - a) Show how to express $\Rightarrow$ in terms of $\land$ and $\neg$. </br>
+    $`\quad\; P \Rightarrow Q`$ </br>
+    $`\Leftrightarrow \neg\neg(P \Rightarrow Q)`$ </br>
+    $`\Leftrightarrow \neg\neg(\neg P \lor Q)`$ </br>
+    $`\Leftrightarrow \neg(P \land \neg Q)`$ </br>
     
-  - b) Show how to express $\land$ in terms of $\neg$ and $\lor$.
+  - b) Show how to express $\land$ in terms of $\neg$ and $\lor$. </br>
+    $`\quad\; P \land Q`$ </br>
+    $`\Leftrightarrow \neg\neg(P \land Q)`$ </br>
+    $`\Leftrightarrow \neg(\neg P \lor \neg Q)`$ </br>
     
-  - c) Show how to express $\lor$ in terms of $\neg$ and $\Rightarrow$.
+  - c) Show how to express $\lor$ in terms of $\neg$ and $\Rightarrow$. </br>
+    $`\quad\; P \lor Q`$ </br>
+    $`\Leftrightarrow (\neg\neg P \lor Q)`$ </br>
+    $`\Leftrightarrow (\neg P \Rightarrow Q)`$ </br>
 
 
 </details>
