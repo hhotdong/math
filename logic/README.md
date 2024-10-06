@@ -161,7 +161,7 @@
     - ex. For x, y $\in\mathbb{R}$, $`\forall x, \exists y, x + y = 0 \neq \exists y, \forall x, x + y = 0`$.[^quantifier_note_4]
     - ex. $`\exists x \forall y(x + y = y), \quad\forall y \exists x(x + y = 0).`$[^quantifier_note_5]
     - ex. $`\forall x \exists y(y^3 = x), \quad\exists y \forall x (xy^3 = −x).`$[^quantifier_note_6]
-    - ex. $`\forall x \exists y(x < y), \exists y \forall x(x < y).`$[^quantifier_note_7]
+    - ex. $`\forall x \exists y(x < y), \quad\exists y \forall x(x < y).`$[^quantifier_note_7]
 
 </details>
 
