@@ -207,6 +207,6 @@
 ∃x(P(x) ⇒ Q(x)) is true. To see this suppose x0 is some particular orange. Then P(x0) ⇒ Q(x0) evaluates to F ⇒ T, which is T, and the existential quantifier is satisfied.
 [^quantifier_note_3]: In general, the statement “no x satisfying P(x) satisfies Q(x)” can be written ∀x (P(x) ⇒ ¬Q(x)). It is also equivalent to ¬∃x(P(x) ∧ Q(x)).
 [^quantifier_note_4]: ∀x,∃y(x + y = 0) ⟺ ∀x(∃y(x + y = 0)) ⟺ "For all x, there exists y which satisfies x + y = 0". ∃y∀x(x + y = 0) ⟺ ∃y(∀x(x + y = 0)) ⟺ "There exists y which satisfies that for all x, x + y = 0".
-[^de_morgan_note_0]: We can use De Morgan’s laws to simplify the denial of a formula.
+[^de_morgan_note_0]: We can use De Morgan’s laws to simplify the denial of a formula. Denials can also be a helpful study device. When you read a theorem or a definition in mathematics it is frequently helpful to form the denial of that sentence to see what it means for the condition to fail. The more ways you think about a concept in mathematics, the clearer it should become.
 [^de_morgan_note_1]: This is not really a “statement” in our official mathematical logic, because we don’t allow infinitely long formulas.
 [^de_morgan_note_2]: This might be called the opposite of the original sentence—it says more than simply “ ‘All people are tall’ is untrue.” The correct denial of this sentence is “there is someone who is not tall,” which is a considerably weaker statement.
