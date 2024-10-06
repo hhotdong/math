@@ -194,6 +194,21 @@
 
 </details>
 
+## Exercises
+
+- <details><summary>Observe that $P \lor Q \Leftrightarrow \neg\neg(P \lor Q) \Leftrightarrow \neg(\neg P \land \neg Q)$.</summary>
+
+  So $\lor$ can be expressed in terms of $\land$ and $\neg$.
+
+  - a) Show how to express $\Rightarrow$ in terms of $\land$ and $\neg$.
+    
+  - b) Show how to express $\land$ in terms of $\neg$ and $\lor$.
+    
+  - c) Show how to express $\lor$ in terms of $\neg$ and $\Rightarrow$.
+
+
+</details>
+
 ### References
 
 - Patrick Keef, David Guichard, \<An Introduction to Higher Mathematics\>
