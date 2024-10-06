@@ -163,7 +163,7 @@
     - ex. $`\forall x \exists y(y^3 = x), \quad\exists y \forall x (xy^3 = −x)`$[^quantifier_note_6]
     - ex. $`\forall x \exists y(x < y), \quad\exists y \forall x(x < y)`$[^quantifier_note_7]
     - ex. $`\forall x \forall y \exists z ((x < y) \Rightarrow (x < z < y))`$[^quantifier_note_8]
-    - ex. $`\forall x \exists y \exists z (x = 7y + 5z), \quad\forall x \exists y \forall z (z > x \Rightarrow z ≥ y).`$[^quantifier_note_9]
+    - ex. For x, y, z $\in\mathbb{Z}$, $`\forall x \exists y \exists z (x = 7y + 5z), \quad\forall x \exists y \forall z (z > x \Rightarrow z ≥ y).`$[^quantifier_note_9]
 
 </details>
 
