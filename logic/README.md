@@ -205,7 +205,7 @@
 
 ## Exercises
 
-- <details><summary>Observe that $P \lor Q \Leftrightarrow \neg\neg(P \lor Q) \Leftrightarrow \neg(\neg P \land \neg Q)$, so $\lor$ can be expressed in terms of $\land$ and $\neg$.</summary>
+- <details><summary>Observe that $P \lor Q \;\Leftrightarrow\; \neg\neg(P \lor Q) \;\Leftrightarrow\; \neg(\neg P \land \neg Q)$, so $\lor$ can be expressed in terms of $\land$ and $\neg$.</summary>
 
   - a) Show how to express $\Rightarrow$ in terms of $\land$ and $\neg$. </br>
     $`\quad\; P \Rightarrow Q`$ </br>
