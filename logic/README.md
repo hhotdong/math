@@ -124,7 +124,7 @@
 
 <details><summary>Quantifier</summary>
   
- #### Universal quantifier
+  #### Universal quantifier
   - A sentence $`\forall x P(x)`$ is true if and only if P(x) is true no matter what value (from the universe of discourse) is substituted for x.
     - ex. $`\forall x (x^2 ≥ 0)`$, i.e., “The square of any number is not negative.”
     - ex. $`\forall a \forall b (a < b \Rightarrow f(a) < f(b))`$, i.e., "A function f is increasing."
@@ -144,7 +144,7 @@
     - ex. $`\forall x (P(x) \Rightarrow Q(x)) \neq \forall x P(x) \Rightarrow \forall x Q(x)`$.
     - ex. $`\forall x \forall y(P(x) \Rightarrow Q(y)) \neq \forall x(P(x)) \Rightarrow \forall y(Q(y))`$
   
-#### Existential quantifier
+  #### Existential quantifier
   - A sentence $`\exists x P(x)`$ is true if and only if there is at least one value of x (from the universe of discourse) that makes P(x) true.
     - ex. $`\exists x (x \geq x^2)`$ is true since x = 0 is one of many solutions.
     - ex. $`\exists x \exists y (x^2+y^2 =2xy)`$ is true since x = y = 1 is one of many solutions.
@@ -156,9 +156,10 @@
     - ex. $`\exists x \in [0,1](2x^2 + x = 1)`$, i.e., $`$\exists x((x \in [0,1]) ∧ (2x^2 + x = 1))`$
     - ex. $`\exists x \exists y (P(x) \land Q(y)) \Leftrightarrow \exists x(P(x)) \land \exists y(Q(y))`$ 
 
-#### Mixed quantifiers
+  #### Mixed quantifiers
   - The order of the quantifiers is extremely important.
     - ex. For x, y $\in\mathbb{R}$, $`\forall x, \exists y, x + y = 0 \neq \exists y, \forall x, x + y = 0`$.[^quantifier_note_4]
+    - $`\exists x \forall y(x + y = y), \quad\forall y \exists x(x + y = 0).`$[^quantifier_note_5]
 
 </details>
 
@@ -232,6 +233,7 @@
 ∃x(P(x) ⇒ Q(x)) is true. To see this suppose x0 is some particular orange. Then P(x0) ⇒ Q(x0) evaluates to F ⇒ T, which is T, and the existential quantifier is satisfied.
 [^quantifier_note_3]: In general, the statement “no x satisfying P(x) satisfies Q(x)” can be written ∀x (P(x) ⇒ ¬Q(x)). It is also equivalent to ¬∃x(P(x) ∧ Q(x)).
 [^quantifier_note_4]: ∀x,∃y(x + y = 0) ⟺ ∀x(∃y(x + y = 0)) ⟺ "For all x, there exists y which satisfies x + y = 0". ∃y∀x(x + y = 0) ⟺ ∃y(∀x(x + y = 0)) ⟺ "There exists y which satisfies that for all x, x + y = 0".
+[^quantifier_note_5]: In the first we require that x be a fixed value that satisfies the equation regardless of the value of y; clearly x = 0 will do. In the second formula, however, x depends on y; if y = 3, x = −3, if y = 0, x = 0.
 [^de_morgan_note_0]: This might be called the opposite of the original sentence—it says more than simply “ ‘All people are tall’ is untrue.” The correct denial of this sentence is “there is someone who is not tall,” which is a considerably weaker statement.
 [^de_morgan_note_1]: We can use De Morgan’s laws to simplify the denial of a formula. Denials can also be a helpful study device. When you read a theorem or a definition in mathematics it is frequently helpful to form the denial of that sentence to see what it means for the condition to fail. The more ways you think about a concept in mathematics, the clearer it should become.
 [^de_morgan_note_2]: This is not really a “statement” in our official mathematical logic, because we don’t allow infinitely long formulas.
