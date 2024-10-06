@@ -127,6 +127,7 @@
  #### Universal quantifier
   - A sentence $`\forall x P(x)`$ is true if and only if P(x) is true no matter what value (from the universe of discourse) is substituted for x.
     - ex. $`\forall x (x^2 ≥ 0)`$, i.e., “The square of any number is not negative.”
+    - ex. $`\forall a \forall b (a < b \Rightarrow f(a) < f(b))`$, i.e., "A function f is increasing."
     - ex. $`\forall x \forall y (x + y = y + x)`$, i.e., the commutative law of addition.
     - ex. $`\forall x \forall y \forall z((x + y) + z = x + (y + z))`$, i.e., the associative law of addition.
     - ex. $`\forall x`$ (x is a square $\Rightarrow$ x is a rectangle), i.e., “All squares are rectangles.”
