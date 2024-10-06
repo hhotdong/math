@@ -166,20 +166,26 @@
 
 - $`\neg(P \land Q) \Leftrightarrow (\neg P \lor \neg Q)`$
 
-- $`\neg(P \Rightarrow Q)`$ </br>
-  $`\Leftrightarrow \neg(\neg P \lor Q)`$ </br>
-  $`\Leftrightarrow (\neg \neg P ) \land (\neg Q)`$ </br>
-  $`\Leftrightarrow P \land \neg Q`$[^de_morgan_note_0]
-
 - $`\neg \forall xP(x) \Leftrightarrow \exists x\neg P(x)`$
 
 - $`\neg\exists xP(x) \Leftrightarrow \forall x\neg P(x)`$
 
-- $`\forall x P(x) \Leftrightarrow \displaystyle\bigwedge_{x\in U} P(x)`$[^de_morgan_note_1]
+- Examples
 
-- $`\exists x P(x) \Leftrightarrow \displaystyle\bigvee_{x\in U} P(x)`$[^de_morgan_note_1]
+  - ex. A denial of “For every x, $x^2$ is positive” is “There is an x such that $x^2$ fails to be positive.”
+  - ex. A denial of “There is an x such that $x^2$ = −1” is “For every x, $x^2 \neq −1$.”
+  - ex. A denial of “All people are tall” is **not** "No people are tall."[^de_morgan_note_2]
+  - ex. $`\neg\forall x (P(x) \Rightarrow Q(x)) \Leftrightarrow \exists x (P(x) \land \neg Q(x))`$
+  - ex. $`\neg\exists x (P(x) \land Q(x)) \Leftrightarrow \forall x (P(x) \Rightarrow \neg Q(x))`$
+  - ex. $`\neg(P \Rightarrow Q)`$ </br>
+        $`\quad\Leftrightarrow \neg(\neg P \lor Q)`$ </br>
+        $`\quad\Leftrightarrow (\neg \neg P ) \land (\neg Q)`$ </br>
+        $`\quad\Leftrightarrow P \land \neg Q`$[^de_morgan_note_0]
+  - ex. $`\forall x P(x) \Leftrightarrow \displaystyle\bigwedge_{x\in U} P(x)`$[^de_morgan_note_1]
 
-- $`\neg \displaystyle\bigwedge_{x\in U} P(x) \,\Leftrightarrow\, \displaystyle\bigvee_{x\in U} \neg P(x)`$
+  - ex. $`\exists x P(x) \Leftrightarrow \displaystyle\bigvee_{x\in U} P(x)`$[^de_morgan_note_1]
+
+  - ex. $`\neg \displaystyle\bigwedge_{x\in U} P(x) \,\Leftrightarrow\, \displaystyle\bigvee_{x\in U} \neg P(x)`$
 
 </details>
 
@@ -199,3 +205,4 @@
 [^quantifier_note_4]: ∀x,∃y(x + y = 0) ⟺ ∀x(∃y(x + y = 0)) ⟺ "For all x, there exists y which satisfies x + y = 0". ∃y∀x(x + y = 0) ⟺ ∃y(∀x(x + y = 0)) ⟺ "There exists y which satisfies that for all x, x + y = 0".
 [^de_morgan_note_0]: We can use De Morgan’s laws to simplify the denial of P ⇒ Q.
 [^de_morgan_note_1]: This is not really a “statement” in our official mathematical logic, because we don’t allow infinitely long formulas.
+[^de_morgan_note_2]: This might be called the opposite of the original sentence—it says more than simply “ ‘All people are tall’ is untrue.” The correct denial of this sentence is “there is someone who is not tall,” which is a considerably weaker statement.
