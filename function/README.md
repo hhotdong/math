@@ -15,7 +15,21 @@
 <details><summary>Given f: A $\rightarrow$ B a function, let A₁, A₂ ⊆ A, show that ...</summary>
 
   - <details><summary>f(A₁ ∪ A₂) := {f(x)|x ∈ (A₁ ∪ A₂)} = f(A₁) ∪ f(A₂)</summary>
-    
+
+    $`\begin{flalign}
+    \text{Need to show. } &&\\
+    \quad (A \cup B)^{\complement} \subseteq A^{\complement} \cap B^{\complement} \:and\: A^{\complement} \cap B^{\complement} \subseteq (A \cup B)^{\complement} &&\\
+    \text{Proof.} &&\\
+    \quad (A \cup B)^{\complement} &&\\
+    \Leftrightarrow \{ x | x \notin (A \cup B) \} &&\\
+    \Leftrightarrow \{ x | \neg(x \in (A \cup B)) \} &&\\
+    \Leftrightarrow \{ x | \neg(x \in A \:or\: x \in B) \} &&\\
+    \Leftrightarrow \{ x | \neg(x \in A) \:and\: \neg(x \in B) \} &&\\
+    \Leftrightarrow \{ x | x \notin A \:and\: x \notin B) \} &&\\
+    \Leftrightarrow \{ x | x \in A^{\complement} \:and\: x \in B^{\complement}) \} &&\\
+    \Leftrightarrow A^{\complement} \cap B^{\complement}
+    \end{flalign}`$
+
     </details>
 
   - <details><summary>f(A₁ ∩ A₂) ⊆ f(A₁) ∩ f(A₂)</summary>
