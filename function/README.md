@@ -41,3 +41,4 @@
 ### References
 
 - [수학의 즐거움, \[수학 공부, 기초부터 대학원 수학까지, 1. 집합론 기초 (a)\]](https://youtu.be/9HUk8zays2E?feature=shared)
+- [수학의 즐거움, \[기초부터 대학원 수학까지 시리즈 스터디 3기\] 2. 집합론 기초 2강](https://youtu.be/PPYhmRwbEno?feature=shared)
