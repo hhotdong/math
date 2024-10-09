@@ -14,7 +14,7 @@
 
 <details><summary>Given f: A $\rightarrow$ B a function, let A₁, A₂ ⊆ A, show that ...</summary>
 
-  - <details><summary>f(A₁ ∪ A₂) := f(A₁) ∪ f(A₂)</summary>
+  - <details><summary>f(A₁ ∪ A₂) := {f(x)|x ∈ (A₁ ∪ A₂)} = f(A₁) ∪ f(A₂)</summary>
     
     </details>
 
