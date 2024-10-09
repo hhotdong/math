@@ -172,8 +172,8 @@ $`\begin{flalign}
 $`\begin{flalign}
 \text{Proof.} &&\\
 \quad Let\: Q_{x} \:be\: \forall x \in Z, x \geq 0(n(A) = x \Rightarrow n(P(A)) = 2^{x}). &&\\
-\quad Let A_{k+1} = \{ a_{1}, a_{2}, \dots , a_{k+1} \} \: (k \in \mathbb{Z}, \: k + 1 \geq 0), A_{0} = \emptyset. &&\\
-\quad \text{Let } \otimes \text{ an operation which is defined as } \{ A^{\prime} \cup B^{\prime} | A^{\prime} \subset A \;and\; B^{\prime} \subset B \} \text{, so that } n(A \otimes B) = n(A \times B) = n(A) \times n(B). &&\\
+\quad Let A_{k+1} = \{ a_{1}, a_{2}, \dots , a_{k+1} \} \: (k \in \mathbb{Z}, \: k + 1 > 0), A_{0} = \emptyset. &&\\
+\quad \text{Let } \otimes \text{ an operation which is defined as } \{ A^{\prime} \cup B^{\prime} | A^{\prime} \subseteq A \;and\; B^{\prime} \subseteq B \} \text{, so that } n(A \otimes B) = n(A \times B) = n(A) \times n(B). &&\\
 \quad A_{0} \text{has 0 element so that } P(A) = \{ \emptyset \}. \; \therefore \, Q_{0} \text{ is true} &&\\
 \quad \text{If we assume that } Q_{k} \text{ is true, } P(A_{k+1}) = P(A_{k}) \otimes P(\{ a_{k+1} \}). &&\\
 \quad n(P(A_{k+1})) &&\\
