@@ -97,7 +97,7 @@ $`\begin{flalign}
 
 </details>
 
-<details><summary>Let A, B, C $\subseteq$ U.</summary>
+<details><summary>Let A, B, C $\subseteq$ U. Show that ...</summary>
   
 - <details><summary>A $\cap$ (B $\cup$ C) = (A $\cap$ B) $\cup$ (A $\cap$ C)</summary>
 
