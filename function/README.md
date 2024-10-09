@@ -6,7 +6,7 @@
 
 ![image](images/function_diagram.jpg)
 
-  - Given f: A $\rightarrow$ B a function, and let $`B_1 \subset B`$. $`f^{-1}(B_1) = \{ x \in A | f(x) \in B_1 \}`$ called the inverse image$`_{preimage}`$ of f under $B_1$.
+  - Given f: A $\rightarrow$ B a function, and let $`B_1 \subset B`$. $`f^{-1}(B_1) = \{ x \in A | f(x) \in B_1 \}`$ called the inverse image$`_{preimage}`$ of $B_1$ under f.
 
 </details>
 
