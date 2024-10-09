@@ -6,6 +6,8 @@
 
 </details>
 
+![image](/images/function_diagram.png)
+
 ## Exercises
 
 - 
