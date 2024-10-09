@@ -12,20 +12,18 @@
 
 ## Exercises
 
-- <details><summary>Given f: A $\rightarrow$ B a function, let A₁, A₂ ⊆ A, show that ...</summary>
+<details><summary>Given f: A $\rightarrow$ B a function, let A₁, A₂ ⊆ A, show that ...</summary>
 
   - <details><summary>f(A₁ ∪ A₂) := f(A₁) ∪ f(A₂)</summary>
-
     
+    </details>
 
-  </details>
+  - <details><summary>f(A₁ ∩ A₂) ⊆ f(A₁) ∩ f(A₂)</summary>
+    
+    </details>
 
 </details>
 
-## TODO
-
-- 
-
 ### References
 
-- 
+- [수학의 즐거움, \[수학 공부, 기초부터 대학원 수학까지, 1. 집합론 기초 (a)\]](https://youtu.be/9HUk8zays2E?feature=shared)
