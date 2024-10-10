@@ -42,10 +42,10 @@
 
 <details><summary>Product set</summary>
 
-  - Given two sets A and B, product set of A and B is a set which has all possible pairs of (a, b) as an element, where a is one of A's elements and b is one of B's elements.
+  - Given two sets A and B, product set of A and B, i.e. cartesian product of A and B, is a set which has all possible pairs of (a, b) as an element, where a is one of A's elements and b is one of B's elements.
 
-  - $`A X B := \{ (a, b) | a \in A \:and\: b \in B \}`$
-    - ex. A = { a, b }, B = { c, d }. A X B = { (a, c), (a, d), (b, c), (b, d) }
+  - $`A \times B := \{ (a, b) | a \in A \land b \in B \}`$
+    - ex. $`A = \{ a, b \}, B = \{ c, d \}. A \times B = \{ (a, c), (a, d), (b, c), (b, d) \}`$
 
 </details>
 
@@ -72,9 +72,9 @@
   
 $`\begin{flalign}
 \text{Let A, B $\subseteq$ U.} &&\\
-A = B &&\\
-\Leftrightarrow A \subseteq B \,and\, B \subseteq A &&\\
-\Leftrightarrow \text{If} x \in A, \,\text{then}\, x \in B \,and\, \text{if} y \in B, \,\text{then}\, y \in A.
+\quad\;\; A = B &&\\
+\Leftrightarrow A \subseteq B \,\land\, B \subseteq A &&\\
+\Leftrightarrow \forall x(x \in A \Rightarrow x \in B) \,\land\, \forall x(x \in B \Rightarrow x \in A) &&\\
 \end{flalign}`$
 
 </details>
