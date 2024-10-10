@@ -154,7 +154,9 @@
     - ex. “No triangles are rectangles,”, i.e., $`\forall x`$(x is a triangle $\Rightarrow$ x is not a rectangle).
     - ex. $`\exists x < 0(x^2 = 1)`$, i.e., $`\exists x ((x < 0) ∧ (x^2 = 1))`$
     - ex. $`\exists x \in [0,1](2x^2 + x = 1)`$, i.e., $`$\exists x((x \in [0,1]) ∧ (2x^2 + x = 1))`$
-    - ex. $`\exists x \exists y (P(x) \land Q(y)) \Leftrightarrow \exists x(P(x)) \land \exists y(Q(y))`$ 
+    - ex. $`\exists x \exists y (P(x) \land Q(y)) \Leftrightarrow \exists x(P(x)) \land \exists y(Q(y))`$
+
+  - The symbol ∃! is called the unique existential quantifier which means that there exists a unique x such that P(x).
 
   #### Mixed quantifiers
   - The order of the quantifiers is extremely important.
