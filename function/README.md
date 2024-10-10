@@ -2,7 +2,7 @@
 
 <details><summary>Function</summary>
 
-  -  Given two sets A, B, we call $`f : A \rightarrow B`$ is a function, so we have $`S_f \subseteq A \times B \text{ satisfying for each } a \in A, \text{ there exists } b \in B \text{ uniquely such that } (a, b) \in S_f`$.
+  -  Given two sets A, B, we call $`f : A \rightarrow B`$ is a function, where $`S_f \subseteq A \times B \text{ satisfying for each } a \in A, \text{ there exists } b \in B \text{ uniquely s.t. } (a, b) \in S_f`$.
 
 ![image](images/function_diagram.jpg)
 
