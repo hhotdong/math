@@ -23,17 +23,11 @@
   - <details><summary>f(A₁ ∪ A₂) := {f(x)|x ∈ (A₁ ∪ A₂)} = f(A₁) ∪ f(A₂)</summary>
 
     $`\begin{flalign}
-    \text{Need to show. } &&\\
-    \quad (A \cup B)^{\complement} \subseteq A^{\complement} \cap B^{\complement} \:and\: A^{\complement} \cap B^{\complement} \subseteq (A \cup B)^{\complement} &&\\
     \text{Proof.} &&\\
-    \quad (A \cup B)^{\complement} &&\\
-    \Leftrightarrow \{ x | x \notin (A \cup B) \} &&\\
-    \Leftrightarrow \{ x | \neg(x \in (A \cup B)) \} &&\\
-    \Leftrightarrow \{ x | \neg(x \in A \:or\: x \in B) \} &&\\
-    \Leftrightarrow \{ x | \neg(x \in A) \:and\: \neg(x \in B) \} &&\\
-    \Leftrightarrow \{ x | x \notin A \:and\: x \notin B) \} &&\\
-    \Leftrightarrow \{ x | x \in A^{\complement} \:and\: x \in B^{\complement}) \} &&\\
-    \Leftrightarrow A^{\complement} \cap B^{\complement}
+    f(A_1 \cup A_2) &= \{ f(x) | x \in (A_1 \cup A_2) \} &&\\
+                     &= \{ f(x) | x \in A_1 \lor x \in A_2 \} &&\\
+                     &= \{ f(x) | f(x) \in f(A_1) \lor f(x) \in f(A_2) \} &&\\
+                     &= f(A_1) \cup f(A_2) &&\\
     \end{flalign}`$
 
     </details>
@@ -46,5 +40,6 @@
 
 ### References
 
-- [수학의 즐거움, \[수학 공부, 기초부터 대학원 수학까지, 1. 집합론 기초 (a)\]](https://youtu.be/9HUk8zays2E?feature=shared)
-- [수학의 즐거움, \[기초부터 대학원 수학까지 시리즈 스터디 3기\] 2. 집합론 기초 2강](https://youtu.be/PPYhmRwbEno?feature=shared)
+- [수학의 즐거움, Enjoying Math, "수학 공부, 기초부터 대학원 수학까지, 1. 집합론 기초 (a)"](https://youtu.be/9HUk8zays2E?feature=shared)
+- [수학의 즐거움, Enjoying Math, "\[기초부터 대학원 수학까지 시리즈 스터디 3기\] 2. 집합론 기초 2강\]"](https://youtu.be/PPYhmRwbEno?feature=shared)
+- [Hacker-Code-J GitHub](https://github.com/Hacker-Code-J/Modern-Mathematics/blob/main/grad-math-mini/grad-math-mini-1.pdf)
