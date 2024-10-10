@@ -51,19 +51,21 @@
 
 <details><summary>Union</summary>
 
-  - $`\text{Let A, B $\subseteq$ U.} A \cup B := \{ x | x \in A \,or\, x \in B \}`$
+  - $`\text{Let A, B $\subseteq$ U.} A \cup B := \{ x | x \in A \lor x \in B \}`$
 
 </details>
 
 <details><summary>Intersection</summary>
 
-  - $`\text{Let A, B $\subseteq$ U.} A \cap B := \{ x | x \in A \,and\, x \in B \}`$
+  - $`\text{Let A, B $\subseteq$ U.} A \cap B := \{ x | x \in A \land x \in B \}`$
 
 </details>
 
 <details><summary>Complement</summary>
 
-  - $`A^{\complement} := \{ x | x \notin A \}`$
+  - $`A^{\complement} := \{ x | \neg(x \in A) \} = \{ x | x \notin A \}`$
+  
+  - $`x \in A^{\complement} \Leftrightarrow x \notin A`$
 
 </details>
 
@@ -73,8 +75,8 @@
 $`\begin{flalign}
 \text{Let A, B $\subseteq$ U.} &&\\
 \quad\;\; A = B &&\\
-\Leftrightarrow A \subseteq B \,\land\, B \subseteq A &&\\
-\Leftrightarrow \forall x(x \in A \Rightarrow x \in B) \,\land\, \forall x(x \in B \Rightarrow x \in A) &&\\
+\Leftrightarrow A \subseteq B \land B \subseteq A &&\\
+\Leftrightarrow \forall x(x \in A \Rightarrow x \in B) \land \forall x(x \in B \Rightarrow x \in A) &&\\
 \end{flalign}`$
 
 </details>
@@ -91,7 +93,7 @@ $`\begin{flalign}
 \Leftrightarrow 2p^2 = q^2 &&\\
 \Leftrightarrow q = 2k(k \in \mathbb{N}) &&\\
 \Leftrightarrow p^2 = 2k^2 &&\\
-\Leftrightarrow q = 2k^{\prime}(k^{\prime} \in \mathbb{N}) \text{ Contradiction! a and b are coprime by the assumption.} &&\\
+\Leftrightarrow q = 2k^{\prime}(k^{\prime} \in \mathbb{N}) \text{ Contradiction! a  b are coprime by the assumption.} &&\\
 \therefore \sqrt{2} \notin \mathbb{Q} &&\\
 \end{flalign}`$
 
@@ -106,9 +108,9 @@ $`\begin{flalign}
   \quad A \cap (B \cup C) \subseteq (A \cap B) \cup (A \cap C) \quad and \quad (A \cap B) \cup (A \cap C) \subseteq A \cap (B \cup C) &&\\
   \text{Proof.} &&\\
   \quad A \cap (B \cup C) &&\\
-  = \{ x | x \in A \:and\: (x \in B \:or\: x \in C) \} &&\\
-  = \{ x | (x \in A \:and\: x \in B) \:or\: (x \in A \:and\: x \in C) \} &&\\
-  = \{ x | x \in A \cap B \:or\: x \in A \cap C \} &&\\
+  = \{ x | x \in A \land (x \in B \lor x \in C) \} &&\\
+  = \{ x | (x \in A \land x \in B) \lor (x \in A \land x \in C) \} &&\\
+  = \{ x | x \in A \cap B \lor x \in A \cap C \} &&\\
   = (A \cap B) \cup (A \cap C) &&\\
   \end{flalign}`$
 
@@ -121,9 +123,9 @@ $`\begin{flalign}
   \quad A \cup (B \cap C) \subseteq (A \cup B) \cap (A \cup C) \quad and \quad (A \cup B) \cap (A \cup C) \subseteq A \cup (B \cap C) &&\\
   \text{Proof.} &&\\
   \quad A \cup (B \cap C) &&\\
-  = \{ x | x \in A \:or\: (x \in B \:and\: x \in C) \} &&\\
-  = \{ x | (x \in A \:or\: x \in B) \:and\: (x \in A \:or\: x \in C) \} &&\\
-  = \{ x | x \in A \cup B \:and\: x \in A \cup C \} &&\\
+  = \{ x | x \in A \lor (x \in B \land x \in C) \} &&\\
+  = \{ x | (x \in A \lor x \in B) \land (x \in A \lor x \in C) \} &&\\
+  = \{ x | x \in A \cup B \land x \in A \cup C \} &&\\
   = (A \cup B) \cap (A \cup C) &&\\
   \end{flalign}`$
 
@@ -138,10 +140,10 @@ $`\begin{flalign}
   \quad (A \cup B)^{\complement} &&\\
   = \{ x | x \notin (A \cup B) \} &&\\
   = \{ x | \neg(x \in (A \cup B)) \} &&\\
-  = \{ x | \neg(x \in A \:or\: x \in B) \} &&\\
-  = \{ x | \neg(x \in A) \:and\: \neg(x \in B) \} &&\\
-  = \{ x | x \notin A \:and\: x \notin B) \} &&\\
-  = \{ x | x \in A^{\complement} \:and\: x \in B^{\complement}) \} &&\\
+  = \{ x | \neg(x \in A \lor x \in B) \} &&\\
+  = \{ x | \neg(x \in A) \land \neg(x \in B) \} &&\\
+  = \{ x | x \notin A \land x \notin B) \} &&\\
+  = \{ x | x \in A^{\complement} \land x \in B^{\complement}) \} &&\\
   = A^{\complement} \cap B^{\complement}
   \end{flalign}`$
   
@@ -156,10 +158,10 @@ $`\begin{flalign}
   \quad (A \cap B)^{\complement} &&\\
   = \{ x | x \notin (A \cap B) \} &&\\
   = \{ x | \neg(x \in (A \cap B)) \} &&\\
-  = \{ x | \neg(x \in A \:and\: x \in B) \} &&\\
-  = \{ x | \neg(x \in A) \:or\: \neg(x \in B) \} &&\\
-  = \{ x | x \notin A \:or\: x \notin B) \} &&\\
-  = \{ x | x \in A^{\complement} \:or\: x \in B^{\complement}) \} &&\\
+  = \{ x | \neg(x \in A \land x \in B) \} &&\\
+  = \{ x | \neg(x \in A) \lor \neg(x \in B) \} &&\\
+  = \{ x | x \notin A \lor x \notin B) \} &&\\
+  = \{ x | x \in A^{\complement} \lor x \in B^{\complement}) \} &&\\
   = A^{\complement} \cup B^{\complement}
   \end{flalign}`$
   
@@ -173,7 +175,7 @@ $`\begin{flalign}
 \text{Proof.} &&\\
 \quad Let\: Q_{x} \:be\: \forall x \in Z, x \geq 0(n(A) = x \Rightarrow n(P(A)) = 2^{x}). &&\\
 \quad Let A_{k+1} = \{ a_{1}, a_{2}, \dots , a_{k+1} \} \: (k \in \mathbb{Z}, \: k + 1 > 0), A_{0} = \emptyset. &&\\
-\quad \text{Let } \otimes \text{ an operation which is defined as } \{ A^{\prime} \cup B^{\prime} | A^{\prime} \subseteq A \;and\; B^{\prime} \subseteq B \} \text{, so that } n(A \otimes B) = n(A \times B) = n(A) \times n(B). &&\\
+\quad \text{Let } \otimes \text{ an operation which is defined as } \{ A^{\prime} \cup B^{\prime} | A^{\prime} \subseteq A \land B^{\prime} \subseteq B \} \text{, so that } n(A \otimes B) = n(A \times B) = n(A) \times n(B). &&\\
 \quad A_{0} \text{has 0 element so that } P(A) = \{ \emptyset \}. \; \therefore \, Q_{0} \text{ is true} &&\\
 \quad \text{If we assume that } Q_{k} \text{ is true, } P(A_{k+1}) = P(A_{k}) \otimes P(\{ a_{k+1} \}). &&\\
 \quad n(P(A_{k+1})) &&\\
