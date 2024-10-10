@@ -103,13 +103,13 @@ $`\begin{flalign}
 
   $`\begin{flalign}
   \text{Need to show. } &&\\
-  \quad A \cap (B \cup C) \subseteq (A \cap B) \cup (A \cap C) \:and\: (A \cap B) \cup (A \cap C) \subseteq A \cap (B \cup C) &&\\
+  \quad A \cap (B \cup C) \subseteq (A \cap B) \cup (A \cap C) \quad and \quad (A \cap B) \cup (A \cap C) \subseteq A \cap (B \cup C) &&\\
   \text{Proof.} &&\\
   \quad A \cap (B \cup C) &&\\
-  \Leftrightarrow \{ x | x \in A \:and\: (x \in B \:or\: x \in C) \} &&\\
-  \Leftrightarrow \{ x | (x \in A \:and\: x \in B) \:or\: (x \in A \:and\: x \in C) \} &&\\
-  \Leftrightarrow \{ x | x \in A \cap B \:or\: x \in A \cap C \} &&\\
-  \Leftrightarrow (A \cap B) \cup (A \cap C) &&\\
+  = \{ x | x \in A \:and\: (x \in B \:or\: x \in C) \} &&\\
+  = \{ x | (x \in A \:and\: x \in B) \:or\: (x \in A \:and\: x \in C) \} &&\\
+  = \{ x | x \in A \cap B \:or\: x \in A \cap C \} &&\\
+  = (A \cap B) \cup (A \cap C) &&\\
   \end{flalign}`$
 
   </details>
@@ -118,13 +118,13 @@ $`\begin{flalign}
 
   $`\begin{flalign}
   \text{Need to show. } &&\\
-  \quad A \cup (B \cap C) \subseteq (A \cup B) \cap (A \cup C) \:and\: (A \cup B) \cap (A \cup C) \subseteq A \cup (B \cap C) &&\\
+  \quad A \cup (B \cap C) \subseteq (A \cup B) \cap (A \cup C) \quad and \quad (A \cup B) \cap (A \cup C) \subseteq A \cup (B \cap C) &&\\
   \text{Proof.} &&\\
   \quad A \cup (B \cap C) &&\\
-  \Leftrightarrow \{ x | x \in A \:or\: (x \in B \:and\: x \in C) \} &&\\
-  \Leftrightarrow \{ x | (x \in A \:or\: x \in B) \:and\: (x \in A \:or\: x \in C) \} &&\\
-  \Leftrightarrow \{ x | x \in A \cup B \:and\: x \in A \cup C \} &&\\
-  \Leftrightarrow (A \cup B) \cap (A \cup C) &&\\
+  = \{ x | x \in A \:or\: (x \in B \:and\: x \in C) \} &&\\
+  = \{ x | (x \in A \:or\: x \in B) \:and\: (x \in A \:or\: x \in C) \} &&\\
+  = \{ x | x \in A \cup B \:and\: x \in A \cup C \} &&\\
+  = (A \cup B) \cap (A \cup C) &&\\
   \end{flalign}`$
 
   </details>
@@ -133,16 +133,16 @@ $`\begin{flalign}
 
   $`\begin{flalign}
   \text{Need to show. } &&\\
-  \quad (A \cup B)^{\complement} \subseteq A^{\complement} \cap B^{\complement} \:and\: A^{\complement} \cap B^{\complement} \subseteq (A \cup B)^{\complement} &&\\
+  \quad (A \cup B)^{\complement} \subseteq A^{\complement} \cap B^{\complement} \quad and\quad  A^{\complement} \cap B^{\complement} \subseteq (A \cup B)^{\complement} &&\\
   \text{Proof.} &&\\
   \quad (A \cup B)^{\complement} &&\\
-  \Leftrightarrow \{ x | x \notin (A \cup B) \} &&\\
-  \Leftrightarrow \{ x | \neg(x \in (A \cup B)) \} &&\\
-  \Leftrightarrow \{ x | \neg(x \in A \:or\: x \in B) \} &&\\
-  \Leftrightarrow \{ x | \neg(x \in A) \:and\: \neg(x \in B) \} &&\\
-  \Leftrightarrow \{ x | x \notin A \:and\: x \notin B) \} &&\\
-  \Leftrightarrow \{ x | x \in A^{\complement} \:and\: x \in B^{\complement}) \} &&\\
-  \Leftrightarrow A^{\complement} \cap B^{\complement}
+  = \{ x | x \notin (A \cup B) \} &&\\
+  = \{ x | \neg(x \in (A \cup B)) \} &&\\
+  = \{ x | \neg(x \in A \:or\: x \in B) \} &&\\
+  = \{ x | \neg(x \in A) \:and\: \neg(x \in B) \} &&\\
+  = \{ x | x \notin A \:and\: x \notin B) \} &&\\
+  = \{ x | x \in A^{\complement} \:and\: x \in B^{\complement}) \} &&\\
+  = A^{\complement} \cap B^{\complement}
   \end{flalign}`$
   
   </details>
@@ -151,16 +151,16 @@ $`\begin{flalign}
 
   $`\begin{flalign}
   \text{Need to show. } &&\\
-  \quad (A \cap B)^{\complement} \subseteq A^{\complement} \cup B^{\complement} \:and\: A^{\complement} \cup B^{\complement} \subseteq (A \cap B)^{\complement} &&\\
+  \quad (A \cap B)^{\complement} \subseteq A^{\complement} \cup B^{\complement} \quad and \quad A^{\complement} \cup B^{\complement} \subseteq (A \cap B)^{\complement} &&\\
   \text{Proof.} &&\\
   \quad (A \cap B)^{\complement} &&\\
-  \Leftrightarrow \{ x | x \notin (A \cap B) \} &&\\
-  \Leftrightarrow \{ x | \neg(x \in (A \cap B)) \} &&\\
-  \Leftrightarrow \{ x | \neg(x \in A \:and\: x \in B) \} &&\\
-  \Leftrightarrow \{ x | \neg(x \in A) \:or\: \neg(x \in B) \} &&\\
-  \Leftrightarrow \{ x | x \notin A \:or\: x \notin B) \} &&\\
-  \Leftrightarrow \{ x | x \in A^{\complement} \:or\: x \in B^{\complement}) \} &&\\
-  \Leftrightarrow A^{\complement} \cup B^{\complement}
+  = \{ x | x \notin (A \cap B) \} &&\\
+  = \{ x | \neg(x \in (A \cap B)) \} &&\\
+  = \{ x | \neg(x \in A \:and\: x \in B) \} &&\\
+  = \{ x | \neg(x \in A) \:or\: \neg(x \in B) \} &&\\
+  = \{ x | x \notin A \:or\: x \notin B) \} &&\\
+  = \{ x | x \in A^{\complement} \:or\: x \in B^{\complement}) \} &&\\
+  = A^{\complement} \cup B^{\complement}
   \end{flalign}`$
   
   </details>
