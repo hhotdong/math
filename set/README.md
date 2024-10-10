@@ -192,6 +192,6 @@ $`\begin{flalign}
 
 ### References
 
-- [수학의 즐거움, 기초부터 대학원 수학까지, 1. 집합론 기초 (a)](https://youtu.be/9HUk8zays2E?feature=shared)
-- [수학의 즐거움, \[기초부터 대학원 수학까지 시리즈 스터디 3기\] 첫시간, 집합론 기초 1강](https://youtu.be/PZXafFesmHI?feature=shared)
+- [수학의 즐거움, Enjoying Math, "기초부터 대학원 수학까지, 1. 집합론 기초 (a)"](https://youtu.be/9HUk8zays2E?feature=shared)
+- [수학의 즐거움, Enjoying Math, "\[기초부터 대학원 수학까지 시리즈 스터디 3기\] 첫시간, 집합론 기초 1강"](https://youtu.be/PZXafFesmHI?feature=shared)
 - [Wikipedia, 'Empty set'](https://en.wikipedia.org/wiki/Empty_set)
