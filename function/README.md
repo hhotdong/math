@@ -59,7 +59,12 @@
     = \{ b = f(a) | a \in A_1 \land a \in A_2) \} &&\\
     \Rightarrow b \in f(A_1) \land b \in f(A_2) &&\\
     \Leftrightarrow b \in f(A_1) \cap f(A_2) &&\\
-    \text{Thus, } b \in f(A_1) \cap f(A_2) &&\\
+    \end{flalign}`$
+
+    - If b $\in$ B is in f(W $\cap$ X), then b = f(a) for some a $\in$ W $\cap$ X. Since a $\in$ W $\cap$ X, a is in both W and X. Therefore, b = f(a) is in both f(W) and f(X), that is, b $\in$ f(W) $\cap$ f(X).
+    </br>
+    
+    $`\begin{flalign}
     (\nsupseteq) &&\\
     \text{Counter example. Let } A_1 = \{ 1, 2 \}, A_2 = \{ 2, 3 \}, B = \{ 4, 5 \}, S_f = \{ (1, 4), (2, 5), (3, 4) \}. &&\\
     f(A_1) \cap f(A_2) = \{ 4, 5 \} &&\\
