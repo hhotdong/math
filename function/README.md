@@ -10,9 +10,9 @@
 
   - The codomain of $`f`$ is $`Cdm(f)=B`$.
 
-  - The image$`_{range}`$ of $`f`$ is the set, which is defined as $`Img(f) = f[A] := \{ b = f(a) | a \in A \}`$.
+  - The image$`_{range}`$ of $`f`$ is the set, which is defined as $`Img(f) = f[A] := \{ b = f(a) | a \in A \} \Leftrightarrow \{ b \in B | \exists a \in A(b = f(a))\} \subseteq B`$.
 
-  - The inverse$`_{pre}`$ image of $`B_1\subset B`$ under f is the set, which is defined as $`Img^{-1}(f) = f^{-1}[B_1] := \{ x \in A | f(x) \in B_1 \}`$.
+  - The inverse$`_{pre}`$ image of $`B_1\subset B`$ under f is the set, which is defined as $`Img^{-1}(f) = f^{-1}[B_1] := \{ a \in A | f(a) \in B_1 \} \subseteq A`$.
 
 </details>
 
