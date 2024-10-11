@@ -77,6 +77,7 @@
 
 ### References
 
+- Patrick Keef, David Guichard, \<An Introduction to Higher Mathematics\>
 - [수학의 즐거움, Enjoying Math, "수학 공부, 기초부터 대학원 수학까지, 1. 집합론 기초 (a)"](https://youtu.be/9HUk8zays2E?feature=shared)
 - [수학의 즐거움, Enjoying Math, "\[기초부터 대학원 수학까지 시리즈 스터디 3기\] 2. 집합론 기초 2강\]"](https://youtu.be/PPYhmRwbEno?feature=shared)
 - [Hacker-Code-J, GitHub repository](https://github.com/Hacker-Code-J/Modern-Mathematics/blob/main/grad-math-mini/grad-math-mini-1.pdf)
