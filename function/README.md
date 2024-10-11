@@ -28,7 +28,7 @@
     \text{Proof.} &&\\
     \text{Recall that } b \in f(A) \Leftrightarrow \exists a \in A(b = f(a)). &&\\
     (\subseteq) &&\\
-    Let\; b \in f(A_1 \cup A_2). &&\\
+    \text{Let } b \in f(A_1 \cup A_2). &&\\
     \quad f(A_1 \cup A_2) &&\\
     = \{ b = f(a) | a \in (A_1 \cup A_2) \} &&\\
     = \{ b = f(a) | a \in A_1 \lor a \in A_2) \} &&\\
@@ -36,7 +36,7 @@
     \text{(Case 2) } a \in A_2 \Rightarrow f(a) \in f(A_2) &&\\
     \text{Thus, } f(A_1 \cup A_2) \subseteq f(A_1) \cup f(A_2). &&\\
     (\supseteq) &&\\
-    Let\; b \in f(A_1) \cup f(A_2). &&\\
+    \text{Let } b \in f(A_1) \cup f(A_2). &&\\
     \quad f(A_1) \cup f(A_2) &&\\
     = \{ b | b \in f(A_1) \lor b \in f(A_2) \} &&\\
     \text{(Case 1) } b \in f(A_1) \Rightarrow \exists a_1 \in A_1(b = f(a_1)) &&\\
@@ -47,7 +47,25 @@
     </details>
 
   - <details><summary>f(A₁ ∩ A₂) ⊆ f(A₁) ∩ f(A₂)</summary>
-    
+
+    $`\begin{flalign}
+    \text{Need to show.} &&\\
+    f(A_1 \cap A_2) \subseteq f(A_1) \cap f(A_2) \;\; and \;\; f(A_1) \cap f(A_2) \nsubseteq f(A_1 \cap A_2) &&\\
+    \text{Proof.} &&\\
+    (\subseteq) &&\\
+    \text{Let } b \in f(A_1 \cap A_2). &&\\
+    \quad f(A_1 \cap A_2) &&\\
+    = \{ b = f(a) | a \in (A_1 \cap A_2) \} &&\\
+    = \{ b = f(a) | a \in A_1 \land a \in A_2) \} &&\\
+    \Rightarrow b \in f(A_1) \land b \in f(A_2) &&\\
+    \Leftrightarrow b \in f(A_1) \cap f(A_2) &&\\
+    \text{Thus, } b \in f(A_1) \cap f(A_2) &&\\
+    (\nsupseteq) &&\\
+    \text{Counter example. Let } A_1 = \{ 1, 2 \}, A_2 = \{ 2, 3 \}, B = \{ 4, 5 \}, S_f = \{ (1, 4), (2, 5), (3, 4) \}. &&\\
+    f(A_1) \cap f(A_2) = \{ 4, 5 \} &&\\
+    f(A_1 \cap A_2) = \{ 5 \} &&\\
+    \end{flalign}`$
+
     </details>
 
 </details>
