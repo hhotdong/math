@@ -2,7 +2,7 @@
 
 <details><summary>Function</summary>
 
-  -  Given two sets A, B, we call $`f : A \rightarrow B`$ is a function, where $`S_f \subseteq A \times B \text{ satisfying for each } a \in A, \text{ there exists } b \in B \text{ uniquely s.t. } (a, b) \in S_f`$.
+  -  Given two sets A, B, we call $`f : A \rightarrow B`$ is a function, where $`S_f \subseteq A \times B \text{ satisfying for each } a \in A, \text{ there exists } b \in B \text{ uniquely s.t. } (a, b) \in S_f`$. That is, every element of A relates to exactly one element of B.
 
 ![image](images/function_diagram.jpg)
 
@@ -20,14 +20,28 @@
 
 <details><summary>Given f: A $\rightarrow$ B a function, let A₁, A₂ ⊆ A, show that ...</summary>
 
-  - <details><summary>f(A₁ ∪ A₂) := {f(x)|x ∈ (A₁ ∪ A₂)} = f(A₁) ∪ f(A₂)</summary>
+  - <details><summary>f(A₁ ∪ A₂) = f(A₁) ∪ f(A₂)</summary>
 
     $`\begin{flalign}
+    \text{Need to show.} &&\\
+    f(A_1 \cup A_2) \subseteq f(A_1) \cup f(A_2) \;\; and \;\; f(A_1) \cup f(A_2) \subseteq f(A_1 \cup A_2) &&\\
     \text{Proof.} &&\\
-    f(A_1 \cup A_2) &= \{ f(x) | x \in (A_1 \cup A_2) \} &&\\
-                     &= \{ f(x) | x \in A_1 \lor x \in A_2 \} &&\\
-                     &= \{ f(x) | f(x) \in f(A_1) \lor f(x) \in f(A_2) \} &&\\
-                     &= f(A_1) \cup f(A_2) &&\\
+    \text{Recall that } b \in f(A) \Leftrightarrow \exists a \in A(b = f(a)). &&\\
+    (\subseteq) &&\\
+    Let\; b \in f(A_1 \cup A_2). &&\\
+    \quad f(A_1 \cup A_2) &&\\
+    = \{ b = f(a) | a \in (A_1 \cup A_2) \} &&\\
+    = \{ b = f(a) | a \in A_1 \lor a \in A_2) \} &&\\
+    \text{(Case 1) } a \in A_1 \Rightarrow f(a) \in f(A_1) &&\\
+    \text{(Case 2) } a \in A_2 \Rightarrow f(a) \in f(A_2) &&\\
+    \text{Thus, } f(A_1 \cup A_2) \subseteq f(A_1) \cup f(A_2). &&\\
+    (\supseteq) &&\\
+    Let\; b \in f(A_1) \cup f(A_2). &&\\
+    \quad f(A_1) \cup f(A_2) &&\\
+    = \{ b | b \in f(A_1) \lor b \in f(A_2) \} &&\\
+    \text{(Case 1) } b \in f(A_1) \Rightarrow \exists a_1 \in A_1(b = f(a_1)) &&\\
+    \text{(Case 2) } b \in f(A_2) \Rightarrow \exists a_2 \in A_2(b = f(a_2)) &&\\
+    \text{That is, } \exists a \in A_1 \cup A_2(b = f(a)). \text{Thus, } b \in f(A_1 \cup A_2). &&\\
     \end{flalign}`$
 
     </details>
@@ -42,4 +56,4 @@
 
 - [수학의 즐거움, Enjoying Math, "수학 공부, 기초부터 대학원 수학까지, 1. 집합론 기초 (a)"](https://youtu.be/9HUk8zays2E?feature=shared)
 - [수학의 즐거움, Enjoying Math, "\[기초부터 대학원 수학까지 시리즈 스터디 3기\] 2. 집합론 기초 2강\]"](https://youtu.be/PPYhmRwbEno?feature=shared)
-- [Hacker-Code-J GitHub](https://github.com/Hacker-Code-J/Modern-Mathematics/blob/main/grad-math-mini/grad-math-mini-1.pdf)
+- [Hacker-Code-J, GitHub repository](https://github.com/Hacker-Code-J/Modern-Mathematics/blob/main/grad-math-mini/grad-math-mini-1.pdf)
