@@ -27,21 +27,21 @@
     f(A_1 \cup A_2) \subseteq f(A_1) \cup f(A_2) \;\; and \;\; f(A_1) \cup f(A_2) \subseteq f(A_1 \cup A_2) &&\\
     &&\\
     \text{Proof.} &&\\
-    \text{Recall that } b \in f(A) \Leftrightarrow \exists a \in A(b = f(a)). &&\\
+    \text{Recall that } b \in f(A) \Leftrightarrow \exists a \in A(f(a) = b). &&\\
     (\subseteq) &&\\
     \text{Let } b \in f(A_1 \cup A_2). &&\\
-    \Leftrightarrow \exists a \in A_1 \cup A_2(b = f(a)) &&\\
-    \Leftrightarrow \exists a((a \in A_1 \cup A_2) \land (b = f(a))) &&\\
-    \Leftrightarrow \exists a((a \in A_1 \lor a \in A_2) \land (b = f(a))) &&\\
+    \Leftrightarrow \exists a \in A_1 \cup A_2(f(a) = b) &&\\
+    \Leftrightarrow \exists a((a \in A_1 \cup A_2) \land (f(a) = b)) &&\\
+    \Leftrightarrow \exists a((a \in A_1 \lor a \in A_2) \land (f(a) = b)) &&\\
     \Rightarrow f(a) \in f(A_1) \lor f(a) \in f(A_2) &&\\
     \Leftrightarrow b \in f(A_1) \cup f(A_2) &&\\
     (\supseteq) &&\\
     \text{Let } b \in f(A_1) \cup f(A_2). &&\\
     \Leftrightarrow b \in f(A_1) \lor b \in f(A_2) &&\\
-    \text{(Case 1) } b \in f(A_1) \Rightarrow \exists a_1 \in A_1(b = f(a_1)) &&\\
-    \text{(Case 2) } b \in f(A_2) \Rightarrow \exists a_2 \in A_2(b = f(a_2)) &&\\
-    \text{That is, } \exists a \in A_1 \cup A_2(b = f(a)). &&\\
-    \Leftrightarrow \exists a((a \in A_1 \cup A_2) \land (b = f(a))) &&\\
+    \text{(Case 1) } b \in f(A_1) \Rightarrow \exists a_1 \in A_1(f(a_1) = b) &&\\
+    \text{(Case 2) } b \in f(A_2) \Rightarrow \exists a_2 \in A_2(f(a_2) = b) &&\\
+    \text{That is, } \exists a \in A_1 \cup A_2(f(a) = b). &&\\
+    \Leftrightarrow \exists a((a \in A_1 \cup A_2) \land (f(a) = b)) &&\\
     \Rightarrow b \in f(A_1 \cup A_2) &&\\
     \end{flalign}`$
 
