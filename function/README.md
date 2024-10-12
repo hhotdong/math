@@ -77,15 +77,15 @@
 
 <details><summary>Given f: A $\rightarrow$ B a function, let B₁, B₂ ⊆ B, show that ...</summary>
 
-  - <details><summary>$f^{-1}$(A₁ ∪ A₂) = $f^{-1}$(A₁) ∪ $f^{-1}$(A₂)</summary>
+  - <details><summary>$f^{-1}$(B₁ ∪ B₂) = $f^{-1}$(B₁) ∪ $f^{-1}$(B₂)</summary>
 
     </details>
 
-  - <details><summary>$f^{-1}$(A₁ ∩ A₂) = $f^{-1}$(A₁) ∩ $f^{-1}$(A₂)</summary>
+  - <details><summary>$f^{-1}$(B₁ ∩ B₂) = $f^{-1}$(B₁) ∩ $f^{-1}$(B₂)</summary>
 
     </details>
 
-  - <details><summary>$f^{-1}$(A₁ $^{\complement}$) = $f^{-1}$(A₁) $^{\complement}$</summary>
+  - <details><summary>$f^{-1}$(B₁ $^{\complement}$) = $f^{-1}$(B₁) $^{\complement}$</summary>
 
     </details>
 
