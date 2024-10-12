@@ -25,6 +25,7 @@
     $`\begin{flalign}
     \text{Need to show.} &&\\
     f(A_1 \cup A_2) \subseteq f(A_1) \cup f(A_2) \;\; and \;\; f(A_1) \cup f(A_2) \subseteq f(A_1 \cup A_2) &&\\
+    &&\\
     \text{Proof.} &&\\
     \text{Recall that } b \in f(A) \Leftrightarrow \exists a \in A(b = f(a)). &&\\
     (\subseteq) &&\\
@@ -51,24 +52,24 @@
     $`\begin{flalign}
     \text{Need to show.} &&\\
     f(A_1 \cap A_2) \subseteq f(A_1) \cap f(A_2) \;\; and \;\; f(A_1) \cap f(A_2) \nsubseteq f(A_1 \cap A_2) &&\\
-    \text{Proof.} &&\\
+    &&\\
+    \text{Proof 1.} &&\\
     (\subseteq) &&\\
     \text{Let } b \in f(A_1 \cap A_2). &&\\
-    \quad f(A_1 \cap A_2) &&\\
-    = \{ b = f(a) | a \in (A_1 \cap A_2) \} &&\\
-    = \{ b = f(a) | a \in A_1 \land a \in A_2) \} &&\\
-    \Rightarrow b \in f(A_1) \land b \in f(A_2) &&\\
-    \Leftrightarrow b \in f(A_1) \cap f(A_2) &&\\
-    \end{flalign}`$
-
-    - If b $\in$ B is in f(W $\cap$ X), then b = f(a) for some a $\in$ W $\cap$ X. Since a $\in$ W $\cap$ X, a is in both W and X. Therefore, b = f(a) is in both f(W) and f(X), that is, b $\in$ f(W) $\cap$ f(X).
-    </br>
-    
-    $`\begin{flalign}
+    \Leftrightarrow \exists a \in A_1 \cap A_2(f(a) = b) &&\\
+    \Leftrightarrow \exists a((a \in A_1 \cap A_2) \land (f(a) = b)) &&\\
+    \Leftrightarrow \exists a((a \in A_1 \land a \in A_2) \land (f(a) = b)) &&\\
+    \Rightarrow f(a) \in f(A_1) \land f(a) \in f(A_2) &&\\
+    \Rightarrow b \in f(A_1) \cap f(A_2) &&\\
     (\nsupseteq) &&\\
     \text{Counter example. Let } A_1 = \{ 1, 2 \}, A_2 = \{ 2, 3 \}, B = \{ 4, 5 \}, S_f = \{ (1, 4), (2, 5), (3, 4) \}. &&\\
     f(A_1) \cap f(A_2) = \{ 4, 5 \} &&\\
     f(A_1 \cap A_2) = \{ 5 \} &&\\
+    &&\\
+    \text{Proof 2.} &&\\
+    \text{If b ∈ B is in f(A₁ ∩ A₂), then b = f(a) for some a ∈ A₁ ∩ A₂.} &&\\
+    \text{Since a ∈ A₁ ∩ A₂, a is in both A₁ and A₂.} &&\\
+    \text{Therefore, b = f(a) is in both f(A₁) and f(A₂), that is, b ∈ f(A₁) ∩ f(A₂).} &&\\
     \end{flalign}`$
 
     </details>
