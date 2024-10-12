@@ -29,12 +29,11 @@
     \text{Recall that } b \in f(A) \Leftrightarrow \exists a \in A(b = f(a)). &&\\
     (\subseteq) &&\\
     \text{Let } b \in f(A_1 \cup A_2). &&\\
-    \quad f(A_1 \cup A_2) &&\\
-    = \{ b = f(a) | a \in (A_1 \cup A_2) \} &&\\
-    = \{ b = f(a) | a \in A_1 \lor a \in A_2) \} &&\\
-    \text{(Case 1) } a \in A_1 \Rightarrow f(a) \in f(A_1) &&\\
-    \text{(Case 2) } a \in A_2 \Rightarrow f(a) \in f(A_2) &&\\
-    \text{Thus, } f(A_1 \cup A_2) \subseteq f(A_1) \cup f(A_2). &&\\
+    \Leftrightarrow \exists a \in A_1 \cup A_2(b = f(a)) &&\\
+    \Leftrightarrow \exists a((a \in A_1 \cup A_2) \land (b = f(a))) &&\\
+    \Leftrightarrow \exists a((a \in A_1 \lor a \in A_2) \land (b = f(a))) &&\\
+    \Rightarrow f(a) \in f(A_1) \lor f(a) \in f(A_2) &&\\
+    \Leftrightarrow b \in f(A_1) \cup f(A_2) &&\\
     (\supseteq) &&\\
     \text{Let } b \in f(A_1) \cup f(A_2). &&\\
     \quad f(A_1) \cup f(A_2) &&\\
