@@ -79,6 +79,18 @@
 
   - <details><summary>$f^{-1}$(B₁ ∪ B₂) = $f^{-1}$(B₁) ∪ $f^{-1}$(B₂)</summary>
 
+    $`\begin{flalign}
+    \text{Need to show.} &&\\
+    f^{-1}(B_1 \cup B_2) \subseteq f^{-1}(B_1) \cup f^{-1}(B_2) \;\; and \;\; f^{-1}(B_1) \cup f^{-1}(B_2) \subseteq f^{-1}(B_1 \cup B_2) &&\\
+    \text{Proof.} &&\\
+    (\subseteq , \nsubseteq) &&\\
+    \text{Let } a \in f^{-1}(B_1 \cup B_2). &&\\
+    \Leftrightarrow f(a) \in B_1 \cup B_2 &&\\
+    \Leftrightarrow f(a) \in B_1 \lor f(a) \in B_2 &&\\
+    \Leftrightarrow a \in f^{-1}(B_1) \lor a \in f^{-1}(B_2) &&\\
+    \Leftrightarrow a \in f^{-1}(B_1) \cup f^{-1}(B_2) &&\\
+    \end{flalign}`$
+
     </details>
 
   - <details><summary>$f^{-1}$(B₁ ∩ B₂) = $f^{-1}$(B₁) ∩ $f^{-1}$(B₂)</summary>
