@@ -85,7 +85,7 @@
     f^{-1}(B_1 \cup B_2) \subseteq f^{-1}(B_1) \cup f^{-1}(B_2) \;\; and \;\; f^{-1}(B_1) \cup f^{-1}(B_2) \subseteq f^{-1}(B_1 \cup B_2) &&\\
     \text{Proof.} &&\\
     (\subseteq) &&\\
-    \text{Let a} \in f^{-1}(B_1 \cup B_2). &&\\
+    \text{Let } a \in f^{-1}(B_1 \cup B_2). &&\\
     \Leftrightarrow \exists b \in B_1 \cup B_2(b = f(a)) &&\\
     \Leftrightarrow \exists b((b \in B_1 \cup B_2) \land (b = f(a))) &&\\
     \Leftrightarrow \exists b((b \in B_1 \lor b \in B_2) \land (b = f(a))) &&\\
@@ -96,6 +96,26 @@
     </details>
 
   - <details><summary>$f^{-1}$(B₁ ∩ B₂) = $f^{-1}$(B₁) ∩ $f^{-1}$(B₂)</summary>
+
+    $`\begin{flalign}
+    \text{Need to show.} &&\\
+    f^{-1}(B_1 \cap B_2) \subseteq f^{-1}(B_1) \cap f^{-1}(B_2) \;\; and \;\; f^{-1}(B_1) \cap f^{-1}(B_2) \subseteq f^{-1}(B_1 \cap B_2) &&\\
+    \text{Proof.} &&\\
+    (\subseteq) &&\\
+    \text{Let } a \in f^{-1}(B_1 \cap B_2). &&\\
+    \Leftrightarrow \exists b \in B_1 \cap B_2(b = f(a)) &&\\
+    \Leftrightarrow \exists b((b \in B_1 \cap B_2) \land (b = f(a))) &&\\
+    \Leftrightarrow \exists b((b \in B_1 \land b \in B_2) \land (b = f(a))) &&\\
+    \Leftrightarrow \exists b((b \in B_1 \land b = f(a)) \land (b \in B_2 \land b = f(a))) &&\\
+    \Rightarrow a \in f^{-1}(B_1) \land a \in f^{-1}(B_2) &&\\
+    \Leftrightarrow a \in f^{-1}(B_1) \cap f^{-1}(B_2) &&\\
+    (\nsubseteq) &&\\
+    \text{Let } a \in f^{-1}(B_1) \cap f^{-1}(B_2). &&\\
+    \Leftrightarrow a \in f^{-1}(B_1) \land a \in f^{-1}(B_2) &&\\
+    \Rightarrow f(a) \in B_1 \land f(a) \in B_2 &&\\
+    \Rightarrow f(a) \in B_1 \cap B_2 &&\\
+    \Rightarrow a \in f^{-1}(B_1 \cap B_2) &&\\
+    \end{flalign}`$
 
     </details>
 
