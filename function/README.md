@@ -36,11 +36,12 @@
     \Leftrightarrow b \in f(A_1) \cup f(A_2) &&\\
     (\supseteq) &&\\
     \text{Let } b \in f(A_1) \cup f(A_2). &&\\
-    \quad f(A_1) \cup f(A_2) &&\\
-    = \{ b | b \in f(A_1) \lor b \in f(A_2) \} &&\\
+    \Leftrightarrow b \in f(A_1) \lor b \in f(A_2) &&\\
     \text{(Case 1) } b \in f(A_1) \Rightarrow \exists a_1 \in A_1(b = f(a_1)) &&\\
     \text{(Case 2) } b \in f(A_2) \Rightarrow \exists a_2 \in A_2(b = f(a_2)) &&\\
-    \text{That is, } \exists a \in A_1 \cup A_2(b = f(a)). \text{Thus, } b \in f(A_1 \cup A_2). &&\\
+    \text{That is, } \exists a \in A_1 \cup A_2(b = f(a)). &&\\
+    \Leftrightarrow \exists a((a \in A_1 \cup A_2) \land (b = f(a))) &&\\
+    \Rightarrow b \in f(A_1 \cup A_2) &&\\
     \end{flalign}`$
 
     </details>
