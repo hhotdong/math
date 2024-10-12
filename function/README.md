@@ -73,6 +73,14 @@
 
     </details>
 
+  - <details><summary>$f^{-1}$(A₁ ∪ A₂) = $f^{-1}$(A₁) ∪ $f^{-1}$(A₂)</summary>
+
+    </details>
+
+  - <details><summary>$f^{-1}$(A₁ ∩ A₂) = $f^{-1}$(A₁) ∩ $f^{-1}$(A₂)</summary>
+
+    </details>
+
 </details>
 
 ### References
