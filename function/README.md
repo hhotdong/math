@@ -118,6 +118,20 @@
 
   - <details><summary>$f^{-1}$(B₁ $^{\complement}$) = $f^{-1}$(B₁) $^{\complement}$</summary>
 
+    $`\begin{flalign}
+    \text{Need to show.} &&\\
+    f^{-1}(B_1^{\complement}) \subseteq f^{-1}(B_1)^{\complement} \;\; and \;\; f^{-1}(B_1)^{\complement} \subseteq f^{-1}(B_1^{\complement}) &&\\
+    &&\\
+    \text{Proof.} &&\\
+    \text{Recall that } a \in f^{-1}(B) \Leftrightarrow f(a) \in B. &&\\
+    (\subseteq, \supseteq) &&\\
+    \text{Let } a \in f^{-1}(B_1^{\complement}). &&\\
+    \Leftrightarrow f(a) \in B_1^{\complement} &&\\
+    \Leftrightarrow \neg(f(a) \in B_1) &&\\
+    \Leftrightarrow \neg(a \in f^{-1}(B_1)) &&\\
+    \Leftrightarrow a \in f^{-1}(B_1)^{\complement} &&\\
+    \end{flalign}`$
+
     </details>
 
 </details>
