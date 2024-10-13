@@ -88,20 +88,12 @@
     &&\\
     \text{Proof.} &&\\
     \text{Recall that } a \in f^{-1}(B) \Leftrightarrow f(a) \in B. &&\\
-    (\subseteq) &&\\
+    (\subseteq, \supseteq) &&\\
     \text{Let } a \in f^{-1}(B_1 \cup B_2). &&\\
     \Leftrightarrow f(a) \in B_1 \cup B_2 &&\\
     \Leftrightarrow f(a) \in B_1 \lor f(a) \in B_2 &&\\
     \Leftrightarrow a \in f^{-1}(B_1) \lor a \in f^{-1}(B_2) &&\\
     \Leftrightarrow a \in f^{-1}(B_1) \cup f^{-1}(B_2) &&\\
-    (\supseteq) &&\\
-    \text{Let } a \in f^{-1}(B_1) \cup f^{-1}(B_2). &&\\
-    \Leftrightarrow a \in f^{-1}(B_1) \lor a \in f^{-1}(B_2) &&\\
-    \text{(Case 1) } a \in f^{-1}(B_1) \Rightarrow f(a) \in B_1 &&\\
-    \text{(Case 2) } a \in f^{-1}(B_2) \Rightarrow f(a) \in B_2 &&\\
-    \text{That is, } f(a) \in B_1 \lor f(a) \in B_2. &&\\
-    \Leftrightarrow f(a) \in B_1 \cup B_2 &&\\
-    \Leftrightarrow a \in f^{-1}(B_1 \cup B_2) &&\\
     \end{flalign}`$
 
     </details>
@@ -112,20 +104,12 @@
     \text{Need to show.} &&\\
     f^{-1}(B_1 \cap B_2) \subseteq f^{-1}(B_1) \cap f^{-1}(B_2) \;\; and \;\; f^{-1}(B_1) \cap f^{-1}(B_2) \subseteq f^{-1}(B_1 \cap B_2) &&\\
     \text{Proof.} &&\\
-    (\subseteq) &&\\
+    (\subseteq, \supseteq) &&\\
     \text{Let } a \in f^{-1}(B_1 \cap B_2). &&\\
-    \Leftrightarrow \exists b \in B_1 \cap B_2(b = f(a)) &&\\
-    \Leftrightarrow \exists b((b \in B_1 \cap B_2) \land (b = f(a))) &&\\
-    \Leftrightarrow \exists b((b \in B_1 \land b \in B_2) \land (b = f(a))) &&\\
-    \Leftrightarrow \exists b((b \in B_1 \land (b = f(a))) \land (b \in B_2 \land (b = f(a)))) &&\\
-    \Rightarrow a \in f^{-1}(B_1) \land a \in f^{-1}(B_2) &&\\
-    \Leftrightarrow a \in f^{-1}(B_1) \cap f^{-1}(B_2) &&\\
-    (\supseteq) &&\\
-    \text{Let } a \in f^{-1}(B_1) \cap f^{-1}(B_2). &&\\
+    \Leftrightarrow f(a) \in B_1 \cap B_2 &&\\
+    \Leftrightarrow f(a) \in B_1 \land f(a) \in B_2 &&\\
     \Leftrightarrow a \in f^{-1}(B_1) \land a \in f^{-1}(B_2) &&\\
-    \Rightarrow f(a) \in B_1 \land f(a) \in B_2 &&\\
-    \Rightarrow f(a) \in B_1 \cap B_2 &&\\
-    \Rightarrow a \in f^{-1}(B_1 \cap B_2) &&\\
+    \Leftrightarrow a \in f^{-1}(B_1) \cap f^{-1}(B_2) &&\\
     \end{flalign}`$
 
     </details>
