@@ -83,10 +83,6 @@
 
     </details>
 
-  - <details><summary></summary>
-  
-    </details>
-
 </details>
 
 <details><summary>Given f: A $\rightarrow$ B a function, let B₁, B₂ ⊆ B, show that ...</summary>
