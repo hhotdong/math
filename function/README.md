@@ -119,7 +119,7 @@
     \Leftrightarrow \exists b((b \in B_1 \land (b = f(a))) \land (b \in B_2 \land (b = f(a)))) &&\\
     \Rightarrow a \in f^{-1}(B_1) \land a \in f^{-1}(B_2) &&\\
     \Leftrightarrow a \in f^{-1}(B_1) \cap f^{-1}(B_2) &&\\
-    (\subseteq) &&\\
+    (\supseteq) &&\\
     \text{Let } a \in f^{-1}(B_1) \cap f^{-1}(B_2). &&\\
     \Leftrightarrow a \in f^{-1}(B_1) \land a \in f^{-1}(B_2) &&\\
     \Rightarrow f(a) \in B_1 \land f(a) \in B_2 &&\\
