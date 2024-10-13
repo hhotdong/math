@@ -18,6 +18,10 @@
 
 ## Exercises
 
+<details><summary>Given f: A $\rightarrow$ B a function, show that A $\subseteq$ B $\Rightarrow$ f(A) $\subseteq$ f(B).</summary>
+
+</details>
+
 <details><summary>Given f: A $\rightarrow$ B a function, let A₁, A₂ ⊆ A, show that ...</summary>
 
   - <details><summary>f(A₁ ∪ A₂) = f(A₁) ∪ f(A₂)</summary>
