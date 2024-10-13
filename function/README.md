@@ -127,8 +127,10 @@
     (\subseteq, \supseteq) &&\\
     \text{Let } a \in f^{-1}(B_1^{\complement}). &&\\
     \Leftrightarrow f(a) \in B_1^{\complement} &&\\
+    \Leftrightarrow f(a) \notin B_1 &&\\
     \Leftrightarrow \neg(f(a) \in B_1) &&\\
     \Leftrightarrow \neg(a \in f^{-1}(B_1)) &&\\
+    \Leftrightarrow a \notin f^{-1}(B_1) &&\\
     \Leftrightarrow a \in f^{-1}(B_1)^{\complement} &&\\
     \end{flalign}`$
 
