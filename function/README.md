@@ -12,11 +12,11 @@
 
   - The image$`_{range}`$ of $`f`$ is the set, which is defined as $`Img(f) = f[A]`$ </br>
     $`:= \{ b = f(a) | a \in A \}$`$ </br>
-    $`= \{ b \in B | \exists a \in A(b = f(a))\} \subseteq B`$.
+    $`= \{ b \in B | \exists a \in A(f(a) = b)\} \subseteq B`$.
 
   - The inverse$`_{pre}`$ image of $`B_1\subset B`$ under f is the set, which is defined as $`Img^{-1}(f) = f^{-1}[B_1]`$ </br>
     $`:= \{ a \in A | f(a) \in B_1 \} \subseteq A`$ </br>
-    $`= \{ a \in A | \exists b \in B_1(f(a) = b) \} \subseteq A`$
+    $`= \{ a \in A | \exists !b \in B_1(b = f(a)) \} \subseteq A`$
 
     - If there is no element of A whose images lie in $B_1$, $`f^{-1}(B_1) = \emptyset`$.
 
