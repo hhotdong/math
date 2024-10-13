@@ -91,6 +91,13 @@
     \Leftrightarrow \exists b((b \in B_1 \lor b \in B_2) \land (b = f(a))) &&\\
     \Rightarrow a \in f^{-1}(B_1) \lor a \in f^{-1}(B_2) &&\\
     \Leftrightarrow a \in f^{-1}(B_1) \cup f^{-1}(B_2) &&\\
+    (\supseteq) &&\\
+    \text{Let } a \in f^{-1}(B_1) \cup f^{-1}(B_2). &&\\
+    \Leftrightarrow a \in f^{-1}(B_1) \lor a \in f^{-1}(B_2) &&\\
+    \text{(Case 1) } a \in f^{-1}(B_1) \Rightarrow \exists b \in B_1(b = f(a)) &&\\
+    \text{(Case 2) } a \in f^{-1}(B_2) \Rightarrow \exists b \in B_2(b = f(a)) &&\\
+    \text{That is, } \exists b \in B_1 \cup B_2(b = f(a)) &&\\
+    \Rightarrow a \in f^{-1}(B_1 \cup B_2)
     \end{flalign}`$
 
     </details>
