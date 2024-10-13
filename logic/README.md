@@ -230,7 +230,7 @@
 
 ### References
 
-- Patrick Keef, David Guichard, \<An Introduction to Higher Mathematics\>
+- Patrick Keef, David Guichard, *An Introduction to Higher Mathematics*
 - [수학의 즐거움, Enjoying Math, "\[증명기초 스터디\] 1. 진리표와 명제의 참거짓"](https://youtu.be/zbWQTYOHft0?feature=shared)
 - [수학의 즐거움, Enjoying Math, "\[증명기초 스터디\] 2. 어떤 경우가 하나 존재하는 것과 모든 경우에 대한 논리를 구분하는 양화사"](https://youtu.be/1MjvdWbkkow?feature=shared)
 - [수학의 즐거움, Enjoying Math, "\[증명기초 스터디\] 3. 복합 양화사의 이해"](https://youtu.be/0Kz1gxgbxQM?feature=shared)
