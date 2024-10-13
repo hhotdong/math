@@ -55,6 +55,7 @@
     f(A_1 \cap A_2) \subseteq f(A_1) \cap f(A_2) \;\; and \;\; f(A_1) \cap f(A_2) \nsubseteq f(A_1 \cap A_2) &&\\
     &&\\
     \text{Proof 1.} &&\\
+    \text{Recall that } b \in f(A) \Leftrightarrow \exists a \in A(f(a) = b). &&\\
     (\subseteq) &&\\
     \text{Let } b \in f(A_1 \cap A_2). &&\\
     \Leftrightarrow \exists a \in A_1 \cap A_2(f(a) = b) &&\\
@@ -104,6 +105,7 @@
     \text{Need to show.} &&\\
     f^{-1}(B_1 \cap B_2) \subseteq f^{-1}(B_1) \cap f^{-1}(B_2) \;\; and \;\; f^{-1}(B_1) \cap f^{-1}(B_2) \subseteq f^{-1}(B_1 \cap B_2) &&\\
     \text{Proof.} &&\\
+    \text{Recall that } a \in f^{-1}(B) \Leftrightarrow f(a) \in B. &&\\
     (\subseteq, \supseteq) &&\\
     \text{Let } a \in f^{-1}(B_1 \cap B_2). &&\\
     \Leftrightarrow f(a) \in B_1 \cap B_2 &&\\
