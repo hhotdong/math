@@ -83,6 +83,10 @@
 
     </details>
 
+  - <details><summary></summary>
+  
+    </details>
+
 </details>
 
 <details><summary>Given f: A $\rightarrow$ B a function, let B₁, B₂ ⊆ B, show that ...</summary>
@@ -122,22 +126,35 @@
 
     </details>
 
-  - <details><summary>$f^{-1}$(B₁ $^{\complement}$) = $f^{-1}$(B₁) $^{\complement}$</summary>
+  </details>
+
+<details><summary>Given f: A $\rightarrow$ B a function, let A₁ ⊆ A, B₁ ⊆ B, show that ...</summary>
+
+  - <details><summary>$f(f^{-1}(B_1)) \subseteq B_1$</summary>
 
     $`\begin{flalign}
-    \text{Need to show.} &&\\
-    f^{-1}(B_1^{\complement}) \subseteq f^{-1}(B_1)^{\complement} \;\; and \;\; f^{-1}(B_1)^{\complement} \subseteq f^{-1}(B_1^{\complement}) &&\\
-    &&\\
     \text{Proof.} &&\\
-    \text{Recall that } a \in f^{-1}(B) \Leftrightarrow f(a) \in B. &&\\
-    (\subseteq, \supseteq) &&\\
-    \text{Let } a \in f^{-1}(B_1^{\complement}). &&\\
-    \Leftrightarrow f(a) \in B_1^{\complement} &&\\
-    \Leftrightarrow f(a) \notin B_1 &&\\
-    \Leftrightarrow \neg(f(a) \in B_1) &&\\
-    \Leftrightarrow \neg(a \in f^{-1}(B_1)) &&\\
-    \Leftrightarrow a \notin f^{-1}(B_1) &&\\
-    \Leftrightarrow a \in f^{-1}(B_1)^{\complement} &&\\
+    \text{Let } b \in f(f^{-1}(B_1)). &&\\
+    \Leftrightarrow \exists a \in f^{-1}(B_1)(b = f(a)) &&\\
+    \Leftrightarrow \exists a (a \in f^{-1}(B_1) \land b = f(a)) &&\\
+    \text{Since } a \in f^{-1}B_1, f(a) \in B_1. &&\\
+    \Rightarrow b \in B_1
+    \end{flalign}`$
+
+    </details>
+
+  - <details><summary>$f^{-1}(f(A_1)) \supseteq A_1$</summary>
+
+    $`\begin{flalign}
+    \text{Proof.} &&\\
+    \text{Recall that } &&\\
+    \quad f^{-1}(B_1)    := \{ a \in A | f(a) \in B_1 \}, &&\\
+    \quad f(A_1)         := \{ f(a) \in B | a \in A_1 \}, &&\\
+    \quad f(f^{-1}(B_1)) := \{ f(a) \in B | a \in f^{-1}(B_1) \}, &&\\
+    \quad f^{-1}(f(A_1)) := \{ a \in A | f(a) \in f(A_1) \}. &&\\
+    \text{Let } a \in A_1. &&\\
+    \Rightarrow f(a) \in f(A_1) &&\\
+    \Rightarrow a \in f^{−1}(f(A_1)) \text{ (by the definition of the preimage)} &&\\
     \end{flalign}`$
 
     </details>
