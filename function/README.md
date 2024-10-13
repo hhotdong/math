@@ -155,6 +155,26 @@
 
     </details>
 
+  - <details><summary>$f(f^{-1}(B_1)) \nsupseteq B_1$</summary>
+
+    $`\begin{flalign}
+    \text{Proof.} &&\\
+    \text{Suppose that } b \in B_1, \text{but } b \notin f(A). &&\\
+    \text{Then, } b \notin f(f^{-1}(B_1)) \text{ since there is no element in } f^{-1}(B_1) \text{ such that } f(a) = b. &&\\
+    \end{flalign}`$
+
+    </details>
+
+  - <details><summary>$f^{-1}(f(A_1)) \nsubseteq A_1$</summary>
+
+    $`\begin{flalign}
+    \text{Proof.} &&\\
+    \text{Suppose that } a \in A_1^{\complement}, a \in A, f(a) \in f(A_1). &&\\
+    \text{Then, } a \in f^{-1}(f(A_1)), \text{but } a \notin A_1. &&\\
+    \end{flalign}`$
+
+    </details>
+
 </details>
 
 ## TODO
