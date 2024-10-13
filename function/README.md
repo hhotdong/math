@@ -33,6 +33,7 @@
     \Leftrightarrow \exists a \in A_1 \cup A_2(f(a) = b) &&\\
     \Leftrightarrow \exists a((a \in A_1 \cup A_2) \land (f(a) = b)) &&\\
     \Leftrightarrow \exists a((a \in A_1 \lor a \in A_2) \land (f(a) = b)) &&\\
+    \Leftrightarrow \exists a((a \in A_1 \land (f(a) = b)) \lor (a \in A_2 \land (f(a) = b))) &&\\
     \Rightarrow f(a) \in f(A_1) \lor f(a) \in f(A_2) &&\\
     \Leftrightarrow b \in f(A_1) \cup f(A_2) &&\\
     (\supseteq) &&\\
@@ -59,6 +60,7 @@
     \Leftrightarrow \exists a \in A_1 \cap A_2(f(a) = b) &&\\
     \Leftrightarrow \exists a((a \in A_1 \cap A_2) \land (f(a) = b)) &&\\
     \Leftrightarrow \exists a((a \in A_1 \land a \in A_2) \land (f(a) = b)) &&\\
+    \Leftrightarrow \exists a((a \in A_1 \land (f(a) = b)) \land (a \in A_2 \land (f(a) = b))) &&\\
     \Rightarrow f(a) \in f(A_1) \land f(a) \in f(A_2) &&\\
     \Rightarrow b \in f(A_1) \cap f(A_2) &&\\
     (\nsupseteq) &&\\
@@ -89,6 +91,7 @@
     \Leftrightarrow \exists b \in B_1 \cup B_2(b = f(a)) &&\\
     \Leftrightarrow \exists b((b \in B_1 \cup B_2) \land (b = f(a))) &&\\
     \Leftrightarrow \exists b((b \in B_1 \lor b \in B_2) \land (b = f(a))) &&\\
+    \Leftrightarrow \exists b((b \in B_1 \land (b = f(a))) \lor (b \in B_2 \land (b = f(a)))) &&\\
     \Rightarrow a \in f^{-1}(B_1) \lor a \in f^{-1}(B_2) &&\\
     \Leftrightarrow a \in f^{-1}(B_1) \cup f^{-1}(B_2) &&\\
     (\supseteq) &&\\
@@ -113,10 +116,10 @@
     \Leftrightarrow \exists b \in B_1 \cap B_2(b = f(a)) &&\\
     \Leftrightarrow \exists b((b \in B_1 \cap B_2) \land (b = f(a))) &&\\
     \Leftrightarrow \exists b((b \in B_1 \land b \in B_2) \land (b = f(a))) &&\\
-    \Leftrightarrow \exists b((b \in B_1 \land b = f(a)) \land (b \in B_2 \land b = f(a))) &&\\
+    \Leftrightarrow \exists b((b \in B_1 \land (b = f(a))) \land (b \in B_2 \land (b = f(a)))) &&\\
     \Rightarrow a \in f^{-1}(B_1) \land a \in f^{-1}(B_2) &&\\
     \Leftrightarrow a \in f^{-1}(B_1) \cap f^{-1}(B_2) &&\\
-    (\nsubseteq) &&\\
+    (\subseteq) &&\\
     \text{Let } a \in f^{-1}(B_1) \cap f^{-1}(B_2). &&\\
     \Leftrightarrow a \in f^{-1}(B_1) \land a \in f^{-1}(B_2) &&\\
     \Rightarrow f(a) \in B_1 \land f(a) \in B_2 &&\\
