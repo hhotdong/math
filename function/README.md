@@ -201,6 +201,34 @@
 
 </details>
 
+<details><summary>Given two sets A, B($\subset$ X) and functions f: A $\rightarrow$ B, $id_A$: A $\rightarrow$ A(a $\mapsto$ a), $id_B$: B $\rightarrow$ B(b $\mapsto$ b). Show that ...</summary>
+
+  - <details><summary>f is one to one if and only if there exists g: B $\rightarrow$ A such that g $\circ$ f = $id_A$.</summary>
+
+    $`\begin{flalign}
+    \text{Proof.} &&\\
+    (\Rightarrow) &&\\
+    \text{Pick any } p \in A. &&\\
+    \text{Define } g(=g_p): B \rightarrow A, \begin{cases}
+      b \mapsto a \text{ if }b \in img(f)(\Leftrightarrow \text{there exists unique } a \in A \text{ such that } b = f(a)) \\
+      b \mapsto p \text{ if } b \notin img(f) \\
+    \end{cases} &&\\
+    \text{Then g is well-defined.} &&\\
+    &&\\
+    (\Leftarrow) &&\\
+    \text{Suppose that } g: B \rightarrow A \text{ and } g \circ f = id_A. &&\\
+    \text{If } f(a_1) = f(a_2) \in f(A) \subseteq B \text{ then, } g(f(a_1)) = g(f(a_2)). &&\\
+    \text{Therefore } a_1 = a_2 \text{ for any } a_1, a_2 \in A.
+    \end{flalign}`$
+
+    </details>
+
+  - <details><summary>f is onto if and only if there exists g: B $\rightarrow$ A such that f $\circ$ g = $id_B$.</summary>
+  
+    </details>
+
+</details>
+
 ## TODO
 
 <details><summary>Given f: A $\rightarrow$ B a function, show that A $\subseteq$ B $\Rightarrow$ f(A) $\subseteq$ f(B).</summary>
