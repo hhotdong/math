@@ -40,6 +40,11 @@
 
 </details>
 
+<details><summary>Function composition</summary>
+
+  - Given two functions f: A $\rightarrow$ B, g: B $\rightarrow$ C, define g $\circ$ f: A $\xrightarrow{f}$ B $\xrightarrow{g}$ C, i.e., (g $\circ$ f)(x) = g(f(x)), $`S_{g \circ f} = \{ (x, g(f(x)) | x \in A \} \subset A \times C`$.
+
+</details>
 
 ## Exercises
 
