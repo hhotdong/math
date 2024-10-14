@@ -34,9 +34,9 @@
 
 </details>
 
-<details><summary>Bijective</summary>
+<details><summary>Inverse function</summary>
 
-  - Let f: A $\rightarrow$ B a function, f is bijective if it is both one to one and onto.
+  - Let f: A $\rightarrow$ B a function, which is bijective(one to one, onto). Then we can define $f^{-1}$: B $\rightarrow$ A, called inverse function.
 
 </details>
 
