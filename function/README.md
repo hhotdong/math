@@ -22,6 +22,25 @@
 
 </details>
 
+<details><summary>Injective</summary>
+
+  - Let f: A $\rightarrow$ B a function, f is one to one if $`f(x_1) = f(x_2)`$ then $`x_1 = x_2 \Leftrightarrow \text{if } x_1 \neq x_2 \text{then } f(x_1) \neq f(x_2)`$.
+
+</details>
+
+<details><summary>Surjective</summary>
+
+  - Let f: A $\rightarrow$ B a function, f is onto if $`\forall b \in B \exists a \in A(f(a) = b)`$.
+
+</details>
+
+<details><summary>Bijective</summary>
+
+  - Let f: A $\rightarrow$ B a function, f is bijective if it is both one to one and onto.
+
+</details>
+
+
 ## Exercises
 
 <details><summary>Given f: A $\rightarrow$ B a function, let A₁, A₂ ⊆ A, show that ...</summary>
