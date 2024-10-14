@@ -36,7 +36,7 @@
 
 <details><summary>Inverse function</summary>
 
-  - Let f: A $\rightarrow$ B a function, which is bijective(one to one, onto). Then we can define $f^{-1}$: B $\rightarrow$ A, called inverse function.  i.e., $`S_{f^{-1}} := \{ (b, a) \in B \times A | f(a) = b \}`$.
+  - Let f: A $\rightarrow$ B a function, which is bijective(one to one, onto). Then we can define $f^{-1}$: B $\rightarrow$ A, called inverse function.  i.e., $`S_{f^{-1}} := \{ (b, a) \in B \times A | f(a) = b \} \subset B \times A`$.
 
 </details>
 
