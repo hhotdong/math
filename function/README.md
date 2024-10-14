@@ -216,9 +216,9 @@
     \text{Then g is well-defined.} &&\\
     &&\\
     (\Leftarrow) &&\\
-    \text{Suppose that } g: B \rightarrow A \text{ and } g \circ f = id_A. &&\\
-    \text{If } f(a_1) = f(a_2) \in f(A) \subseteq B \text{ then, } g(f(a_1)) = g(f(a_2)). &&\\
-    \text{Therefore } a_1 = a_2 \text{ for any } a_1, a_2 \in A.
+    \text{Assume that there exists } g: B \rightarrow A \text{ s.t. } g \circ f = id_A. &&\\
+    \text{Suppose that } f(a_1) = f(a_2) \text{ for any } a_1, a_2 \in A. \text{ Then, } g(f(a_1)) = g(f(a_2)) \text{ (by def. of function)}. &&\\
+    \text{Therefore } a_1 = a_2 \text{ (by assumption } g \circ f = id_A). &&\\
     \end{flalign}`$
 
     </details>
