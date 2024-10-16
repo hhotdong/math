@@ -248,6 +248,13 @@
 
 </details>
 
+<details><summary>Given a set A, consider F = P(A) = { subsets of A }. Define R := { (x, y) $\in$ F x F | there exists a one to one, onto function f: X → Y }. Then R is an equivalence.</summary>
+
+  - Reflexive: $`\text{For each } X \in F, \text{we have } id_{X}: X \rightarrow X.`$
+  
+
+</details>
+
 ## TODO
 
 <details><summary>Given f: A $\rightarrow$ B a function, show that A $\subseteq$ B $\Rightarrow$ f(A) $\subseteq$ f(B).</summary>
