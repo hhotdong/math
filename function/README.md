@@ -46,6 +46,25 @@
 
 </details>
 
+<details><summary>Relation</summary>
+
+  - Given two sets A, B, a relation R $`\subset A \times B`$, i.e., for each (a, b) $\in$ R, denote $`a`$ ~ $_{R}b$.
+    - ex. $`A = \{ 1, 2 \}, B = \{ 4, 5 \}, A \times B = \{ (1, 4), (1, 5), (2, 4), (2, 5) \}`$. </br>
+      $`R = \{ (1, 4), (2, 5) \} \Leftrightarrow`$ $`1`$ ~ $`_{R}4`$ , $`2`$ ~ $`_{R}5`$
+
+</details>
+
+<details><summary>Equivalence relation</summary>
+
+  - Let R $\subseteq$ A $\times$ A be a relation. We say that R is an equivalence relation if R satisfies ...
+    1. Reflexive: For each x $\in$ A, (x, x) $\in$ R, i.e., $`x`$ ~ $`_{R}x`$.
+    2. Symmetric: If (x, y) $\in$ R then (y, x) $\in$ R, i.e., if $`x`$ ~ $`_{R}y`$ then $`y`$ ~ $`_{R}x`$.
+    3. Transitive: If (x, y) $\in$ R and (y, z) $\in$ R, then (x, z) $\in$ R, i.e., if $`x`$ ~ $`_{R}y`$ and $`y`$ ~ $`_{R}z`$ then $`x`$ ~ $`_{R}z`$.
+  
+  - ex. $`A = \{ 1, 2, 3, 4 \}, R = \{ (1, 1), (2, 2), (3, 3), (4, 4), (1, 2), (2, 1) \}`$.[^equivalence_relation_0]
+
+</details>
+
 ## Exercises
 
 <details><summary>Given f: A $\rightarrow$ B a function, let A₁, A₂ ⊆ A, show that ...</summary>
@@ -244,3 +263,5 @@
 - [수학의 즐거움, Enjoying Math, "\[기초부터 대학원 수학까지 시리즈 스터디 3기\] 2. 집합론 기초 2강"](https://youtu.be/PPYhmRwbEno?feature=shared)
 - [수학의 즐거움, Enjoying Math, "\[기초부터 대학원 수학까지 시리즈 스터디 3기\] 3. 집합론 기초: 단사, 전사 및 역함수와 합성함수"](https://youtu.be/YJWaI8RW_zE?feature=shared)
 - [Hacker-Code-J, GitHub repository](https://github.com/Hacker-Code-J/Modern-Mathematics/blob/main/grad-math-mini/grad-math-mini-1.pdf)
+
+[^equivalence_relation_0]: It's also equivalence relation if we remove (1, 2), (2, 1), i.e. symmetric is optional.
