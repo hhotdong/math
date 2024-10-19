@@ -144,6 +144,8 @@
     - ex. $`\forall x (P(x) \Rightarrow Q(x)) \neq \forall x P(x) \Rightarrow \forall x Q(x)`$.
     - ex. $`\forall x \forall y(P(x) \Rightarrow Q(y)) \neq \forall x(P(x)) \Rightarrow \forall y(Q(y))`$
   
+  - $`\forall a`$ = "For all a" = "For any a" = "For each a" = "Every a" = "Fix any a".
+  
   #### Existential quantifier
   - A sentence $`\exists x P(x)`$ is true if and only if there is at least one value of x (from the universe of discourse) that makes P(x) true.
     - ex. $`\exists x (x \geq x^2)`$ is true since x = 0 is one of many solutions.
@@ -169,6 +171,8 @@
     - ex. $`\exists x \forall y (x + y \neq 1) \Leftrightarrow false`$[^quantifier_note_10]
     - ex. $`\forall y \exists x (x^2 = y) \Leftrightarrow false `$[^quantifier_note_11]
     - ex. For x, y, z $\in\mathbb{Z}$, $`\forall x \exists y \exists z(x = 4y + 6z) \Leftrightarrow false`$[^quantifier_note_12]
+    - ex. Let $`f: A \rightarrow \mathbb{R}`$ be a function, A is a subset of $\mathbb{R}$, we say f is bounded if there exists m > 0 s.t. for each x $\in$ A |f(x)| $\leq$ M.[^quantifier_note_13]
+    - ex. Let A be a subset of $\mathbb{R}$. We say A is open if for each x $\in$ A, there exists $\epsilon$ > 0 s.t. $`(x - \epsilon, x + \epsilon)`$ is a subset of A.
 
 </details>
 
@@ -234,6 +238,7 @@
 - [수학의 즐거움, Enjoying Math, "\[증명기초 스터디\] 1. 진리표와 명제의 참거짓"](https://youtu.be/zbWQTYOHft0?feature=shared)
 - [수학의 즐거움, Enjoying Math, "\[증명기초 스터디\] 2. 어떤 경우가 하나 존재하는 것과 모든 경우에 대한 논리를 구분하는 양화사"](https://youtu.be/1MjvdWbkkow?feature=shared)
 - [수학의 즐거움, Enjoying Math, "\[증명기초 스터디\] 3. 복합 양화사의 이해"](https://youtu.be/0Kz1gxgbxQM?feature=shared)
+- [수학의 즐거움, Enjoying Math, "\[증명 기초 수업\] 2. 명제의 참과 거짓 분별 및 구체적으로 명제를 적는 법"](https://youtu.be/S4TibHL8dRk?feature=shared)
 - [수학의 즐거움, Enjoying Math, "\[역시 함께읽어야죠 수학책은\] 한정사, 합집합과 교집합, 공허참, 귀납법의 이해"](https://youtu.be/EHUspq2TT_A?feature=shared)
 
 [^truth_value_def]: In logic and mathematics, a truth value, sometimes called a logical value, is a value indicating the relation of a proposition to truth, which in classical logic has only two possible values (true or false). - [Wikipedia](https://en.wikipedia.org/wiki/Truth_value)
@@ -251,6 +256,7 @@
 [^quantifier_note_10]: We often need to form denials of sentences with mixed quantifiers. These are handled with De Morgan’s laws. In this example, its denial, ∀x∃y(x + y = 1), is valid. (For any number x,let y = 1 − x.)
 [^quantifier_note_11]: It's because the denial of the sentence, ∃y∀x(x^2 ≠ y), is valid. (Let y = −1.)
 [^quantifier_note_12]: Its denial is ∃x ∀y ∀z (x ≠ 4y + 6z). To see that this is valid, suppose x is any odd number. For any values of y and z, 4y + 6z is even, so it does not equal x.
+[^quantifier_note_13]: If expressed conversely  as, "For each x ∈ A, there exists M > 0 satisfying |f(x)| ≤ M.", the sentence is always true so that it's not appropriate to the meaning of 'bounded'.
 [^de_morgan_note_0]: This might be called the opposite of the original sentence—it says more than simply “ ‘All people are tall’ is untrue.” The correct denial of this sentence is “there is someone who is not tall,” which is a considerably weaker statement.
 [^de_morgan_note_1]: We can use De Morgan’s laws to simplify the denial of a formula. Denials can also be a helpful study device. When you read a theorem or a definition in mathematics it is frequently helpful to form the denial of that sentence to see what it means for the condition to fail. The more ways you think about a concept in mathematics, the clearer it should become. A formula is usually simpler if ¬ does not appear in front of any compound expression, that is, it appears only in front of simple statements such as P(x).
 [^de_morgan_note_2]: This is not really a “statement” in our official mathematical logic, because we don’t allow infinitely long formulas.
