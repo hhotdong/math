@@ -248,9 +248,14 @@
 
 </details>
 
-<details><summary>Given a set A, consider F = P(A) = { subsets of A }. Define R := { (x, y) $\in$ F x F | there exists a one to one, onto function f: X → Y }. Then R is an equivalence.</summary>
+<details><summary>Given a set A, consider F = P(A) = { subsets of A }. Define R := { (x, y) $\in$ F x F | there exists a one to one, onto function f: X → Y }. Show that R is an equivalence relation.</summary>
 
-  - Reflexive: $`\text{For each } X \in F, \text{we have } id_{X}: X \rightarrow X.`$
+  - Reflexive: $`\text{For each } x \in F, \text{we have } id_{X}: X \rightarrow X.`$
+  - Symmetric
+    - Suppose that there exists a one to one, onto function f: X $\rightarrow$ Y. Then there also exist g: Y $\rightarrow$ X s.t. g $\circ$ f = id$`_{X}`$ and f $\circ$ g = id$`\_{Y}`$.
+    - Given f: A $\rightarrow$ B and g: B $\rightarrow$ C,
+      - If g $\circ$ f: A $\rightarrow$ C is onto, then g is onto because $`\forall z \in C \exists x \in A(g(f(x)) = z)`$.
+      - If g $\circ$ f: A $\rightarrow$ C is one to one, then f is one to one because $`f(x_{1}) = f(x_{2}) \Rightarrow g(f(x_{1})) = g(f(x_{2})) \Rightarrow x_{1} = x_{2} (\because \,g\, \circ \,f\, \text{ is one to one})`$.
   
 
 </details>
