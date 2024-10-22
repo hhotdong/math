@@ -293,6 +293,7 @@
 - [수학의 즐거움, Enjoying Math, "수학 공부, 기초부터 대학원 수학까지, 3. 집합론 기초 (c)"](https://youtu.be/2gM-Vh8CY8I?feature=shared)
 - [수학의 즐거움, Enjoying Math, "\[기초부터 대학원 수학까지 시리즈 스터디 3기\] 2. 집합론 기초 2강"](https://youtu.be/PPYhmRwbEno?feature=shared)
 - [수학의 즐거움, Enjoying Math, "\[기초부터 대학원 수학까지 시리즈 스터디 3기\] 3. 집합론 기초: 단사, 전사 및 역함수와 합성함수"](https://youtu.be/YJWaI8RW_zE?feature=shared)
+- [수학의 즐거움, Enjoying Math, "\[기초부터 대학원 수학까지 시리즈 스터디 3기\] 4. 집합론 기초: 관계와 분할"](https://youtu.be/qfCuWL6cg_c?feature=shared)
 - [Hacker-Code-J, GitHub repository](https://github.com/Hacker-Code-J/Modern-Mathematics/blob/main/grad-math-mini/grad-math-mini-1.pdf)
 
 [^equivalence_relation_0]: It's also equivalence relation if we remove (1, 2), (2, 1), i.e. symmetric is optional.
