@@ -258,15 +258,23 @@
     - Given f: A $\rightarrow$ B and g: B $\rightarrow$ C,
       - If g $\circ$ f: A $\rightarrow$ C is onto, then g is onto.</br>
         Proof.</br>
-        $`\quad\forall z \in C \exists x \in A(g(f(x)) = z)`$</br>
+        $`\forall z \in C \exists x \in A(g(f(x)) = z)`$</br>
         $`\Rightarrow \forall z \in C \exists y = f(x) \in B(g(y) = z)`$
       - If g $\circ$ f: A $\rightarrow$ C is one to one, then f is one to one.</br>
         Proof.</br>
-        Suppose $`f(x_{1}) = f(x_{2})`$. Since g is a function, $`g(f(x_{1})) = g(f(x_{2}))`$. Then $`x_{1} = x_{2}`$($\because$ g $\circ$ f is injective).
+        Suppose $`f(x_{1}) = f(x_{2})`$. Since g is a function, $`g(f(x_{1})) = g(f(x_{2}))`$. Hence, $`x_{1} = x_{2}`$($\because$ g $\circ$ f is injective).
       - Therefore g must be one to one, onto. In fact, $`g = f^{-1}`$(Inverse function). Hence, $`Y`$~$`_{R}X`$
   
   - Transitive
-    - 
+    - Suppose $`X`$~$`_{R}Y`$, $`Y`$~$`_{R}Z`$, i.e., there exist bijective f: X $\rightarrow$ Y and bijective g: Y $\rightarrow$ Z. Consider g $\circ$ f: X $\rightarrow$ Y $\rightarrow$ Z.
+      - If f: X $\rightarrow$ Y and g: Y $\rightarrow$ Z are injective, then g $\circ$ f: X $\rightarrow$ Z is injective.</br>
+        Proof.</br>
+        Suppose $`g(f(x_{1})) = g(f(x_{2}))`$. Since g is injective, $`f(x_{1}) = f(x_{2})`$. Since f is also injective, $`x_{1} = x_{2}`$.
+      - If f: X $\rightarrow$ Y and g: Y $\rightarrow$ Z are surjective, then g $\circ$ f: X $\rightarrow$ Z is surjective.</br>
+        Proof.</br>
+        $`\forall y \in Y \exists x \in X(f(x) = y)`$ and $`\forall z \in Z \exists y \in Y(g(y) = z)`$</br>
+        $`\Rightarrow \forall z \in Z \exists x \in X(g(f(x)) = z)`$
+      - Therefore g $\circ$ f: X $\rightarrow$ Z is bijective. Hence, $`X`$~$`_{R}Z`$
 
 </details>
 
@@ -282,6 +290,7 @@
 - James Munkres, *Topology*
 - [수학의 즐거움, Enjoying Math, "수학 공부, 기초부터 대학원 수학까지, 1. 집합론 기초 (a)"](https://youtu.be/9HUk8zays2E?feature=shared)
 - [수학의 즐거움, Enjoying Math, "수학 공부, 기초부터 대학원 수학까지, 1. 집합론 기초 (b)"](https://youtu.be/k53Sr9Q9NR8?feature=shared)
+- [수학의 즐거움, Enjoying Math, "수학 공부, 기초부터 대학원 수학까지, 3. 집합론 기초 (c)"](https://youtu.be/2gM-Vh8CY8I?feature=shared)
 - [수학의 즐거움, Enjoying Math, "\[기초부터 대학원 수학까지 시리즈 스터디 3기\] 2. 집합론 기초 2강"](https://youtu.be/PPYhmRwbEno?feature=shared)
 - [수학의 즐거움, Enjoying Math, "\[기초부터 대학원 수학까지 시리즈 스터디 3기\] 3. 집합론 기초: 단사, 전사 및 역함수와 합성함수"](https://youtu.be/YJWaI8RW_zE?feature=shared)
 - [Hacker-Code-J, GitHub repository](https://github.com/Hacker-Code-J/Modern-Mathematics/blob/main/grad-math-mini/grad-math-mini-1.pdf)
