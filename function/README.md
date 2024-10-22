@@ -250,13 +250,23 @@
 
 <details><summary>Given a set A, consider F = P(A) = { subsets of A }. Define R := { (x, y) $\in$ F x F | there exists a one to one, onto function f: X → Y }. Show that R is an equivalence relation.</summary>
 
-  - Reflexive: $`\text{For each } x \in F, \text{we have } id_{X}: X \rightarrow X.`$
-  - Symmetric
-    - Suppose that there exists a one to one, onto function f: X $\rightarrow$ Y. Then there also exist g: Y $\rightarrow$ X s.t. g $\circ$ f = id$`_{X}`$ and f $\circ$ g = id$`\_{Y}`$.
-    - Given f: A $\rightarrow$ B and g: B $\rightarrow$ C,
-      - If g $\circ$ f: A $\rightarrow$ C is onto, then g is onto because $`\forall z \in C \exists x \in A(g(f(x)) = z)`$.
-      - If g $\circ$ f: A $\rightarrow$ C is one to one, then f is one to one because $`f(x_{1}) = f(x_{2}) \Rightarrow g(f(x_{1})) = g(f(x_{2})) \Rightarrow x_{1} = x_{2} (\because \,g\, \circ \,f\, \text{ is one to one})`$.
+  - Reflexive
+    - $`\text{For each } x \in F, \text{we have } id_{X}: X \rightarrow X.`$
   
+  - Symmetric
+    - Suppose $`X`$~$`_{R}Y`$, i.e., there exists a one to one, onto function f: X $\rightarrow$ Y. Then there also exist g: Y $\rightarrow$ X s.t. g $\circ$ f = $`id_{X}`$ and f $\circ$ g = $`id_{Y}`$.
+    - Given f: A $\rightarrow$ B and g: B $\rightarrow$ C,
+      - If g $\circ$ f: A $\rightarrow$ C is onto, then g is onto.</br>
+        Proof.</br>
+        $`\quad\forall z \in C \exists x \in A(g(f(x)) = z)`$</br>
+        $`\Rightarrow \forall z \in C \exists y = f(x) \in B(g(y) = z)`$
+      - If g $\circ$ f: A $\rightarrow$ C is one to one, then f is one to one.</br>
+        Proof.</br>
+        Suppose $`f(x_{1}) = f(x_{2})`$. Since g is a function, $`g(f(x_{1})) = g(f(x_{2}))`$. Then $`x_{1} = x_{2}`$($\because$ g $\circ$ f is injective).
+      - Therefore g must be one to one, onto. In fact, $`g = f^{-1}`$(Inverse function). Hence, $`Y`$~$`_{R}X`$
+  
+  - Transitive
+    - 
 
 </details>
 
