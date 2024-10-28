@@ -79,7 +79,6 @@
   $`\quad [0]\cap[1] = [1]\cap[2] = [2]\cap[0] = \emptyset`$</br>
   $`\quad [0]\cup[1]\cup[2]=\mathbb{Z}`$</br>
   $`F = \{\; [0], [1], [2] \; \}`$: partition of $`\mathbb{Z}`$
-      
 
 </details>
 
@@ -293,6 +292,28 @@
         $`\forall y \in Y \exists x \in X(f(x) = y)`$ and $`\forall z \in Z \exists y \in Y(g(y) = z)`$</br>
         $`\Rightarrow \forall z \in Z \exists x \in X(g(f(x)) = z)`$
       - Therefore g $\circ$ f: X $\rightarrow$ Z is bijective. Hence, $`X`$~$`_{R}Z`$
+
+</details>
+
+<details><summary>Given a set X, ...</summary>
+
+  - <details><summary>consider the equivalence relation $R \subset X \text{ x } X$. For each x $\in X$, define $[x] = \{ y \in X | x R y \}$: the equivalence class of x. Show that $F = \{ [x] | x \in X \}$ becomes a partition of X.</summary>
+    
+    $`\begin{flalign}
+    \text{Proof.} &&\\
+    \end{flalign}`$
+
+    </details>
+
+  - <details><summary>consider a partition $F = \{ E_{\alpha} | \alpha \in I \}$ of X. Define xRy, x,y $\in$ X, if there exists $\alpha \in I$ s.t. x,y $\in E_{\alpha}$. Show that R is an equivalence relation.</summary>
+    
+    $`\begin{flalign}
+    \text{Proof.} &&\\
+    \end{flalign}`$
+
+    </details>
+
+  - Consequently, there is the one to one correspondence between equivalence relation on X and partition on X.
 
 </details>
 
