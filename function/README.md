@@ -71,7 +71,7 @@
   Define $`F := \{ E_{\alpha} \subseteq E \; | `$</br>
   $`\quad ① E_{\alpha} \neq \emptyset.`$</br>
   $`\quad ② \alpha\neq\beta, \alpha,\beta\in I \Rightarrow E_{\alpha} \cap E_{\beta} = \emptyset.`$</br>
-  $`\quad ③ \bigcup_{\substack{\alpha \in I}} E_{\alpha} = E \; \}`$
+  $`\quad ③ \bigcup_{\substack{\alpha \in I}} E_{\alpha} = \{ x \in E | \text{there exists } \alpha \in I \text{ s.t. } x \in E_{\alpha} \} = E \; \}`$
 
 </details>
 
