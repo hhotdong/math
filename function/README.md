@@ -71,7 +71,15 @@
   Define $`F := \{ E_{\alpha} \subseteq E \; | `$</br>
   $`\quad ① E_{\alpha} \neq \emptyset.`$</br>
   $`\quad ② \alpha\neq\beta, \alpha,\beta\in I \Rightarrow E_{\alpha} \cap E_{\beta} = \emptyset.`$</br>
-  $`\quad ③ \bigcup_{\substack{\alpha \in I}} E_{\alpha} = \{ x \in E | \text{there exists } \alpha \in I \text{ s.t. } x \in E_{\alpha} \} = E \; \}`$
+  $`\quad ③ \bigcup_{\substack{\alpha \in I}} E_{\alpha} = \{ x \in E | \text{there exists } \alpha \in I \text{ s.t. } x \in E_{\alpha} \} = E \; \}`$</br>
+  We call $`F`$ the partition of E.
+
+  - ex. Let $`\mathbb{Z}`$ be set of integers. Denote $`[k] = \{ x \in \mathbb{Z} | x = 3a+k, a \in \mathbb{Z} \} \Rightarrow [0],[1],[2] \subseteq \mathbb{Z}`$.</br>
+  $`\quad [0] \neq \emptyset, [1] \neq \emptyset, [2] \neq \emptyset`$</br>
+  $`\quad [0]\cap[1] = [1]\cap[2] = [2]\cap[0] = \emptyset`$</br>
+  $`\quad [0]\cup[1]\cup[2]=\mathbb{Z}`$</br>
+  $`F = \{\; [0], [1], [2] \; \}`$: partition of $`\mathbb{Z}`$
+      
 
 </details>
 
