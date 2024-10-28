@@ -65,6 +65,16 @@
 
 </details>
 
+<details><summary>Partition</summary>
+
+  - Given a set $`E`$, consider the index set $`I`$(i.e., for each $`\alpha\in I`$, there exists $`E_{\alpha}\subset E`$).</br>
+  Define $`F := \{ E_{\alpha} \subseteq E \; | `$</br>
+  $`\quad ① E_{\alpha} \neq \emptyset.`$</br>
+  $`\quad ② \alpha\neq\beta, \alpha,\beta\in I \Rightarrow E_{\alpha} \cap E_{\beta} = \emptyset.`$</br>
+  $`\quad ③ \bigcup_{\substack{\alpha \in I}} E_{\alpha} = E \; \}`$
+
+</details>
+
 ## Exercises
 
 <details><summary>Given f: A $\rightarrow$ B a function, let A₁, A₂ ⊆ A, show that ...</summary>
