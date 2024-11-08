@@ -322,7 +322,7 @@
     \text{NTS 3. Union of equivalence classes is whole set.} &&\\
     \text{We NTS that } \bigcup \{ [x]_{R} | x \in X \} = X. &&\\
     (\subseteq) \text{ Since, } [x]_{R} \subseteq X, \bigcup \{ [x]_{R} | x \in X \} = \bigcup{\substack{x \in X}} [x]_{R} \subseteq X. &&\\
-    (\supseteq) \text{ Let } \alpha \in X. \text{ We want to show that } \alpha \in \bigcup{\substack{x \in X}} [x]_{R}, \text{ i.e.}, \exists x \in S \text{ s.t. } \alpha \in [x]. \text{ By lemma 1, we obtain } \alpha \in [\alpha]. &&\\
+    (\supseteq) \text{ Let } \alpha \in X. \text{ We want to show that } \alpha \in \bigcup{\substack{x \in X}} [x]_{R}, \text{ i.e.}, \exists x \in X \text{ s.t. } \alpha \in [x]. \text{ By lemma 1, we obtain } \alpha \in [\alpha]. &&\\
     \text{ Thus, for every } \alpha \in X, \alpha \in \bigcup{\substack{x \in X}} [x]_{R}. &&\\
     \end{flalign}`$
 
