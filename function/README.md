@@ -301,6 +301,29 @@
     
     $`\begin{flalign}
     \text{Proof.} &&\\
+    \text{NTS 1. Equivalence class is not empty set.} &&\\
+    \text{Lemma 1. } \forall x \in X, x \in [x].
+    \text{Proof of lemma 1.} &&\\
+    \text{Let } x \in X. \text{Then } x \in [x] by reflexivity. &&\\
+    &&\\
+    \text{NTS 2. Equivalence classes are disjoint.} &&\\
+    \text{Lemma 2. }x R y \Leftrightarrow [x] = [y] &&\\
+    \text{Proof of lemma 2.} &&\\
+    (\Rightarrow)\text{ Let } x R y. \text{We NTS that } [x] = [y]. &&\\
+    (\subseteq) \text{ Let } \alpha \in [x], i.e., x R \alpha \Rightarrow y R \alpha \text{(by transitivity)} \Rightarrow \alpha \in [y]. &&\\
+    (\supseteq) \text{ Let } \beta \in [y], i.e., y R \beta \Rightarrow x R \beta \text{(by transitivity)} \Rightarrow \beta \in [x]. &&\\
+    (\Leftarrow)\text{ Let } [x] = [y]. \text{ Then, } x \in X \Rightarrow x \in [x] = [y] \Rightarrow x \in [y] \Rightarrow x R y. &&\\
+    \text{Lemma 3. }\neg(x R y) \Leftrightarrow [x] \cap [y] = \emptyset &&\\
+    \text{Proof of lemma 3.} &&\\
+    (\Rightarrow)\text{ Let } \neg(x R y). \text{ Suppose that } [x] \cap [y] \neq \emptyset \text{ then } \exists \gamma \in X \text{ s.t. } \gamma \in [x] \cap [y]. \text{ Then, } \gamma \in [x] \cap [y] \Rightarrow \gamma \in [x] \land \gamma \in [y] \Rightarrow x R \gamma \land \gamma R y \Rightarrow x R y. (↯) &&\\
+    (\Leftarrow)\text{ Let } [x] \cap [y] = \emptyset. \text{ Suppose that } x R y. \text{ By lemma 1, 2, we have } x \in [x] = [y]. (↯) &&\\
+    \text{By lemma 2,3 it's proved.} &&\\
+    &&\\
+    \text{NTS 3. Union of equivalence classes is whole set.} &&\\
+    \text{We NTS that } \bigcup \{ [x]_{R} | x \in X \} = X. &&\\
+    (\subseteq) \text{ Since, } [x]_{R} \subseteq X, \bigcup \{ [x]_{R} | x \in X \} = \bigcup{\substack{x \in X}} [x]_{R} \subseteq X. &&\\
+    (\supseteq) \text{ Let } \alpha \in X. \text{ We want to show that } \alpha \in \bigcup{\substack{x \in X}} [x]_{R}, \text{ i.e.}, \exists x \in S \text{ s.t. } \alpha \in [x]. \text{ By lemma 1, we obtain } \alpha \in [\alpha]. &&\\
+    \text{ Thus, for every } \alpha \in X, \alpha \in \bigcup{\substack{x \in X}} [x]_{R}. &&\\
     \end{flalign}`$
 
     </details>
