@@ -332,6 +332,13 @@
     
     $`\begin{flalign}
     \text{Proof.} &&\\
+    \text{NTS 1. Reflexivity} &&\\
+    \text{Let } x, y \in E_{1}, \text{ i.e., } x R y. \text{ Since } x \in E_{1}, x R x. &&\\
+    \text{NTS 2. Symmetry} &&\\
+    \text{Let } x, y \in E_{1}, \text{ i.e., } x R y. \text{ Since } y \in E_{1} \text{ and } x \in E_{1}, y R x. &&\\
+    \text{NTS 3. Transitivity} &&\\
+    \text{Let } x, y \in E_{i}, \text{ i.e., } x R y \text{ and } y, z \in E_{j}, \text{ i.e., } y R z. &&\\
+    \text{Since } E_{i} \cap E_{j} = \emptyset, \text{ then } i = j. \text{ Therefore, } x R z. &&\\
     \end{flalign}`$
 
     </details>
