@@ -89,8 +89,22 @@
 
 <details><summary>Archimedean property</summary>
 
-  Let $x, y \in \mathbb{R}$ with $x > 0$. \
-  Then there exists $n \in \mathbb{N}$ s.t. $n \times x > y$.
+  - Let $x, y \in \mathbb{R}$ with $x > 0$. \
+    Then there exists $n \in \mathbb{N}$ s.t. $n \times x > y$.
+  
+  - Remark.
+    1. Take $x = \epsilon > 0, y = 1$.<a name="#ap_remark_first_item"></a> \
+       Then by this property, there exists $n \in \mathbb{N}$ s.t. $n - \epsilon > 1(\Leftrightarrow \frac{1}{n} < \epsilon)$.
+    2. Let $E \subseteq \mathbb{R}$ be a non-empty, bounded above. \
+       $\Rightarrow$ There exists $supE = \beta \in \mathbb{R}$. \
+       $\Leftrightarrow$ For each $\epsilon > 0$, there exists $x_{\epsilon} \in E$ s.t. $\beta - \epsilon < x_{\epsilon} \leq \beta$. \
+       $\Leftrightarrow$ For each $n \in \mathbb{N}(\epsilon = \frac{1}{n})$, there exists $x_n \in E$ s.t. $\beta - \frac{1}{n} < x_n \leq \beta$. $\dots$ (\*\*) \
+       In fact , ($\Leftrightarrow$) holds as well. \
+       Suppose (\*\*) holds, \
+       Let $\epsilon > 0$ be fixed. Then by $A.P.$, there exists $n \in \mathbb{}N$ s.t. $\frac{1}{n} < \epsilon$). (by [i.](#ap_remark_first_item)) \
+       $\Leftrightarrow -\frac{1}{n} > -\epsilon \Leftrightarrow \beta - \frac{1}{n} > \beta - \epsilon$ \
+       Thus for each $\epsilon > 0$, there exists $n \in \mathbb{N}$ s.t. for corresponding $x_n \in E$ satisfying \
+       $\beta - \epsilon < \beta - \frac{1}{n} < x_n \leq \beta$.
 
 </details>
 
