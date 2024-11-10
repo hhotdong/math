@@ -30,7 +30,7 @@
     
     We denote $\beta = supE$, called the supremum of $E$.
 
-  ![image](images/supremum_illustration.png)
+  ![image](images/supremum_illustration.jpg)
 
   - Remark.
     1. If $supE$ exists, then $supE$ must be unique. \
