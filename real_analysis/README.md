@@ -90,7 +90,18 @@
 <details><summary>Archimedean property</summary>
 
   - Let $x, y \in \mathbb{R}$ with $x > 0$. \
-    Then there exists $n \in \mathbb{N}$ s.t. $n \times x > y$.
+    Then there exists $n \in \mathbb{N}$ s.t. $n \times x > y$. \
+    $Proof.$ \
+    If $y \leq 0$, take $n = 1.(1 \times x > y).$ So suppose $y > 0$. \
+    Claim: there exists $n \in \mathbb{N}$ s.t. $n \times x > y$. \
+    Suppose not, i.e., for each $n \in \mathbb{N} n \times x \leq y$. \
+    Define $E :=  \{ nx | n \in \mathbb{N} \},$ \
+    Then $\emptyset \neq E \subseteq \mathbb{R}$, $E$ is bounded above by $y$. \
+    Thus there exists $supE \in \mathbb{R}$. \
+    Since $x > 0, \beta - x < \beta. \Rightarrow \beta - x$ is not an uppor bound of $E$. \
+    So there exists $n \in \mathbb{N}$ s.t. $\beta - x < nx \in E \leq \beta$. \
+    \Rightarrow $\beta < (n + 1)x, n + 1 \in \mathbb{N}$ \
+    \Rightarrow $(n + 1)x \in E$ (↯, $\beta$ is an upper bound)
   
   - Remark.
     1. Take $x = \epsilon > 0, y = 1$.<a name="#ap_remark_first_item"></a> \
