@@ -6,7 +6,7 @@
   
   - $E$ is bounded if $E$ is both bounded above and below.
 
-  - Remark.
+  - Remark.<a name="pookie"></a>
     1. $E = \emptyset$ is possible.
     2. $\beta, \alpha$ are not unique.
        - $\beta, \beta + 1, \beta + 2, \dots$
@@ -43,6 +43,7 @@
     3. Let $\emptyset \neq E \subseteq \mathbb{R}$, not bounded above. \
        $\Rightarrow supE = \infty(\notin \mathbb{R})$
     4. $sup\emptyset = -\infty$
+    5. 
 
 </details>
 
@@ -50,5 +51,6 @@
 
 <details><summary>Let $A = \{ 1 - \frac{1}{n} | n \in \mathbb{N} \}$. Show that $A$ has an upper bound and a lower bound.</summary>
 
+  [pookie](#pookie)
 
 </details>
