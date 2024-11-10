@@ -58,4 +58,15 @@
 
 <details><summary>Let $A = \{ 1 - \frac{1}{n} | n \in \mathbb{N} \}$. Show that $A$ has an upper bound and a lower bound.</summary>
 
+  Proof. \
+  For all $n \in \mathbb{N}, 1 - \frac{1}{n} = \frac{n-1}{n} < 1 = \frac{n}{n}$. \
+  $\Rightarrow$ 1 is an upper bound of A. \
+  For all $n \in \mathbb{N}, 1 - \frac{1}{n} \geq 0.$ \
+  $\Rightarrow$ 0 is an lower bound of A.
+
+
 </details>
+
+### References
+
+- [수학의 즐거움, Enjoying Math, "수학 공부, 기초부터 대학원 수학까지, 4. 해석학 개론 (a) 완비성 공리"](https://youtu.be/pHIImTBdBRs?feature=shared)
