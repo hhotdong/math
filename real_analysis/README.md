@@ -118,6 +118,11 @@
        $\beta - \epsilon < \beta - \frac{1}{n} < x_n \leq \beta$. \
        Consequently, we have a sequence $`(x_n)_{n=1}^{\infty} \text{ s.t. } \lim_{n\to\infty} x_{n} = \beta`$. \
        Note. 위의 논지(argument)는 $\beta$를 handling하는데 있어서 $\beta$로 수렴하는 수열로 다룰 수 있고, uncountable한 $\epsilon$의 선택지를 countable한 $n$으로 다룰 수 있음을 시사한다.
+   
+   - Density of $\mathbb{Q}$(유리수의 조밀성) \
+     For any $x, y \in \mathbb{R}$ with $x < y$, there exists $r \in \mathbb{Q}$ s.t. $x < r < y$. \
+     $Proof.$ \
+     
 
 </details>
 
