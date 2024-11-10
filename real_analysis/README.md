@@ -45,9 +45,11 @@
     4. $sup\emptyset = -\infty$
     5. Let $\emptyset \neq E \subseteq \mathbb{R}$ be bounded above. \
        $\Rightarrow$ There exists $supE = \beta \in \mathbb{R}$. (by def.) \
-       Then for each $\epsilon > 0, \beta - \epsilon$ is not an upper bound. Thus by [ii.](#remark_second_item), there exists $x_{\epsilon} \in E$ s.t. $\beta - \epsilon < x_{\epsilon}$. \
+       Then for each $\epsilon > 0, \beta - \epsilon$ is not an upper bound. Thus by [ii.](#remark_second_item), there exists $x_{\epsilon} \in E$ s.t. $\beta - \epsilon < x_{\epsilon}$.<a name="#remark_fifth_item"></a> \
        Consequently, for each $\epsilon > 0$, there exists $x_{\epsilon} \in E$ s.t. $\beta - \epsilon < x_{\epsilon} \leq \beta$. \
        This is equivalent statement to say $\beta = supE$.
+    6. For each $n \in \mathbb{N}(\epsilon = \frac{1}{n} > 0)$, by [V.](#remark_fifth_item), there exists $x_{n} \in E$ s.t. $\beta - \frac{1}{n} < x_{n} \leq \beta$. \
+       In particular, this shows that we can find a sequence ($x_{n}$) s.t. $\lim_{n\to\infty} x_{n} = \beta$.
 
 </details>
 
