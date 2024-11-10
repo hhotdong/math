@@ -6,7 +6,7 @@
   
   - $E$ is bounded if $E$ is both bounded above and below.
 
-  - Remark.<a name="pookie"></a>
+  - Remark.
     1. $E = \emptyset$ is possible.
     2. $\beta, \alpha$ are not unique.
        - $\beta, \beta + 1, \beta + 2, \dots$
@@ -39,18 +39,20 @@
        - $\alpha = \beta$
        - $\alpha > \beta$(↯, by def. of least upper bound).
     2. Suppose $\emptyset \neq E \subseteq \mathbb{R}$ is not bounded above, i.e., ~(there exists $\beta$ s.t. for each $x \in E, x \leq \beta$). \
-       $\Leftrightarrow$ For all $\beta \in \mathbb{R}$ there exists $x_{\beta} \in E \text{ s.t. } x_{\beta} > \beta$.
-    3. Let $\emptyset \neq E \subseteq \mathbb{R}$, not bounded above. \
+       $\Leftrightarrow$ For all $\beta \in \mathbb{R}$ there exists $x_{\beta} \in E \text{ s.t. } x_{\beta} > \beta$.<a name="remark_second_item"></a>
+    3. Let $\emptyset \neq E \subseteq \mathbb{R}$ be not bounded above. \
        $\Rightarrow supE = \infty(\notin \mathbb{R})$
     4. $sup\emptyset = -\infty$
-    5. 
+    5. Let $\emptyset \neq E \subseteq \mathbb{R}$ be bounded above. \
+       $\Rightarrow$ There exists $supE = \beta \in \mathbb{R}$. (by def.) \
+       Then for each $\epsilon > 0, \beta - \epsilon$ is not an upper bound. Thus by [ii.](#remark_second_item), there exists $x_{\epsilon} \in E$ s.t. $\beta - \epsilon < x_{\epsilon}$. \
+       Consequently, for each $\epsilon > 0$, there exists $x_{\epsilon} \in E$ s.t. $\beta - \epsilon < x_{\epsilon} \leq \beta$. \
+       This is equivalent statement to say $\beta = supE$.
 
 </details>
 
 ## Exercises
 
 <details><summary>Let $A = \{ 1 - \frac{1}{n} | n \in \mathbb{N} \}$. Show that $A$ has an upper bound and a lower bound.</summary>
-
-  [pookie](#pookie)
 
 </details>
