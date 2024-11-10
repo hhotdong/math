@@ -77,7 +77,13 @@
     ($M.I. \Rightarrow W.O.$) \
     Let $A$ be non-empty subset of $\mathbb{N}$. \
     Suppose $W.O.$ is false for $A$. \
-    i.e., there is no minimum of $A$.
+    i.e., there is no minimum of $A$. \
+    Define $`B := \{ k \in \mathbb{N} | k \leq \mathbb{N} \text{ for any } n \in A \}`$. \
+    Since $`1 \notin A(\because \; 1 \text{ is minimum}), 1 \in B(\Rightarrow B \neq \emptyset).`$ \
+    Let $m \in B$, then $m \notin A$. \
+    Thus $`m + 1 \in B(\because\; \text{For any } n \in A, m < n, m + 1 \leq n)`$. \
+    $\Rightarrow B = \mathbb{N}$ (by $M.I.$)\
+    $\Rightarrow A = \emptyset$ (↯)
 
 </details>
 
