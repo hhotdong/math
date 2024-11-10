@@ -30,6 +30,8 @@
     
     We denote $\beta = supE$, called the supremum of $E$.
 
+  ![image](images/supremum_illustration.png)
+
   - Remark.
     1. If $supE$ exists, then $supE$ must be unique. \
        $\because$ Let $\alpha, \beta$ be supremum of $E$. Then either:
@@ -38,6 +40,9 @@
        - $\alpha > \beta$(↯, by def. of least upper bound).
     2. Suppose $\emptyset \neq E \subseteq \mathbb{R}$ is not bounded above, i.e., ~(there exists $\beta$ s.t. for each $x \in E, x \leq \beta$). \
        $\Leftrightarrow$ For all $\beta \in \mathbb{R}$ there exists $x_{\beta} \in E \text{ s.t. } x_{\beta} > \beta$.
+    3. Let $\emptyset \neq E \subseteq \mathbb{R}$, not bounded above. \
+       $\Rightarrow supE = \infty(\notin \mathbb{R})$
+    4. $sup\emptyset = -\infty$
 
 </details>
 
