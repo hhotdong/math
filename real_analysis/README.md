@@ -104,7 +104,9 @@
        Let $\epsilon > 0$ be fixed. Then by $A.P.$, there exists $n \in \mathbb{}N$ s.t. $\frac{1}{n} < \epsilon$). (by [i.](#ap_remark_first_item)) \
        $\Leftrightarrow -\frac{1}{n} > -\epsilon \Leftrightarrow \beta - \frac{1}{n} > \beta - \epsilon$ \
        Thus for each $\epsilon > 0$, there exists $n \in \mathbb{N}$ s.t. for corresponding $x_n \in E$ satisfying \
-       $\beta - \epsilon < \beta - \frac{1}{n} < x_n \leq \beta$.
+       $\beta - \epsilon < \beta - \frac{1}{n} < x_n \leq \beta$. \
+       Consequently, we have a sequence $`(x_n)_{n=1}^{\infty} \text{ s.t. } \lim_{n\to\infty} x_{n} = \beta`$. \
+       Note. 위의 논지(argument)는 $\beta$를 handling하는데 있어서 $\beta$로 수렴하는 수열로 다룰 수 있고, uncountable한 $\epsilon$의 선택지를 countable한 $n$으로 다룰 수 있음을 시사한다.
 
 </details>
 
