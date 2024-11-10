@@ -56,7 +56,7 @@
 
 <details><summary>Mathematical induction, Well-ordering principle</summary>
 
-  - $`\text{Mathematical induction}_{M.O.}`$ \
+  - $`\text{Mathematical induction}_{M.I.}`$ \
     Let $A \subseteq \mathbb{N}$. If \
     $\quad$ ① $1 \in A$, \
     $\quad$ ② If $n \in A, \text{ then } n + 1 \in A$, \
@@ -65,14 +65,19 @@
   - $`\text{Well-ordering principle}_{W.O.}`$ \
     Let $A \subseteq \mathbb{N}, A \neq \emptyset$. Then there exists minimum of $A$.
 
-  - $Proposition.$ $M.O.$ and $W.O.$ are equivalent. \
+  - $Proposition.$ $M.I.$ and $W.O.$ are equivalent. \
     $Proof.$ \
     ($W.O. \Rightarrow M.I.$) \
     Suppose $M.I.$ is false, i.e., let $`A \subseteq \mathbb{N} \text{ satisfying ①, ②, but } A \neq \mathbb{N}(*)`$. \
     By $`(*), \mathbb{N} - A \neq \emptyset(\mathbb{N} - A \text{ is proper subset of } \mathbb{N})`$. \
-    Apply $W.O.$ Then there exists the minimum $m_0 \in \mathbb{N} - A$.
-     
-    
+    Apply $W.O.$ Then there exists the minimum $m_0 \in \mathbb{N} - A$. \
+    But, $1 \in A, 2 \in A, \dots , m_0 \in A$. (↯, $m_0 \in \mathbb{N} - A$) \
+    Thus $A = \mathbb{N}$. \
+    <br/>
+    ($M.I. \Rightarrow W.O.$) \
+    Let $A$ be non-empty subset of $\mathbb{N}$. \
+    Suppose $W.O.$ is false for $A$. \
+    i.e., there is no minimum of $A$.
 
 </details>
 
