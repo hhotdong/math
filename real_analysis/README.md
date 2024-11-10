@@ -54,6 +54,19 @@
 
 </details>
 
+<details><summary>Mathematical induction, Well-ordering principle</summary>
+
+  - Mathematical induction \
+    Let $A \subseteq \mathbb{N}$. If \
+    $\quad$ ① $1 \in A$, \
+    $\quad$ ② If $n \in A, \text{ then } n + 1 \in A$, \
+    then $A = \mathbb{N}$.
+
+  - Well-ordering principle \
+    Let $A \subseteq \mathbb{N}, A \neq \emptyset$. Then there exists minimum of $A$.
+
+</details>
+
 ## Exercises
 
 <details><summary>Let $A = \{ 1 - \frac{1}{n} | n \in \mathbb{N} \}$. Show that $A$ has an upper bound and a lower bound.</summary>
