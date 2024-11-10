@@ -1,6 +1,6 @@
 ## Definitions
 
-<details><summary>Least upper bound property(=Completeness axiom)</summary>
+<details><summary>Bounded</summary>
 
   - Let $E \subseteq \mathbb{R}$. We say $E$ is bounded above(below) if there exists $\beta(\alpha) \in \mathbb{R}$ s.t. for each $x \in E, x \leq \beta(x \geq \alpha)$. In this case, $\beta(\alpha)$ is called an upper(lower) bound.
   
@@ -19,6 +19,16 @@
          Take $q = p + \frac{2 - p^2}{p + 2}$. Since $\mathbb{Q}$ is field, then $q \in \mathbb{Q}$. \
          $2 - q = (\dots) = \frac{-2p^2 + 4}{(p+2)^2} > 0$ \
          $\therefore q \in B< 2$
+
+</details>
+
+<details><summary>Least upper bound property(=Completeness axiom)</summary>
+
+  - Let $\emptyset \neq E \subseteq \mathbb{R}$ be bounded above. We say $\beta \in \mathbb{R}$ is the least upper bound of $E$ if:
+    1. $\beta$ is an upper bound of $E$.
+    2. If $\alpha < \beta$, then $\alpha$ is not an upper bound of $E$. \
+    
+    We denote $\beta = supE$, called the supremum of $E$. 
 
 </details>
 
