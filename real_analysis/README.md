@@ -26,9 +26,18 @@
 
   - Let $\emptyset \neq E \subseteq \mathbb{R}$ be bounded above. We say $\beta \in \mathbb{R}$ is the least upper bound of $E$ if:
     1. $\beta$ is an upper bound of $E$.
-    2. If $\alpha < \beta$, then $\alpha$ is not an upper bound of $E$. \
+    2. If $\alpha < \beta$, then $\alpha$ is not an upper bound of $E$.
     
-    We denote $\beta = supE$, called the supremum of $E$. 
+    We denote $\beta = supE$, called the supremum of $E$.
+
+  - Remark.
+    1. If $supE$ exists, then $supE$ must be unique. \
+       $\because$ Let $\alpha, \beta$ be supremum of $E$. Then either:
+       - $\alpha < \beta$(↯, by def. of least upper bound)
+       - $\alpha = \beta$
+       - $\alpha > \beta$(↯, by def. of least upper bound).
+    2. Suppose $\emptyset \neq E \subseteq \mathbb{R}$ is not bounded above, i.e., ~(there exists $\beta$ s.t. for each $x \in E, x \leq \beta$). \
+       $\Leftrightarrow$ For all $\beta \in \mathbb{R}$ there exists $x_{\beta} \in E \text{ s.t. } x_{\beta} > \beta$.
 
 </details>
 
