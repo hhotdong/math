@@ -87,6 +87,13 @@
 
 </details>
 
+<details><summary>Archimedean property</summary>
+
+  Let $x, y \in \mathbb{R}$ with $x > 0$. \
+  Then there exists $n \in \mathbb{N}$ s.t. $n \times x > y$.
+
+</details>
+
 ## Exercises
 
 <details><summary>Let $A = \{ 1 - \frac{1}{n} | n \in \mathbb{N} \}$. Show that $A$ has an upper bound and a lower bound.</summary>
