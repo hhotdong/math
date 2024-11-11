@@ -121,9 +121,23 @@
        Note. 위의 논지(argument)는 $\beta$를 handling하는데 있어서 $\beta$로 수렴하는 수열로 다룰 수 있고, uncountable한 $\epsilon > 0$의 선택지를 countable한 $n$으로 다룰 수 있음을 시사한다.
    
    - Density of $\mathbb{Q}$(유리수의 조밀성) \
-     For any $x, y \in \mathbb{R}$ with $x < y$, there exists $r \in \mathbb{Q}$ s.t. $x < r < y$. \
+     For any $x, y \in \mathbb{R}$ with $x < y$, there exists $`r \in \mathbb{Q} \;\:s.t.\;\: x < r < y`$. \
      $Proof.$ \
-     
+     There are 3 cases for $x < y$. \
+     ①$`x < 0 < y`$ \
+     ②$`0 < x < y`$ \
+     ③$`x < y < 0`$ \
+     It suffices to show ②. \
+     With 1, there exists $`n \in \mathbb{N} \;\:s.t.\;\: n(y - x) > 1`$ by A.P.($\Leftrightarrow nx + 1 < ny$) \
+     $`Purpose.\; x < \frac{m}{}n < y`$ \
+     Define $`A := \{ k \in \mathbb{N} | nx < k \} \neq \emptyset`$ \
+     $`\Rightarrow \emptyset \neq A \subseteq \mathbb{N}`$. \
+     By W.O., there exists the smallest element $m_0 \in A$, i.e., $nx < m_0$ but $nx \geq m_0 - 1$. \
+     So, $m_0 - 1 \leq nx < m_0$ \
+     $\Rightarrow nx < m_0 \leq nx + 1 < ny$ \
+     $\Rightarrow nx < m_0 < ny$ \
+     $\Leftrightarrow x < \frac{m_0}{n} < y$. \
+     $Remark.$ $m_0$ was coming from W.O and $n$ was coming from $sup$.
 
 </details>
 
