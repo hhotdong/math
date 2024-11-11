@@ -92,13 +92,14 @@
   - Let $x, y \in \mathbb{R}$ with $x > 0$. Then there exists $n \in \mathbb{N}$ s.t. $nx > y$. \
     $Proof.$ \
     If $y \leq 0$, take $n = 1.(1 \times x > y).$ So suppose $y > 0$. \
-    $Claim$: there exists $n \in \mathbb{N}$ s.t. $nx > y$. \
-    Suppose not, i.e., for each $n \in \mathbb{N} nx \leq y$. \
-    Define $E :=  \{ nx | n \in \mathbb{N} \},$ \
+    $Claim$: there exists $`n \in \mathbb{N} \;\:s.t.\;\: nx > y`$. \
+    Suppose not, i.e., for each $n \in \mathbb{N}, nx \leq y$. \
+    Define $`E :=  \{ nx | n \in \mathbb{N} \},`$ \
     Then $\emptyset \neq E \subseteq \mathbb{R}$, $E$ is bounded above by $y$. \
-    Thus there exists $supE \in \mathbb{R}$. \
-    Since $x > 0, \beta - x < \beta. \Rightarrow \beta - x$ is not an uppor bound of $E$. \
-    So there exists $n \in \mathbb{N}$ s.t. $\beta - x < nx \in E \leq \beta$. \
+    Thus there exists $supE = \beta \in \mathbb{R}$. \
+    Since $x > 0, \text{ then } \beta - x < \beta.$ \
+    $\Rightarrow \beta - x$ is not an upper bound. \
+    So there exists $`n \in \mathbb{N} \;\:s.t.\;\: \beta - x < nx \in E \leq \beta`$. \
     $\Rightarrow \beta < (n + 1)x, n + 1 \in \mathbb{N}$ \
     $\Rightarrow (n + 1)x \in E$ (↯, $\beta$ is an upper bound)
   
