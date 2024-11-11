@@ -157,3 +157,4 @@
 ### References
 
 - [수학의 즐거움, Enjoying Math, "수학 공부, 기초부터 대학원 수학까지, 4. 해석학 개론 (a) 완비성 공리"](https://youtu.be/pHIImTBdBRs?feature=shared)
+- [수학의 즐거움, Enjoying Math, "수학 공부, 기초부터 대학원 수학까지, 5. 해석학 개론 (b) 유리수의 조밀성와 실수, 자연수 공리"](https://youtu.be/RYjhQyXxTpQ?feature=shared)
