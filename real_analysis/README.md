@@ -129,7 +129,7 @@
      ③$`x < y < 0`$ \
      It suffices to show ②. \
      With 1, there exists $`n \in \mathbb{N} \;\:s.t.\;\: n(y - x) > 1`$ by A.P.($\Leftrightarrow nx + 1 < ny$) \
-     $`Purpose.\; x < \frac{m}{}n < y`$ \
+     $`Purpose.\; x < \frac{m}{n} < y`$ \
      Define $`A := \{ k \in \mathbb{N} | nx < k \} \neq \emptyset`$ \
      $`\Rightarrow \emptyset \neq A \subseteq \mathbb{N}`$. \
      By W.O., there exists the smallest element $m_0 \in A$, i.e., $nx < m_0$ but $nx \geq m_0 - 1$. \
