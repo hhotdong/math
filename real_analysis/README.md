@@ -128,16 +128,16 @@
      ②$`0 < x < y`$ \
      ③$`x < y < 0`$ \
      It suffices to show ②. \
-     With 1, there exists $`n \in \mathbb{N} \;\:s.t.\;\: n(y - x) > 1`$ by A.P.($\Leftrightarrow nx + 1 < ny$) \
+     With 1, there exists $`n \in \mathbb{N} \;\:s.t.\;\: n(y - x) > 1`$ by $A.P.$($\Leftrightarrow nx + 1 < ny$) \
      $`Purpose.\; x < \frac{m}{n} < y`$ \
      Define $`A := \{ k \in \mathbb{N} | nx < k \} \neq \emptyset`$ \
      $`\Rightarrow \emptyset \neq A \subseteq \mathbb{N}`$. \
-     By W.O., there exists the smallest element $m_0 \in A$, i.e., $nx < m_0$ but $nx \geq m_0 - 1$. \
+     By $W.O.$, there exists the smallest element $m_0 \in A$, i.e., $nx < m_0$ but $nx \geq m_0 - 1$. \
      So, $m_0 - 1 \leq nx < m_0$ \
      $\Rightarrow nx < m_0 \leq nx + 1 < ny$ \
      $\Rightarrow nx < m_0 < ny$ \
      $\Leftrightarrow x < \frac{m_0}{n} < y$. \
-     $Remark.$ $m_0$ was coming from W.O and $n$ was coming from $sup$.
+     $Remark.$ $m_0$ was coming from $W.O.$ and $n$ was coming from $sup$.
 
 </details>
 
