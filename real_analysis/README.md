@@ -173,11 +173,14 @@
 
   - Remark. Property of the absolute value \
     $`|x| = x(\text{if } x \leq 0) \text{ or } -x(\text{if} x < 0)`$
-    - $`|x| = |-x| = \sqrt{x^2}`$
-    - $`|xy| = |x| \times |y|`$
-    - For each $`r > 0, |x| < r \Leftrightarrow -r < x < r`$
-    - $`-|x| \leq x \leq |x|`$
-    - $`|x+y| \leq |x| + |y|`$
+    1. $`|x| = |-x| = \sqrt{x^2}`$
+    2. $`|xy| = |x| \times |y|`$
+    3. For each $`r > 0, |x| < r \Leftrightarrow -r < x < r`$
+    4. $`-|x| \leq x \leq |x|`$
+    5. $`|x+y| \leq |x| + |y|`$
+      - $\because$ $`-|x| \leq x  \leq |x|, -|y| \leq y  \leq |y|`$ \
+        $`\Leftrightarrow -(|x| + |y|) \leq x + y \leq |x| + |y|`$ (by iv.) \
+        $`\Leftrightarrow |x + y| \leq |x| + |y|`$ (by iii.)
     
 
 </details>
