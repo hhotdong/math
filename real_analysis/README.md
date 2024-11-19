@@ -165,11 +165,19 @@
     Observe that $`|b_{m} - b_{m+1}| = 2 > 0`$ for any $`m \in \mathbb{N}`$. \
     Choose $`\epsilon > 0`$ satisfying $`\epsilon < 2`$. \
     If $`\{ b_{n} \}`$ converges to some $`\beta \in \mathbb{R}`$. \
-    $`|b_{n} - \beta| = |b_{n} - b_{n+1} + b_{n+1} - \beta|`$ \
+    $`|b_{n} - \beta| = | b_{n} - b_{n+1} + b_{n+1} - \beta |`$ \
     $`\leq | b_{n} - b_{n+1} | + | b_{n+1} - \beta | = k`$ (by triangle inequality) \
     Then $`k \geq 2, \;i.e.\; k`$ cannot be smaller than $\epsilon$ for any $`n \in \mathbb{N}`$. \
     Thus there is no $`N_{\epsilon} \in \mathbb{N}`$ satisfying for any $`n \geq N_{\epsilon}, |b_n - \beta| < \epsilon`$. \
     Note that '≤' is used while applying triangle inequality in the proof above.
+
+  - Remark. Property of the absolute value \
+    $`|x| = x(\text{if } x \leq 0) \text{ or } -x(\text{if} x < 0)`$
+    - $`|x| = |-x| = \sqrt{x^2}`$
+    - $`|xy| = |x| \times |y|`$
+    - For each $`r > 0, |x| < r \Leftrightarrow -r < x < r`$
+    - $`-|x| \leq x \leq |x|`$
+    - $`|x+y| \leq |x| + |y|`$
     
 
 </details>
