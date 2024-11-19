@@ -181,6 +181,7 @@
       - $\because$ $`-|x| \leq x  \leq |x|, -|y| \leq y  \leq |y|`$ \
         $`\Leftrightarrow -(|x| + |y|) \leq x + y \leq |x| + |y|`$ (by iv.) \
         $`\Leftrightarrow |x + y| \leq |x| + |y|`$ (by iii.)
+    6. $`|x| > d \Leftrightarrow x > d \lor x < -d`$
     
 
 </details>
