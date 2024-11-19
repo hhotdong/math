@@ -141,6 +141,27 @@
 
 </details>
 
+<details><summary>Convergence of sequences</summary>
+
+  - We say $`\{ a_{n} \}_{n = 1}^{\infty}(\subseteq X, \text{X is topological space})`$ is a sequence if it is a function $`\{ a_{n} \}_{n = 1}^{\infty}: \mathbb{N} \rightarrow X(n \mapsto a_{n})`$. In advanced calculus, $`X = \mathbb{R}`$.
+  
+  - We say a sequence $`\{ a_{n} \}_{n = 1}^{\infty}(\subseteq \mathbb{R})`$ converges to $`\alpha \in \mathbb{R}`$ if for each $`\epsilon > 0`$, there exists $`N_{\epsilon} \in \mathbb{N} \;s.t.\;`$ for any $`n \geq N_{\epsilon}, n \in \mathbb{N}, |a_{n} - \alpha| < \epsilon`$. We denote $`\lim_{x\to\infty}a_{n} = \alpha`$. Otherwise, we say $`\{ a_{n} \}`$ diverges.
+
+    Remark.
+    - Step ⓪: For each $`\epsilon > 0`$($`\epsilon`$ is fixed)
+    - Step ①: there exists corresponding $`N_{\epsilon} \in \mathbb{N}`$,
+    - Step ②: for any $`n \geq N_{\epsilon}, n \in \mathbb{N}`$($n$ is fixed but arbitrary),
+    - Step ③: $`|a_{n} - \alpha| < \epsilon`$.
+  
+  - ex. $`a_{n} = \frac{1}{n},`$ for each $`n \in \mathbb{N}`$. \
+    Claim: $`\lim{n\to\infty}\frac{1}{n} = 0`$ \
+    By Archimedean property, there exists $`N_{\epsilon} \in \mathbb{N} \;s.t.\; N_{\epsilon} \times \epsilon > 1 \Leftrightarrow \frac{1}{N_{\epsilon}} < \epsilon`$. \
+    Then for any $`n \geq N_{\epsilon} \Leftrightarrow \frac{1}{n} \leq \frac{1}{N_{\epsilon}},`$ \
+    $`|a_{n} - \alpha| = |\frac{1}{n} - 0| = \frac{1}{n} \leq \frac{1}{N_{\epsilon}} < \epsilon, \;i.e.\; |a_{n} - \alpha| < \epsilon`$. \
+    Hence, $`\lim{n\to\infty}a_{n} = 0`$.
+
+</details>
+
 ## Exercises
 
 <details><summary>Let $A = \{ 1 - \frac{1}{n} | n \in \mathbb{N} \}$. Show that $A$ has an upper bound and a lower bound.</summary>
