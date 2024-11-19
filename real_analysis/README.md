@@ -160,6 +160,18 @@
     $`|a_{n} - \alpha| = |\frac{1}{n} - 0| = \frac{1}{n} \leq \frac{1}{N_{\epsilon}} < \epsilon, \;i.e.\; |a_{n} - \alpha| < \epsilon`$. \
     Hence, $`\lim{n\to\infty}a_{n} = 0`$.
 
+  - (counter example) $`b_{n} = 1-(-1)^{n}`$ for each $n$. \
+    Prove: $`b_{n}`$ diverges. \
+    Observe that $`|b_{m} - b_{m+1}| = 2 > 0`$ for any $`m \in \mathbb{N}`$. \
+    Choose $`\epsilon > 0`$ satisfying $`\epsilon < 2`$. \
+    If $`\{ b_{n} \}`$ converges to some $`\beta \in \mathbb{R}`$. \
+    $`|b_{n} - \beta| = |b_{n} - b_{n+1} + b_{n+1} - \beta|`$ \
+    $`\leq | b_{n} - b_{n+1} | + | b_{n+1} - \beta | = k`$ (by triangle inequality) \
+    Then $`k \geq 2, \;i.e.\; k`$ cannot be smaller than $\epsilon$ for any $`n \in \mathbb{N}`$. \
+    Thus there is no $`N_{\epsilon} \in \mathbb{N}`$ satisfying for any $`n \geq N_{\epsilon}, |b_n - \beta| < \epsilon`$. \
+    Note that '≤' is used while applying triangle inequality in the proof above.
+    
+
 </details>
 
 ## Exercises
