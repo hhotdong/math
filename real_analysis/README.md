@@ -182,7 +182,28 @@
         $`\Leftrightarrow -(|x| + |y|) \leq x + y \leq |x| + |y|`$ (by iv.) \
         $`\Leftrightarrow |x + y| \leq |x| + |y|`$ (by iii.)
     6. $`|x| > d \Leftrightarrow x > d \lor x < -d`$
-    
+
+</details>
+
+<details><summary>Boundedness</summary>
+
+  - A sequence $`\{ a_{n} \}_{n = 1}^{\infty} \;in\; \mathbb{R}`$ is bounded if there exists $`M > 0 \;s.t.\;`$ for any $`n \in \mathbb{N}, |a_{n}| \leq M`$.
+
+  - Remark.
+    - (Wrong) A sequence $`\{ a_{n} \}_{n = 1}^{\infty} \;in\; \mathbb{R}`$ is bounded if for any $`n \in \mathbb{N}`$ there exists $`M > 0 \;s.t.\; |a_{n}| \leq M`$.
+    - Boundedness is not a topological property.
+  
+  - Proposition. If $`\{ a_{n} \}_{n = 1}^{\infty} \;in\; \mathbb{R}`$ is convergent, then $`\{ a_{n} \}_{n = 1}^{\infty}`$ is bounded. \
+    Proof. Let $`\alpha = \lim{n\to\infty}a_{n} \in \mathbb{R}`$. \
+    Take $`\epsilon = 1`$. \
+    Then there exists $`N_{1} \in \mathbb{N} \;s.t.\;`$ for any $`n \geq N_{1}, n \in \mathbb{N}, |a_{n} - \alpha| < \epsilon = 1`$. \
+    $`\Leftrightarrow -1 < a_{n} - \alpha < 1`$ \
+    $`\Leftrightarrow \alpha - 1 < a_{n} < \alpha + 1`$ \
+    We can choose $`M = max\{ |\alpha + 1|, |a_1|, \dots, |a_{N_1 - 1}| \}`$. \
+    Then for any $`n \in \mathbb{N}, |a_{n}| \leq M`$. \
+    Q. What about the converse? i.e. if $`\{ a_{n} \}_{n = 1}^{\infty} \in \mathbb{R}`$ is bounded then is it convergent? \
+    In general, no(counter-example. $`b_{n} = 1 - (-1)^{n}`$) \
+    However, we can say something on this, since it is "partially" true.
 
 </details>
 
@@ -203,3 +224,4 @@
 
 - [수학의 즐거움, Enjoying Math, "수학 공부, 기초부터 대학원 수학까지, 4. 해석학 개론 (a) 완비성 공리"](https://youtu.be/pHIImTBdBRs?feature=shared)
 - [수학의 즐거움, Enjoying Math, "수학 공부, 기초부터 대학원 수학까지, 5. 해석학 개론 (b) 유리수의 조밀성와 실수, 자연수 공리"](https://youtu.be/RYjhQyXxTpQ?feature=shared)
+- [수학의 즐거움, Enjoying Math, "수학 공부, 기초부터 대학원 수학까지, 6. 해석학 개론 (c) 수열의 수렴성"](https://youtu.be/jwLfzJyIxmU?feature=shared)
