@@ -207,6 +207,17 @@
 
 </details>
 
+<details><summary>Limit theorem</summary>
+
+  - Let $`\lim{n\to\infty}a_{n} = \alpha, \lim{n\to\infty}b_{n} = \beta, \alpha, \beta \in \mathbb{R}`$. Then the followings hold: \
+    (a) $`\lim{n\to\infty}(a_{n} + b_{n}) = \alpha + \beta`$ \
+    (b) $`\lim{n\to\infty}(ka_{n}) = k\alpha \text{ for any } k \in \mathbb{R}`$ \
+    (c) $`\lim{n\to\infty}(a_{n} - b_{n}) = \alpha - \beta`$ \
+    (d) $`\lim{n\to\infty}(a_{n} \times b_{n}) = \alpha \times \beta`$ \
+    (e) $`\lim{n\to\infty}(\frac{a_{n}}{b_{n}}) = \frac{\alpha}{\beta}`$ provided $`b_{n}, \beta \neq 0`$ for any $`$n \in \mathbb{N}`$
+
+</details>
+
 ## Exercises
 
 <details><summary>Let $A = \{ 1 - \frac{1}{n} | n \in \mathbb{N} \}$. Show that $A$ has an upper bound and a lower bound.</summary>
