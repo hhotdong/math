@@ -251,7 +251,28 @@ Let $`\lim{n\to\infty}a_{n} = \alpha, \lim{n\to\infty}b_{n} = \beta, \alpha, \be
     Hence, for each $`\epsilon > 0`$, there exists $`N \in \mathbb{N} \;s.t.\; \text{ for any } n \geq \mathbb{N}, |C_{n} - (\alpha + \beta)| < \epsilon`$ \
     $`\Leftrightarrow \lim{n\to\infty}c_{n} = \lim{n\to\infty}(a_{n} + b_{n}) = \alpha + \beta`$.
   
-  </details>
+    </details>
+  
+  - <details><summary>Proof of (d).</summary>
+    
+    Let $`c_{n} = a_{n}b_{n}`$. \
+    NTS. $`\lim{n\to\infty}c_{n} = \alpha\beta`$ \
+    Idea. $`|a_{n}b_{n} - \alpha\beta| = |(a_{n} - \alpha)b_{n} + \alpha b_{n} - \alpha\beta|`$ \
+    $`= |(a_{n} - \alpha)b_{n} + \alpha(b_{n} - \beta)|`$ \
+    $`\leq |a_{n} - \alpha| \times |b_{n}| + |\alpha| \times |b_{n} - \beta|`$ \
+    $`\leq M \times |a_{n} - \alpha| + |\alpha| \times |b_{n} - \beta| < \epsilon`$ \
+    Let $`\epsilon > 0`$ be fixed. \
+    Since $`\lim{n\to\infty}b_{n} = \beta`$, there exists $`M > 0 \;s.t.\; |b_{n}| \leq M \text{ for any } n \in \mathbb{N}`$. (by boundedness) \
+    Since $`\lim{n\to\infty}a_{n} = \alpha`$, $`\lim{n\to\infty}b_{n} = \beta`$, there exists $`N_{\epsilon}, N_{\epsilon}' \in \mathbb{N} \;s.t.\;`$ \
+    $`\;\;\text{ for any } n \geq N_{\epsilon}, |a_{n} - \alpha| < \frac{\epsilon}{2M}`$ \
+    $`\;\;\text{ for any } n \geq N_{\epsilon}', |b_{n} - \beta| < \frac{\epsilon}{2|\alpha|}`$. \
+    Put $`N = max \{ N_{\epsilon}, N_{\epsilon}' \}`$ \
+    Then for any $`n \geq N, |c_{n} - \alpha\beta| = |a_{n}b_{n} - \alpha\beta|`$ \
+    $`\leq M \times |a_{n} - \alpha| + |\alpha| \times |b_{n} - \beta|`$. \
+    $`< M \times \frac{\epsilon}{2M} + |\alpha| \times \frac{\epsilon}{2|\alpha|} = \epsilon`$ \
+    Hence $`\forall \epsilon > 0, \exists N \in \mathbb{N} \;s.t.\; \forall n \geq N, |c_{n} - \alpha\beta| < \epsilon`$.
+  
+    </details>
 
 </details>
 
