@@ -210,7 +210,7 @@
 <details><summary>Limit theorem</summary>
 
   - Let $`\lim{n\to\infty}a_{n} = \alpha, \lim{n\to\infty}b_{n} = \beta, \alpha, \beta \in \mathbb{R}`$. Then the followings hold: \
-    (a) $`\lim{n\to\infty}(a_{n} + b_{n}) = \alpha + \beta`$ \
+    (a) $`\lim{n\to\infty}(a_{n} + b_{n}) = \alpha + \beta`$<a name="limit_theorem_1"></a> \
     (b) $`\lim{n\to\infty}(ka_{n}) = k\alpha \text{ for any } k \in \mathbb{R}`$ \
     (c) $`\lim{n\to\infty}(a_{n} - b_{n}) = \alpha - \beta`$ \
     (d) $`\lim{n\to\infty}(a_{n} \times b_{n}) = \alpha \times \beta`$ \
@@ -227,6 +227,29 @@
   $\Rightarrow$ 1 is an upper bound of A. \
   For all $n \in \mathbb{N}, 1 - \frac{1}{n} \geq 0.$ \
   $\Rightarrow$ 0 is an lower bound of A.
+
+</details>
+
+<details><summary>Prove limit theorem.</summary>
+
+  - Proof of [(a)](#limit_theorem_1). \
+  Let $`c_{n} = a_{n} + b_{n}`$. \
+  NTS. $`\lim{n\to\infty}c_{n} = \alpha + \beta`$ \
+  Let $`\epsilon > 0`$ be fixed. \
+  By the assumption, $`\lim{n\to\infty}a_{n} = \alpha`$, $`\lim{n\to\infty}b_{n} = \beta`$, i.e.,
+    - there exists $`N_{\epsilon} \in \mathbb{N} \;s.t.\; \text{ for any } n \geq N_{\epsilon} |a_{n} - \alpha| < \epsilon`$.
+    - there exists $`N_{\epsilon}' \in \mathbb{N} \;s.t.\; \text{ for any } n \geq N_{\epsilon}' |b_{n} - \beta| < \epsilon`$. \
+  The propositions above also hold for $`\frac{\epsilon}{2}`$, i.e.,
+    - there exists $`N_{\epsilon} \in \mathbb{N} \;s.t.\; \text{ for any } n \geq N_{\epsilon} |a_{n} - \alpha| < \frac{\epsilon}{2}`$.
+    - there exists $`N_{\epsilon}' \in \mathbb{N} \;s.t.\; \text{ for any } n \geq N_{\epsilon}' |b_{n} - \beta| < \frac{\epsilon}{2}`$.
+  Take $`N = max \{ N_{\epsilon}, N_{\epsilon}' \}`$. \
+  Then $`|c_{n} - (\alpha + \beta)|`$ \
+  $`= |(a_{n} - \alpha) + (b_{n} - \beta)|`$ \
+  $`\leq |(a_{n} - \alpha)| + |(b_{n} - \beta)| `$ \
+  $`< \frac{\epsilon}{2} + \frac{\epsilon}{2} = \epsilon`$. \
+  Hence, for each $`\epsilon > 0`$, there exists $`N \in \mathbb{N} \;s.t.\; for any n \geq \mathbb{N} |C_{n} - (\alpha + \beta)| < \epsilon`$ \
+  $`\Leftrightarrow \lim{n\to\infty}c_{n} = \lim{n\to\infty}(a_{n} + b_{n}) = \alpha + \beta`$.
+
 
 
 </details>
