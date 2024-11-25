@@ -274,6 +274,48 @@ Let $`\lim{n\to\infty}a_{n} = \alpha, \lim{n\to\infty}b_{n} = \beta, \alpha, \be
   
     </details>
 
+  - <details><summary>Proof of (e).</summary>
+    
+    Let $`c_{n} = \frac{a_{n}}{b_{n}}`$. \
+    NTS. $`|\frac{a_{n}}{b_{n}} - \frac{\alpha}{\beta}| < \epsilon`$ \
+    Idea. $`|\frac{a_{n}}{b_{n}} - \frac{\alpha}{\beta}|`$ $`= |\frac{\beta a_{n} - \alpha b_{n}}{\beta b_{n}}| = \frac{1}{\beta b_{n}}|\beta(a_{n} - \alpha) - \alpha(b_{n} - \beta)| (*)`$ \
+    From triangular inequality, $`|x + y| \leq |x| + |y|`$. \
+    $`\Leftrightarrow |y| = |y - x + x| \leq |y - x| + |x|`$ \
+    $`\Leftrightarrow |y| - |x| \leq |y - x|`$ \
+    Let $`y = \beta, x = b_{n}`$. \
+    $`\Rightarrow |\beta| - |b_{n}| \leq |b_{n} - \beta| < \epsilon`$ \
+    Take $`\epsilon \text{ as } \frac{1}{2}|\beta|`$. \
+    $`\Rightarrow |\beta| - |b_{n}| < \frac{1}{2}|\beta|`$ \
+    $`\Leftrightarrow |b_{n}| > \frac{1}{2}|\beta|`$ \
+    $`\Leftrightarrow \frac{1}{b_{n}} < \frac{2}{|\beta|}`$ \
+    $`(*) \leq \frac{2}{|\beta|^2} \times |\beta(a_{n} - \alpha) - \alpha(b_{n} - \beta)|`$ \
+    $`= \frac{2}{|\beta|^2} \times |\beta(a_{n} - \alpha) + \alpha(\beta - b_{n})|`$ \
+    $`\leq \frac{2}{|\beta|^2}(|\beta(a_{n} - \alpha)| + |\alpha(\beta - b_{n})|) < \frac{\epsilon}{2} + \frac{\epsilon}{2} = \epsilon`$ \
+    $`(\because |a_{n} - \alpha| < \frac{|\beta|^2}{2} \times \frac{\epsilon}{2} \times \frac{1}{|\beta|}, |\beta - b_{n}| < \frac{|\beta|^2}{2} \times \frac{\epsilon}{2} \times \frac{1}{|\alpha|})`$ \
+    Now let us prove (e). \
+    Fix $`\epsilon > 0`$. \
+    NTS: $`\exists N \in \mathbb{N} \;s.t.\; \forall n \geq N, |\frac{a_{n}}{b_{n}} - \frac{\alpha}{\beta}| < \epsilon`$. \
+    Take $`\epsilon_{1} = \frac{1}{2}|\beta| > 0`$. (By assumption, $`\beta \neq 0`$) \
+    Since $`\lim{n\to\infty}b_{n} = \beta, \exists N_{1} \in \mathbb{N} \;s.t.\; \forall n \geq N_{1}, |b_{n} - \beta| < \epsilon_{1}`$. \
+    $`\Rightarrow \forall n \geq N_{1}, |\beta| - |b_{n}| \leq |b_{n} - \beta| < \epsilon_{1} = \frac{1}{2}|\beta|`$. \
+    $`\Leftrightarrow \forall n \geq N_{1}, |b_{n}| > \frac{1}{2}|\beta|`$ \
+    $`\Leftrightarrow \forall n \geq N_{1}, \frac{1}{|b_{n}|} < \frac{2}{|\beta|}`$ \
+    Next, take $`\epsilon_{2} = \frac{\epsilon}{2} \times \frac{1}{|\beta|} \times \frac{|\beta|^2}{2}, \epsilon_{3} = \frac{\epsilon}{2} \times \frac{1}{|\alpha|} \times \frac{|\beta|^2}{2}`$. \
+    From the assumption $`\lim{n\to\infty}a_{n} = \alpha, \lim{n\to\infty}b_{n} = \beta`$, \
+    $`\exists N_{2}, N_{3} \in \mathbb{N} \;s.t.\; \forall n \geq N_{2}, |a_{n} - \alpha| < \epsilon_{2}, \forall n \geq N_{3}, |b_{n} - \beta| < \epsilon_{3}`$. \
+    Choose $`N = max \{ N_{1}, N_{2}, N_{3} \}`$ \
+    Then $`\forall n \geq N,`$ \
+    $`|\frac{a_{n}}{b_{n}} - \frac{\alpha}{\beta}| = |\frac{\beta a_{n} - \alpha b_{n}}{\beta b_{n}}| = |\frac{\beta(a_{n} - \alpha) + \alpha(\beta - b_{n})}{\beta b_{n}}|`$ \
+    $`\leq \frac{2}{|\beta|^2}|\beta(a_{n} - \alpha) + \alpha(\beta - b_{n})|`$ \
+    $`\frac{2}{|\beta|^2} \times (|\beta|\epsilon_{2} + |\alpha|\epsilon_{3})`$ \
+    $`= \frac{\epsilon}{2} + \frac{\epsilon}{2} = \epsilon`$ \
+    Thus, $`\lim{n\to\infty}\frac{a_{n}}{b_{n}} = \frac{\alpha}{\beta}`$.
+    
+    
+  
+    </details>
+
+
 </details>
 
 ### References
