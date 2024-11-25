@@ -310,11 +310,12 @@ Let $`\lim{n\to\infty}a_{n} = \alpha, \lim{n\to\infty}b_{n} = \beta, \alpha, \be
     $`\frac{2}{|\beta|^2} \times (|\beta|\epsilon_{2} + |\alpha|\epsilon_{3})`$ \
     $`= \frac{\epsilon}{2} + \frac{\epsilon}{2} = \epsilon`$ \
     Thus, $`\lim{n\to\infty}\frac{a_{n}}{b_{n}} = \frac{\alpha}{\beta}`$.
-    
-    
   
     </details>
 
+</details>
+
+<details><summary>Suppose $\lim{n\to\infty}a_{n} = \alpha$ and $\lim{n\to\infty}b_{n} = \beta$. Show that $\alpha = \beta$.</summary>
 
 </details>
 
