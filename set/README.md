@@ -93,7 +93,7 @@ $`\begin{flalign}
 \Leftrightarrow 2p^2 = q^2 &&\\
 \Leftrightarrow q = 2k(k \in \mathbb{N}) &&\\
 \Leftrightarrow p^2 = 2k^2 &&\\
-\Leftrightarrow q = 2k^{\prime}(k^{\prime} \in \mathbb{N}) \text{ Contradiction! a  b are coprime by the assumption.} &&\\
+\Leftrightarrow p = 2k^{\prime}(k^{\prime} \in \mathbb{N}) \text{ Contradiction! p and q are coprime by the assumption.} &&\\
 \therefore \sqrt{2} \notin \mathbb{Q} &&\\
 \end{flalign}`$
 
